@@ -1,0 +1,13 @@
+{
+  "allScriptRefs": 160,
+  "localScriptRefs": 159,
+  "externalScriptRefs": [
+    "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"
+  ],
+  "missingLocalScriptRefs": [],
+  "domIds": 93,
+  "uniqueDomIds": 93,
+  "duplicateIds": [],
+  "logoSha256": "230eb275ac48962b6a555ef886bad448e75741fd34336e8ffe9a80c5b0e62d0d",
+  "status": "PASSED"
+}

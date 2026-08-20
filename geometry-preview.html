@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mission BOS - Build 008R.1 Geometry Proof</title>
+  <link rel="stylesheet" href="geometry-preview.css">
+</head>
+<body>
+  <main id="preview-app">
+    <section id="scene-container" aria-label="Mission BOS Geometrie-Vorschau"></section>
+
+    <aside id="preview-panel" aria-label="Pruefpanel">
+      <header class="panel-header">
+        <p class="eyebrow">Mission BOS - Build 008R.1</p>
+        <h1>Deterministic Geometry Proof</h1>
+        <p class="subtitle">Statische Geometrie-Vorschau auf Basis von <strong>city-layout-recovery.js</strong></p>
+      </header>
+
+      <section class="panel-section">
+        <h2>Ansichten</h2>
+        <div class="button-grid">
+          <button id="view-top" type="button">Draufsicht</button>
+          <button id="view-iso" type="button">Isometrisch</button>
+          <button id="view-street" type="button">Straßenhöhe</button>
+          <button id="reset-camera" type="button">Kamera zurücksetzen</button>
+        </div>
+      </section>
+
+      <section class="panel-section">
+        <h2>Prüfebenen</h2>
+        <div class="toggle-list">
+          <label><input id="toggle-labels" type="checkbox" checked> Objektbeschriftungen</label>
+          <label><input id="toggle-collisions" type="checkbox" checked> Kollisionsflächen</label>
+          <label><input id="toggle-corridors" type="checkbox" checked> Straßen-/Gehwegkorridore</label>
+        </div>
+      </section>
+
+      <section class="panel-section validation-card" id="validation-panel">
+        <h2>Geometrievalidierung</h2>
+        <pre id="validation-output">Warte auf Prüfung...</pre>
+        <div id="validation-errors"></div>
+      </section>
+
+      <section class="panel-section compact-note">
+        <h2>Umfang</h2>
+        <p id="object-counts">Lade Szenendaten...</p>
+        <p>Keine Fahrzeuge, keine Fußgänger, keine Mission, keine Kommunikation. Nur Geometrieabnahme.</p>
+      </section>
+    </aside>
+  </main>
+
+  <div id="view-badge">Draufsicht</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+  <script src="city-layout-recovery.js"></script>
+  <script src="geometry-validator.js"></script>
+  <script src="geometry-preview.js"></script>
+</body>
+</html>

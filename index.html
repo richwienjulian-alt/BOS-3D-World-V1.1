@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>T Mission | BOS-Spur-Simulator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main id="app">
+    <div id="scene-container">
+
+    </div>
+
+    <aside id="info-panel" class="customer-dashboard" data-city-state="NORMAL">
+      <header class="panel-header customer-dashboard-header">
+        <div class="customer-header-row">
+          <div class="customer-brand-lockup">
+            <span class="customer-brand-logo-frame">
+              <img id="customer-brand-logo" class="customer-brand-logo" src="assets/telekom-logo-current.png" alt="Telekom" />
+            </span>
+            <div class="customer-brand-copy">
+              <p class="eyebrow">T MISSION</p>
+              <h1>BOS-Spur-Simulator</h1>
+            </div>
+          </div>
+          <span class="customer-live-badge"><span aria-hidden="true"></span>LIVE DEMO</span>
+        </div>
+        <div class="customer-header-accent" aria-hidden="true"></div>
+      </header>
+
+      <section id="customer-summary-strip" class="customer-summary-strip" aria-label="Live Summary">
+        <div class="customer-summary-metric">
+          <span>Einsatzphase</span>
+          <strong id="mission-phase-value">Bereitschaft</strong>
+        </div>
+        <div class="customer-summary-metric">
+          <span>Netzlage</span>
+          <strong id="network-status">Normal</strong>
+        </div>
+        <div class="customer-summary-metric">
+          <span>Höchste Zelllast</span>
+          <strong id="customer-max-cell-load">Wird ermittelt</strong>
+        </div>
+      </section>
+
+      <section class="panel-section mission-card customer-mission-section">
+        <div class="section-title-row">
+          <h2>Missionen</h2>
+          <span class="customer-section-kicker">Auswahl</span>
+        </div>
+        <div id="mission-registry-panel" class="mission-registry-panel" aria-label="Missionsauswahl">
+          <div id="mission-registry-list" class="mission-registry-list"></div>
+          <p id="mission-registry-status" class="mission-registry-status">Mission 001 ausgewählt</p>
+        </div>
+      </section>
+
+      <section class="panel-section mission-card customer-incident-section">
+        <div class="section-title-row">
+          <div>
+            <p class="customer-section-eyebrow">Einsatzlage</p>
+            <strong id="mission-title" class="customer-mission-title">Kein aktiver Einsatz</strong>
+          </div>
+          <span id="mission-status" class="status-pill">Bereit</span>
+        </div>
+        <div class="customer-stage-row">
+          <span>Aktuelle Phase</span>
+          <strong id="mission-stage">Bereitschaft</strong>
+        </div>
+        <p id="mission-description" class="mission-note customer-mission-description">
+          BOS-Infrastruktur bereit. Mission kann gestartet werden.
+        </p>
+        <div class="customer-progress-block">
+          <div class="customer-progress-label">
+            <span>Einsatzfortschritt</span>
+          </div>
+          <div class="progressbar" aria-label="Einsatzfortschritt">
+            <div id="mission-progress-fill"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel-section communication-card customer-network-section">
+        <div class="section-title-row">
+          <h2>Netz &amp; Priorisierung</h2>
+          <span class="customer-network-auto-label">Automatisch</span>
+        </div>
+
+        <div id="bos-activation-impact" class="bos-activation-impact" role="status" aria-live="polite" hidden>
+          <span class="bos-activation-impact-mark" aria-hidden="true"></span>
+          <strong>BOS-SPUR AKTIVIERT</strong>
+        </div>
+
+        <div id="cell-load-section" class="cell-load-summary customer-cell-load-summary" aria-label="Funkzellen-Auslastung">
+          <div class="cell-load-heading">
+            <strong>Funkzellen-Auslastung</strong>
+            <span>Live aus dem Netzmodell</span>
+          </div>
+          <div id="cell-load-rows" class="cell-load-rows"></div>
+          <div class="critical-cell-row">
+            <span>Fokus-/kritische Zelle</span>
+            <strong id="critical-cell-value">Wird ermittelt</strong>
+          </div>
+        </div>
+
+        <div id="customer-network-story" class="customer-network-story" role="status" aria-live="polite" data-story-state="normal">
+          <span class="customer-network-story-label">Netzwirkung</span>
+          <strong id="customer-network-story-title">Netz im Normalbetrieb</strong>
+          <p id="customer-network-story-text">Die automatische BOS-Priorisierung steht für kritische Zelllast bereit.</p>
+        </div>
+      </section>
+
+      <details id="technical-details-panel" class="panel-section customer-details-panel">
+        <summary>Technische Details</summary>
+        <div class="customer-details-content">
+          <div class="customer-technical-grid">
+            <div class="system-item">
+              <span>Betriebsmodus</span>
+              <strong id="active-mode">NORMAL</strong>
+            </div>
+            <div class="system-item">
+              <span>Netzlast</span>
+              <strong id="load-value">38%</strong>
+            </div>
+            <div class="system-item customer-technical-wide">
+              <span>Fahrzeugstatus</span>
+              <strong id="fire-unit-status">In Wache</strong>
+            </div>
+            <div class="system-item">
+              <span>Stadtstatus</span>
+              <strong id="city-status">Normalbetrieb</strong>
+            </div>
+          </div>
+
+          <div class="load-section customer-technical-load">
+            <span class="customer-detail-label">Gesamte Netzlast</span>
+            <div class="loadbar"><div id="load-fill"></div></div>
+          </div>
+
+          <div class="customer-detail-block">
+            <div class="customer-detail-heading">
+              <strong>Kommunikationspfad</strong>
+              <span id="dispatch-link-status" class="status-pill">Ruhig</span>
+            </div>
+            <div class="path-card">
+              <span>Aktueller Kommunikationspfad</span>
+              <strong id="communication-path">Leitstelle → Mobilfunk → Feuerwehr · Polizei vorbereitet</strong>
+            </div>
+            <div class="system-grid">
+              <div class="system-item"><span>Datenfluss</span><strong id="communication-status">Stabil</strong></div>
+              <div class="system-item"><span>Mobilfunk</span><strong id="mobile-status">Normalbetrieb</strong></div>
+              <div class="system-item"><span>Priorisierung</span><strong id="priority-status">Inaktiv</strong></div>
+              <div class="system-item"><span>BOS</span><strong id="priority-value">Inaktiv</strong></div>
+            </div>
+          </div>
+
+          <div id="communication-comparison" class="communication-comparison customer-detail-block">
+            <div class="communication-channel civilian-channel">
+              <div class="communication-channel-header"><span>Zivile Netzlast</span><strong id="civilian-channel-status">Normalbetrieb</strong></div>
+              <div class="communication-channel-track" aria-hidden="true"><div id="civilian-channel-fill" class="communication-channel-fill civilian-fill normal"></div></div>
+            </div>
+            <div class="communication-channel bos-channel">
+              <div class="communication-channel-header"><span>BOS-Verbindung</span><strong id="bos-channel-status">Bereit</strong></div>
+              <div class="communication-channel-track" aria-hidden="true"><div id="bos-channel-fill" class="communication-channel-fill bos-fill standby"></div></div>
+            </div>
+            <div class="network-association-summary" aria-label="Dynamische Funkzellenzuordnung">
+              <div id="fire-serving-cell-row"><span>Feuerwehr – aktuelle Funkzelle</span><strong id="fire-serving-cell">Wird ermittelt</strong></div>
+              <div id="police-serving-cell-row"><span>Polizei – aktuelle Funkzelle</span><strong id="police-serving-cell">Wird ermittelt</strong></div>
+              <div id="ambulance-serving-cell-row" hidden><span>Rettungswagen – aktuelle Funkzelle</span><strong id="ambulance-serving-cell">Wird ermittelt</strong></div>
+              <div><span>Letzter Handover</span><strong id="last-handover">Noch kein Handover</strong></div>
+            </div>
+            <p id="communication-comparison-note" class="communication-comparison-note">BOS-Kommunikation ist vorbereitet; keine Einsatzlast aktiv.</p>
+            <p id="communication-symbolic-hint" class="communication-symbolic-hint">Vereinfachte symbolische Visualisierung; keine technische Leistungskennzahl.</p>
+            <div id="network-inspection-panel" class="network-inspection-panel" aria-label="Netzinspektion" hidden>
+              <div class="network-inspection-heading">
+                <strong id="network-inspection-name">Netzobjekt</strong>
+                <span id="network-inspection-type">Auswahl</span>
+              </div>
+              <div class="network-inspection-grid">
+                <div><span>Funkzelle</span><strong id="network-inspection-serving-cell">–</strong></div>
+                <div><span>Zelllast</span><strong id="network-inspection-cell-load">–</strong></div>
+                <div><span>Dienststatus</span><strong id="network-inspection-service-state">–</strong></div>
+                <div><span>Letzter Handover</span><strong id="network-inspection-last-handover">–</strong></div>
+              </div>
+              <p id="network-inspection-note">F oder Antippen eines interaktiven Kartenobjekts öffnet diese Ansicht.</p>
+            </div>
+          </div>
+
+          <div id="capacity-allocation-summary" class="capacity-allocation-summary customer-detail-block" aria-label="Symbolische Kapazitätswirkung" hidden>
+            <div class="capacity-allocation-heading"><strong>Kapazitätswirkung</strong><span id="capacity-allocation-state">Bereit</span></div>
+            <div id="capacity-allocation-rows" class="capacity-allocation-rows"></div>
+            <p id="capacity-allocation-note" class="capacity-allocation-note">Keine BOS-Priorität aktiv.</p>
+            <p id="capacity-allocation-hint" class="capacity-allocation-hint">Symbolische Simulationseinheiten; keine technische Leistungskennzahl.</p>
+          </div>
+
+          <p id="bos-explanation" class="mode-hint">Aktive Verbindung zur Feuerwehr. Polizei ist als nächste BOS-Einheit vorbereitet.</p>
+
+          <div class="customer-technical-grid customer-infrastructure-grid">
+            <div class="system-item"><span>Leitstelle</span><strong id="dispatch-status">Online</strong></div>
+            <div class="system-item"><span>Feuerwehrwache</span><strong id="station-status">Bereit</strong></div>
+            <div class="system-item"><span>Fahrzeuge</span><strong id="vehicle-count">0</strong></div>
+            <div class="system-item"><span>Personen</span><strong id="pedestrian-count">0</strong></div>
+          </div>
+
+          <p id="dashboard-build-reference" class="dashboard-build-reference">Build 013M.19</p>
+        </div>
+      </details>
+
+      <details id="camera-control-panel" class="panel-section customer-camera-control-panel" aria-label="Kamerasteuerung">
+        <summary>Kamerasteuerung</summary>
+        <div class="camera-control-content">
+          <div class="camera-control-dpad" aria-label="Kamera verschieben">
+            <button id="camera-control-forward" type="button" class="camera-control-button camera-control-forward" aria-label="Kamera nach vorne bewegen">↑</button>
+            <button id="camera-control-left" type="button" class="camera-control-button camera-control-left" aria-label="Kamera nach links bewegen">←</button>
+            <span class="camera-control-center" aria-hidden="true">●</span>
+            <button id="camera-control-right" type="button" class="camera-control-button camera-control-right" aria-label="Kamera nach rechts bewegen">→</button>
+            <button id="camera-control-backward" type="button" class="camera-control-button camera-control-backward" aria-label="Kamera nach hinten bewegen">↓</button>
+          </div>
+          <div class="camera-control-rotate-row" aria-label="Kamera drehen">
+            <button id="camera-control-rotate-left" type="button" class="camera-control-button" aria-label="Kamera nach links drehen">↶</button>
+            <span>Drehen</span>
+            <button id="camera-control-rotate-right" type="button" class="camera-control-button" aria-label="Kamera nach rechts drehen">↷</button>
+          </div>
+          <div class="camera-control-zoom-row" aria-label="Kamera zoomen">
+            <button id="camera-control-zoom-out" type="button" class="camera-control-button" aria-label="Herauszoomen">−</button>
+            <span>Zoom</span>
+            <button id="camera-control-zoom-in" type="button" class="camera-control-button" aria-label="Hineinzoomen">+</button>
+          </div>
+          <button id="camera-control-home" type="button" class="camera-control-home" aria-label="Kamera auf Ausgangsansicht zentrieren">Home / Zentrieren</button>
+        </div>
+      </details>
+
+      <details id="presenter-panel" class="panel-section presenter-panel demo-control-card customer-presenter-panel" aria-label="Präsentationssteuerung">
+        <summary id="exploration-control-summary" class="demo-control-summary">
+          <span>Präsentationssteuerung</span>
+          <span id="exploration-control-summary-state">Freie Erkundung</span>
+        </summary>
+        <div class="demo-control-content">
+          <div class="presenter-header">
+            <span class="presenter-label">Modus</span>
+            <button id="presenter-mode-button" class="presenter-mode-button" type="button" aria-pressed="false">Freie Erkundung</button>
+          </div>
+          <div class="presenter-camera-section">
+            <span class="presenter-label">Kamera</span>
+            <div id="presenter-camera-buttons" class="presenter-camera-buttons"></div>
+          </div>
+          <div class="presenter-hint" aria-live="polite">
+            <strong id="presenter-hint-title">Bereitschaft</strong>
+            <p id="presenter-hint-message">Presenter wird initialisiert.</p>
+          </div>
+          <div id="presenter-compatibility-controls" hidden aria-hidden="true">
+            <button id="presenter-next-button" type="button" tabindex="-1">Nächster Schritt</button>
+            <button id="presenter-reset-button" type="button" tabindex="-1">Demo zurücksetzen</button>
+            <button id="overload-button" type="button" tabindex="-1">Netzlast simulieren</button>
+            <button id="bos-button" type="button" tabindex="-1">BOS-Spur: automatisch</button>
+          </div>
+          <p id="presenter-status" class="presenter-status">Freie Kamera</p>
+          <p class="presenter-manual-note">Kamera und Aktionen werden ausschließlich manuell ausgelöst.</p>
+        </div>
+      </details>
+
+      <section id="customer-primary-actions" class="customer-primary-actions" aria-label="Missionsaktion">
+        <button id="mission-button" class="tertiary-button customer-primary-mission-button">Mission starten</button>
+      </section>
+    </aside>
+  </main>
+
+  <div id="crosshair"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+  <script src="city-layout-recovery.js"></script>
+  <script src="geometry-validator.js"></script>
+  <script src="city-recovery-renderer.js"></script>
+  <script src="city-static-props-plan.js"></script>
+  <script src="static-props-validator.js"></script>
+  <script src="city-static-props-renderer.js"></script>
+  <script src="city-traffic-plan.js"></script>
+  <script src="traffic-validator.js"></script>
+  <script src="city-traffic-renderer.js"></script>
+  <script src="city-pedestrian-plan.js"></script>
+  <script src="pedestrian-validator.js"></script>
+  <script src="city-pedestrian-renderer.js"></script>
+  <script src="city-response-vehicle-plan.js"></script>
+  <script src="response-vehicle-validator.js"></script>
+  <script src="city-response-vehicle-renderer.js"></script>
+  <script src="city-incident-response-plan.js"></script>
+  <script src="incident-response-validator.js"></script>
+  <script src="city-incident-access-controller.js"></script>
+  <script src="city-mission-001-plan.js"></script>
+  <script src="mission-001-validator.js"></script>
+  <script src="city-mission-001-scene-plan.js"></script>
+  <script src="mission-001-scene-validator.js"></script>
+  <script src="city-mission-001-visuals.js"></script>
+  <script src="city-mission-001-scene-renderer.js"></script>
+  <script src="city-mission-001-controller.js"></script>
+  <script src="city-mission-003-response-plan.js"></script>
+  <script src="mission-003-response-validator.js"></script>
+  <script src="city-mission-003-water-leak-plan.js"></script>
+  <script src="mission-003-water-leak-validator.js"></script>
+  <script src="city-ambulance-plan.js"></script>
+  <script src="ambulance-validator.js"></script>
+  <script src="city-mission-004-foundation-plan.js"></script>
+  <script src="mission-004-foundation-validator.js"></script>
+  <script src="city-mission-004-plan.js"></script>
+  <script src="mission-004-validator.js"></script>
+  <script src="city-mission-004-ambulance-return-contract.js"></script>
+  <script src="mission-004-ambulance-return-contract-validator.js"></script>
+  <script src="city-mission-004-ambulance-corridor-contract.js"></script>
+  <script src="mission-004-ambulance-corridor-validator.js"></script>
+  <script src="mission-004-ambulance-completion-trace-validator.js"></script>
+  <script src="mission-004-ambulance-return-trace-validator.js"></script>
+  <script src="city-initial-camera-contract.js"></script>
+  <script src="city-touch-camera-plan.js"></script>
+  <script src="touch-camera-validator.js"></script>
+  <script src="city-touch-camera-controller.js"></script>
+  <script src="city-mission-004-polish-contract.js"></script>
+  <script src="mission-004-polish-contract-validator.js"></script>
+  <script src="mission-004-return-corridor-validator.js"></script>
+  <script src="mission-004-customer-ui-validator.js"></script>
+  <script src="initial-camera-spawn-validator.js"></script>
+  <script src="city-mission-004-correction-contract.js"></script>
+  <script src="mission-004-correction-contract-validator.js"></script>
+  <script src="city-mission-004-return-maneuver-contract.js"></script>
+  <script src="mission-004-return-maneuver-contract-validator.js"></script>
+  <script src="mission-004-traffic-swept-path-validator.js"></script>
+  <script src="mission-004-return-route-validator.js"></script>
+  <script src="mission-004-network-timing-validator.js"></script>
+  <script src="mission-004-traffic-closure-regression-validator.js"></script>
+  <script src="build-013m1-combined-validator.js"></script>
+  <script src="city-ambulance-renderer.js"></script>
+  <script src="city-ambulance-foundation-controller.js"></script>
+  <script src="city-mission-registry-plan.js"></script>
+  <script src="city-mission-003-registry-extension.js"></script>
+  <script src="mission-003-registry-extension-validator.js"></script>
+  <script src="city-mission-004-registry-extension.js"></script>
+  <script src="mission-004-registry-extension-validator.js"></script>
+  <script src="mission-registry-validator.js"></script>
+  <script src="city-mission-registry-controller.js"></script>
+  <script src="city-arena-event-plan.js"></script>
+  <script src="arena-event-validator.js"></script>
+  <script src="city-cell-load-plan.js"></script>
+  <script src="cell-load-validator.js"></script>
+  <script src="city-cell-load-controller.js"></script>
+  <script src="city-network-association-plan.js"></script>
+  <script src="city-network-realism-plan.js"></script>
+  <script src="city-bos-activation-impact-plan.js"></script>
+  <script src="bos-activation-impact-validator.js"></script>
+  <script src="city-mission-003-network-extension.js"></script>
+  <script src="mission-003-network-extension-validator.js"></script>
+  <script src="city-mission-004-network-extension.js"></script>
+  <script src="mission-004-network-extension-validator.js"></script>
+  <script src="network-realism-validator.js"></script>
+  <script src="city-mission-001-network-polish-plan.js"></script>
+  <script src="mission-001-network-polish-validator.js"></script>
+  <script src="city-network-recovery-plan.js"></script>
+  <script src="network-recovery-validator.js"></script>
+  <script src="city-unified-bos-connectivity-plan.js"></script>
+  <script src="unified-bos-connectivity-validator.js"></script>
+  <script src="city-mission-003-connectivity-parity-plan.js"></script>
+  <script src="mission-003-connectivity-parity-validator.js"></script>
+  <script src="city-mission-003-connectivity-recovery-plan.js"></script>
+  <script src="mission-003-connectivity-recovery-validator.js"></script>
+  <script src="city-stadtwerke-beacon-polish-plan.js"></script>
+  <script src="stadtwerke-beacon-polish-validator.js"></script>
+  <script src="city-ambulance-network-extension.js"></script>
+  <script src="city-network-radio-model.js"></script>
+  <script src="network-association-validator.js"></script>
+  <script src="city-network-association-controller.js"></script>
+  <script src="city-auto-bos-priority-controller.js"></script>
+  <script src="city-bos-link-visual-factory.js"></script>
+  <script src="city-unified-bos-connectivity-renderer.js"></script>
+  <script src="city-tower-load-indicator-renderer.js"></script>
+  <script src="city-bos-activation-impact-renderer.js"></script>
+  <script src="city-bos-backhaul-renderer.js"></script>
+  <script src="city-arena-event-renderer.js"></script>
+  <script src="city-arena-event-controller.js"></script>
+  <script src="city-mission-002-plan.js"></script>
+  <script src="mission-002-validator.js"></script>
+  <script src="city-mission-002-scene-renderer.js"></script>
+  <script src="city-mission-002-controller.js"></script>
+  <script src="city-mission-003-scene-renderer.js"></script>
+  <script src="city-mission-003-response-controller.js"></script>
+  <script src="city-mission-003-controller.js"></script>
+  <script src="city-arena-event-connectivity-renderer.js"></script>
+  <script src="city-ambulance-connectivity-renderer.js"></script>
+  <script src="city-cell-capacity-plan.js"></script>
+  <script src="cell-capacity-validator.js"></script>
+  <script src="city-cell-capacity-controller.js"></script>
+  <script src="city-mission-003-connectivity-renderer.js"></script>
+  <script src="city-telekom-communication-plan.js"></script>
+  <script src="telekom-communication-validator.js"></script>
+  <script src="city-telekom-communication-renderer.js"></script>
+  <script src="city-handover-visualization-plan.js"></script>
+  <script src="handover-visualization-validator.js"></script>
+  <script src="city-handover-visualization-renderer.js"></script>
+  <script src="city-presenter-plan.js"></script>
+  <script src="presenter-validator.js"></script>
+  <script src="city-presenter-controller.js"></script>
+  <script src="city-exploration-interface-plan.js"></script>
+  <script src="exploration-interface-validator.js"></script>
+  <script src="city-exploration-interface-controller.js"></script>
+  <script src="city-network-exploration-plan.js"></script>
+  <script src="network-exploration-validator.js"></script>
+  <script src="city-civilian-connectivity-controller.js"></script>
+  <script src="city-civilian-connectivity-renderer.js"></script>
+  <script src="city-network-inspection-controller.js"></script>
+  <script src="city-release-plan.js"></script>
+  <script src="release-validator.js"></script>
+  <script src="city-dual-mission-recovery-plan.js"></script>
+  <script src="dual-mission-recovery-validator.js"></script>
+  <script src="city-presentation-polish-plan.js"></script>
+  <script src="presentation-polish-validator.js"></script>
+  <script src="city-mission-003-stadtwerke-foundation-plan.js"></script>
+  <script src="mission-003-stadtwerke-foundation-validator.js"></script>
+  <script src="city-stadtwerke-vehicle-renderer.js"></script>
+  <script src="mission-003-integration-validator.js"></script>
+  <script src="city-mission-004-integration-contract.js"></script>
+  <script src="mission-004-integration-validator.js"></script>
+  <script src="city-mission-004-scene-renderer.js"></script>
+  <script src="city-mission-004-response-controller.js"></script>
+  <script src="city-mission-004-connectivity-renderer.js"></script>
+  <script src="city-mission-004-controller.js"></script>
+  <script src="city-customer-incident-presentation-plan.js"></script>
+  <script src="customer-incident-presentation-validator.js"></script>
+  <script src="city-customer-dashboard-plan.js"></script>
+  <script src="city-customer-dashboard-contract.js"></script>
+  <script src="customer-dashboard-contract-validator.js"></script>
+  <script src="customer-dashboard-dom-validator.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

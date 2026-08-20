@@ -1,0 +1,24 @@
+{
+  "status": "PASSED",
+  "checks": {
+    "browserTitle": true,
+    "eyebrow": true,
+    "connectedResponse": true,
+    "liveDemo": true,
+    "logoMarkup": true,
+    "rotateLeft": true,
+    "rotateRight": true,
+    "noDuplicateIds": true,
+    "rotationRowBetweenDpadAndZoom": true,
+    "minimumTargets44": true,
+    "logoDesktop36": true,
+    "logoTablet30": true,
+    "headerNoWrap": true,
+    "logoSha": true
+  },
+  "metrics": {
+    "domIds": 93,
+    "uniqueDomIds": 93,
+    "logoSha256": "230eb275ac48962b6a555ef886bad448e75741fd34336e8ffe9a80c5b0e62d0d"
+  }
+}

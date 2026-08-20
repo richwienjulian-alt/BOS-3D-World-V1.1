@@ -1,0 +1,19 @@
+{
+  "status": "PASSED",
+  "domIds": 90,
+  "duplicateIds": [],
+  "localScriptReferences": 159,
+  "missingLocalScripts": [],
+  "checks": {
+    "canvas_touch_action_none": true,
+    "dashboard_touch_pan_y": true,
+    "min_touch_target_44": true,
+    "camera_panel_present": true,
+    "camera_panel_closed": true,
+    "camera_order": true,
+    "all_camera_aria": true,
+    "inspection_fields": true
+  },
+  "errors": [],
+  "warnings": []
+}

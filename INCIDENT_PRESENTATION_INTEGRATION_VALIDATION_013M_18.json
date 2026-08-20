@@ -1,0 +1,18 @@
+{
+  "status": "PASSED",
+  "missionCounts": {
+    "MISSION_001": 12,
+    "MISSION_002": 15,
+    "MISSION_003": 15,
+    "MISSION_004": 16
+  },
+  "totalStates": 58,
+  "sourceChecks": {
+    "usesPresentationHelper": true,
+    "runtimePhaseFallback": true,
+    "runtimeStageFallback": true,
+    "runtimeStatusFallback": true,
+    "runtimeDescriptionFallback": true
+  },
+  "errors": []
+}
