@@ -1,0 +1,16 @@
+{
+  "status": "PASSED",
+  "checks": {
+    "infoPanelCustomerDashboard": true,
+    "requiredNewIdsPresent": true,
+    "technicalDetailsCollapsed": true,
+    "presenterCollapsed": true,
+    "overloadInsidePresenter": true,
+    "bosInsidePresenter": true,
+    "missionButtonInsidePrimary": true,
+    "duplicateDomIdsZero": true,
+    "noStale013M1VisibleText": true
+  },
+  "duplicateIds": [],
+  "idCount": 74
+}

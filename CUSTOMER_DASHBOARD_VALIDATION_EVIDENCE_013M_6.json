@@ -1,0 +1,577 @@
+{
+  "build": "013M.6",
+  "sourceBuild": "Mission-BOS-Build-013M.5",
+  "baseSha256": "bec6e55862d0269e79acae52ddd5fae2a5df433960aa585709597de645042609",
+  "coreValidation": {
+    "loadedScripts": 100,
+    "loadFailures": [],
+    "results": [
+      {
+        "name": "Mission 001",
+        "status": "PASSED",
+        "errors": []
+      },
+      {
+        "name": "Mission 002",
+        "status": "PASSED",
+        "errors": []
+      },
+      {
+        "name": "Mission 003 Response",
+        "status": "PASSED",
+        "errors": []
+      },
+      {
+        "name": "Mission 003",
+        "status": "PASSED",
+        "errors": []
+      },
+      {
+        "name": "Mission 004 Foundation",
+        "status": "PASSED",
+        "errors": []
+      },
+      {
+        "name": "Mission 004",
+        "status": "PASSED",
+        "errors": []
+      },
+      {
+        "name": "Mission 004 Correction Contract",
+        "status": "PASSED",
+        "errors": []
+      },
+      {
+        "name": "Mission 004 Return Maneuver Contract",
+        "status": "PASSED",
+        "errors": []
+      },
+      {
+        "name": "Mission 004 Swept Path",
+        "status": "PASSED",
+        "errors": [],
+        "metrics": {
+          "sampledDistances": 4428,
+          "incidentCrossingErrors": 0,
+          "trajectoryErrors": 0,
+          "wrapErrors": 0
+        }
+      },
+      {
+        "name": "Mission 004 Return Route",
+        "status": "PASSED",
+        "errors": [],
+        "metrics": {
+          "baselineTurningCollisionDetected": true,
+          "configuredCollisionCount": 0,
+          "fireGateTimeSeconds": 3.34,
+          "policeTurnStartTimeSeconds": 4,
+          "totalReturnTimeSeconds": 28.8
+        }
+      },
+      {
+        "name": "Mission 004 Traffic Closure",
+        "status": "PASSED",
+        "errors": [],
+        "metrics": {
+          "sampledMissionStartPhases": 237,
+          "maximumDispatchReadySeconds": 5.369
+        }
+      },
+      {
+        "name": "Mission 004 Network Extension",
+        "status": "PASSED",
+        "errors": []
+      },
+      {
+        "name": "Mission 004 Registry Extension",
+        "status": "PASSED",
+        "errors": []
+      },
+      {
+        "name": "Mission 004 Network Timing",
+        "status": "PASSED",
+        "errors": [],
+        "metrics": {
+          "ambulanceArrivalTime": 14.7,
+          "overloadTime": 15.15,
+          "priorityTime": 15.35,
+          "fireArrivalTime": 36.95,
+          "policeArrivalTime": 37.95
+        }
+      },
+      {
+        "name": "Mission 004 Integration",
+        "status": "PASSED",
+        "errors": []
+      },
+      {
+        "name": "Mission Registry",
+        "status": "PASSED",
+        "errors": []
+      },
+      {
+        "name": "Network Association Plan",
+        "status": "PASSED",
+        "errors": []
+      },
+      {
+        "name": "Cell Load Plan",
+        "status": "PASSED",
+        "errors": []
+      },
+      {
+        "name": "Cell Capacity Plan",
+        "status": "PASSED",
+        "errors": []
+      }
+    ],
+    "allPassed": true
+  },
+  "browserLayout": {
+    "domValidation": {
+      "status": "PASSED",
+      "errors": [],
+      "warnings": []
+    },
+    "contractValidation": {
+      "status": "PASSED",
+      "build": "013M.6",
+      "sourceBuild": "Mission-BOS-Build-013M.5",
+      "requiredNewDomIds": 8,
+      "protectedMissionCount": 4,
+      "primaryVisibleSectionsMaximum": 5,
+      "customerStoryStates": 4
+    },
+    "1920x1080": {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "docScrollWidth": 1920,
+      "bodyScrollWidth": 1920,
+      "panelWidth": 422.4,
+      "panelClientWidth": 413,
+      "panelScrollWidth": 413,
+      "panelClientHeight": 1080,
+      "panelScrollHeight": 1087,
+      "horizontalOverflow": false,
+      "networkVisibleWithoutScroll": true,
+      "primaryActionVisibleWithoutScroll": true,
+      "boxes": {
+        "customer-summary-strip": {
+          "top": 73.1,
+          "bottom": 145.2,
+          "left": 1512.6,
+          "right": 1898,
+          "width": 385.4,
+          "height": 72
+        },
+        "mission-registry-panel": {
+          "top": 187.2,
+          "bottom": 353.7,
+          "left": 1523.6,
+          "right": 1887,
+          "width": 363.4,
+          "height": 166.5
+        },
+        "mission-title": {
+          "top": 405.7,
+          "bottom": 422.5,
+          "left": 1523.6,
+          "right": 1697.1,
+          "width": 173.5,
+          "height": 16.8
+        },
+        "cell-load-section": {
+          "top": 582.2,
+          "bottom": 828.2,
+          "left": 1523.6,
+          "right": 1887,
+          "width": 363.4,
+          "height": 246
+        },
+        "customer-network-story": {
+          "top": 836.2,
+          "bottom": 915.9,
+          "left": 1523.6,
+          "right": 1887,
+          "width": 363.4,
+          "height": 79.7
+        },
+        "technical-details-panel": {
+          "top": 934.9,
+          "bottom": 972.9,
+          "left": 1512.6,
+          "right": 1898,
+          "width": 385.4,
+          "height": 38
+        },
+        "presenter-panel": {
+          "top": 980.9,
+          "bottom": 1018.9,
+          "left": 1512.6,
+          "right": 1898,
+          "width": 385.4,
+          "height": 38
+        },
+        "customer-primary-actions": {
+          "top": 1026.9,
+          "bottom": 1078.9,
+          "left": 1510.6,
+          "right": 1896,
+          "width": 385.4,
+          "height": 52
+        }
+      },
+      "technicalLongTextWrap": {
+        "ok": true,
+        "fireClientWidth": 343,
+        "fireScrollWidth": 343,
+        "detailsClientWidth": 383,
+        "detailsScrollWidth": 383
+      }
+    },
+    "1536x864": {
+      "viewport": [
+        1536,
+        864
+      ],
+      "docScrollWidth": 1536,
+      "bodyScrollWidth": 1536,
+      "panelWidth": 410,
+      "panelClientWidth": 401,
+      "panelScrollWidth": 401,
+      "panelClientHeight": 864,
+      "panelScrollHeight": 1087,
+      "horizontalOverflow": false,
+      "networkVisibleWithoutScroll": false,
+      "primaryActionVisibleWithoutScroll": false,
+      "boxes": {
+        "customer-summary-strip": {
+          "top": 73.1,
+          "bottom": 145.2,
+          "left": 1141,
+          "right": 1514,
+          "width": 373,
+          "height": 72
+        },
+        "mission-registry-panel": {
+          "top": 187.2,
+          "bottom": 353.7,
+          "left": 1152,
+          "right": 1503,
+          "width": 351,
+          "height": 166.5
+        },
+        "mission-title": {
+          "top": 405.7,
+          "bottom": 422.5,
+          "left": 1152,
+          "right": 1325.5,
+          "width": 173.5,
+          "height": 16.8
+        },
+        "cell-load-section": {
+          "top": 582.2,
+          "bottom": 828.2,
+          "left": 1152,
+          "right": 1503,
+          "width": 351,
+          "height": 246
+        },
+        "customer-network-story": {
+          "top": 836.2,
+          "bottom": 915.9,
+          "left": 1152,
+          "right": 1503,
+          "width": 351,
+          "height": 79.7
+        },
+        "technical-details-panel": {
+          "top": 934.9,
+          "bottom": 972.9,
+          "left": 1141,
+          "right": 1514,
+          "width": 373,
+          "height": 38
+        },
+        "presenter-panel": {
+          "top": 980.9,
+          "bottom": 1018.9,
+          "left": 1141,
+          "right": 1514,
+          "width": 373,
+          "height": 38
+        },
+        "customer-primary-actions": {
+          "top": 1026.9,
+          "bottom": 1078.9,
+          "left": 1139,
+          "right": 1512,
+          "width": 373,
+          "height": 52
+        }
+      },
+      "technicalLongTextWrap": {
+        "ok": true,
+        "fireClientWidth": 331,
+        "fireScrollWidth": 331,
+        "detailsClientWidth": 371,
+        "detailsScrollWidth": 371
+      }
+    },
+    "1366x768": {
+      "viewport": [
+        1366,
+        768
+      ],
+      "docScrollWidth": 1366,
+      "bodyScrollWidth": 1366,
+      "panelWidth": 390,
+      "panelClientWidth": 381,
+      "panelScrollWidth": 381,
+      "panelClientHeight": 768,
+      "panelScrollHeight": 1087,
+      "horizontalOverflow": false,
+      "networkVisibleWithoutScroll": false,
+      "primaryActionVisibleWithoutScroll": false,
+      "boxes": {
+        "customer-summary-strip": {
+          "top": 73.1,
+          "bottom": 145.2,
+          "left": 989,
+          "right": 1346,
+          "width": 357,
+          "height": 72
+        },
+        "mission-registry-panel": {
+          "top": 187.2,
+          "bottom": 353.7,
+          "left": 1000,
+          "right": 1335,
+          "width": 335,
+          "height": 166.5
+        },
+        "mission-title": {
+          "top": 405.7,
+          "bottom": 422.5,
+          "left": 1000,
+          "right": 1173.5,
+          "width": 173.5,
+          "height": 16.8
+        },
+        "cell-load-section": {
+          "top": 582.2,
+          "bottom": 828.2,
+          "left": 1000,
+          "right": 1335,
+          "width": 335,
+          "height": 246
+        },
+        "customer-network-story": {
+          "top": 836.2,
+          "bottom": 915.9,
+          "left": 1000,
+          "right": 1335,
+          "width": 335,
+          "height": 79.7
+        },
+        "technical-details-panel": {
+          "top": 934.9,
+          "bottom": 972.9,
+          "left": 989,
+          "right": 1346,
+          "width": 357,
+          "height": 38
+        },
+        "presenter-panel": {
+          "top": 980.9,
+          "bottom": 1018.9,
+          "left": 989,
+          "right": 1346,
+          "width": 357,
+          "height": 38
+        },
+        "customer-primary-actions": {
+          "top": 1026.9,
+          "bottom": 1078.9,
+          "left": 987,
+          "right": 1344,
+          "width": 357,
+          "height": 52
+        }
+      },
+      "technicalLongTextWrap": {
+        "ok": true,
+        "fireClientWidth": 315,
+        "fireScrollWidth": 315,
+        "detailsClientWidth": 355,
+        "detailsScrollWidth": 355
+      }
+    }
+  },
+  "missionRegistryInteraction": {
+    "ids": [
+      "MISSION_001",
+      "MISSION_002",
+      "MISSION_003",
+      "MISSION_004"
+    ],
+    "rows": 4,
+    "finalized": true,
+    "selected": [
+      {
+        "id": "MISSION_001",
+        "ok": true,
+        "current": "MISSION_001"
+      },
+      {
+        "id": "MISSION_002",
+        "ok": true,
+        "current": "MISSION_002"
+      },
+      {
+        "id": "MISSION_003",
+        "ok": true,
+        "current": "MISSION_003"
+      },
+      {
+        "id": "MISSION_004",
+        "ok": true,
+        "current": "MISSION_004"
+      }
+    ],
+    "clickSelected": [
+      {
+        "id": "MISSION_001",
+        "current": "MISSION_001",
+        "pressed": "true",
+        "disabled": false
+      },
+      {
+        "id": "MISSION_002",
+        "current": "MISSION_002",
+        "pressed": "true",
+        "disabled": false
+      },
+      {
+        "id": "MISSION_003",
+        "current": "MISSION_003",
+        "pressed": "true",
+        "disabled": false
+      },
+      {
+        "id": "MISSION_004",
+        "current": "MISSION_004",
+        "pressed": "true",
+        "disabled": false
+      }
+    ],
+    "manifest": {
+      "title": "MISSION BOS THREE-MISSION REGISTRY RUNTIME MANIFEST",
+      "missions": 4,
+      "availableMissions": 4,
+      "plannedMissions": 0,
+      "selectableMissions": 4,
+      "startableMissions": 4,
+      "registeredRuntimes": 4,
+      "unavailableMissions": 0,
+      "unresolvedMissions": 0,
+      "selectedMissionId": "MISSION_004",
+      "registrationFinalized": true,
+      "automaticMissionStarts": 0,
+      "automaticBOSActivations": 0,
+      "fixedServingTowerDefinitions": 0,
+      "status": "PASSED"
+    },
+    "safety": {
+      "title": "MISSION BOS MISSION REGISTRY RUNTIME SAFETY",
+      "status": "PASSED",
+      "selectedMissionId": "MISSION_004",
+      "activeMissionId": null,
+      "registeredRuntimeCount": 4,
+      "unavailableMissionCount": 0,
+      "registrationFinalized": true,
+      "invalidSelectionAttempts": 0,
+      "automaticActionErrors": 0,
+      "runtimeContractErrors": 0
+    },
+    "statusText": "004 · Verkehrsunfall ausgewählt"
+  },
+  "maxCellDynamicBinding": {
+    "status": "PASSED",
+    "noHardcodedTower": true,
+    "functionSourceCharacters": 1999,
+    "results": [
+      {
+        "name": "dynamicHigh",
+        "state": "HIGH_LOAD",
+        "max": "88 % · MAST_C",
+        "storyState": "high-load",
+        "title": "Zivile Nachfrage steigt",
+        "text": "Die lokale Funkzelle nähert sich ihrer Kapazitätsgrenze."
+      },
+      {
+        "name": "dynamicBos",
+        "state": "NORMAL",
+        "max": "100 % · MAST_D",
+        "storyState": "bos-active",
+        "title": "BOS-Kommunikation priorisiert",
+        "text": "Einsatzkräfte bleiben auch bei hoher ziviler Zelllast priorisiert verbunden."
+      },
+      {
+        "name": "dynamicOverload",
+        "state": "NORMAL",
+        "max": "91 % · CELL_X",
+        "storyState": "overloaded",
+        "title": "Funkzelle ausgelastet",
+        "text": "Die automatische BOS-Priorisierung wird durch die bestehende Netzlogik ausgelöst."
+      }
+    ]
+  },
+  "staticIntegrity": {
+    "localScriptReferences": 142,
+    "missingLocalScripts": [],
+    "duplicateDomIds": [],
+    "frozenFiles": [
+      {
+        "file": "city-customer-dashboard-plan.js",
+        "byteExact": true,
+        "sha256": "6006d4d94472f55b18464d09d690914ad3617744de51db93f343258eae05f52c"
+      },
+      {
+        "file": "city-customer-dashboard-contract.js",
+        "byteExact": true,
+        "sha256": "2e1689867aee21004aff11f50e7ceafc40db72fedeb24b84cd60925c65b294ad"
+      },
+      {
+        "file": "customer-dashboard-contract-validator.js",
+        "byteExact": true,
+        "sha256": "77d9376450a685ada6b5952e5d09d8e7f3a71e88e35039273e3d682561f5874b"
+      },
+      {
+        "file": "customer-dashboard-dom-validator.js",
+        "byteExact": true,
+        "sha256": "20db19784cea1d7e71e042c69824026186dc155e96a1fac2a85ee11ba6070d35"
+      }
+    ],
+    "protectedSourceDiffs": [],
+    "missionSourceDiffs": [],
+    "allChangedOrNewFiles": [
+      "CHANGELOG_BUILD_013M_6.md",
+      "CUSTOMER_DASHBOARD_VALIDATION_EVIDENCE_013M_6.json",
+      "FINAL_REPORT_BUILD_013M_6.md",
+      "KNOWN_LIMITATIONS.md",
+      "LOCAL_TEST_INSTRUCTIONS_BUILD_013M_6.md",
+      "TEST_REPORT_BUILD_013M_6.md",
+      "app.js",
+      "city-customer-dashboard-contract.js",
+      "city-customer-dashboard-plan.js",
+      "customer-dashboard-contract-validator.js",
+      "customer-dashboard-dom-validator.js",
+      "index.html",
+      "style.css"
+    ]
+  }
+}

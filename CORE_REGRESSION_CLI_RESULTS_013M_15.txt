@@ -1,0 +1,42 @@
+=== mission-002-start-recovery-validator ===
+MISSION BOS 013M.11 MISSION 002 START RECOVERY VALIDATION
+recoverableWarningDoesNotBlock: PASSED
+fatalWarningBlocks: PASSED
+sharedNetworkResetBlocksUntilSettled: PASSED
+STATUS: PASSED
+=== mission-002-shared-baseline-validator ===
+MISSION BOS 013M.12 MISSION 002 SHARED BASELINE VALIDATION
+baselineReadyWhileMission004StillSelected: PASSED
+canStartStillUserGated: PASSED
+immediateStartAfterSelection: PASSED
+fatalAmbulanceSafetyStillBlocks: PASSED
+STATUS: PASSED
+=== recoverable-warning-contract-validator ===
+MISSION BOS 013M.11 RECOVERABLE WARNING CONTRACT VALIDATION
+STATUS: PASSED
+=== cross-mission-readiness-validator ===
+MISSION BOS 013M.11 CROSS-MISSION READINESS VALIDATION
+Old <=55 READY reference: 3.417 s
+Shared network start-ready: 4.840 s
+oldThresholdCouldExposeReadyWhileResetting: PASSED
+newReadyAfterNetworkReset: PASSED
+withinSettlementWindow: PASSED
+adapterExposesSharedReadiness: PASSED
+mission004ReadyUsesSharedReadiness: PASSED
+STATUS: PASSED
+=== customer-network-persistence-validator ===
+MISSION BOS 013M.11 CUSTOMER NETWORK PERSISTENCE VALIDATION
+noTransientCellLoadHide: PASSED
+persistentCellLoadSurface: PASSED
+fatalAwareSnapshotGate: PASSED
+lastKnownGoodFallback: PASSED
+networkReadinessMethod: PASSED
+STATUS: PASSED
+=== response-outbound-sequencing-contract-validator ===
+MISSION BOS BUILD 013M.10 OUTBOUND SEQUENCING CONTRACT
+STATUS: PASSED
+=== response-outbound-collision-validator ===
+MISSION_003 effective delays fire=0.00s police=5.00s; strict SAT=CLEAR
+MISSION_004 effective delays fire=0.00s police=5.00s; strict SAT=CLEAR
+MISSION BOS BUILD 013M.10 OUTBOUND COLLISION VALIDATION
+STATUS: PASSED

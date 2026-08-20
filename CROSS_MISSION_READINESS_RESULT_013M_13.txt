@@ -1,0 +1,9 @@
+MISSION BOS 013M.11 CROSS-MISSION READINESS VALIDATION
+Old <=55 READY reference: 3.417 s
+Shared network start-ready: 4.840 s
+oldThresholdCouldExposeReadyWhileResetting: PASSED
+newReadyAfterNetworkReset: PASSED
+withinSettlementWindow: PASSED
+adapterExposesSharedReadiness: PASSED
+mission004ReadyUsesSharedReadiness: PASSED
+STATUS: PASSED

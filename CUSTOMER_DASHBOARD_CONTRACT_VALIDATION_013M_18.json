@@ -1,0 +1,9 @@
+{
+  "status": "PASSED",
+  "build": "013M.6",
+  "sourceBuild": "Mission-BOS-Build-013M.5",
+  "requiredNewDomIds": 8,
+  "protectedMissionCount": 4,
+  "primaryVisibleSectionsMaximum": 5,
+  "customerStoryStates": 4
+}

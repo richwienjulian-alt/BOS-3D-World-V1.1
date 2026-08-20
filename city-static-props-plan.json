@@ -1,0 +1,2142 @@
+{
+  "schemaVersion": "1.0",
+  "project": "Mission BOS – Connected Response",
+  "buildBase": "008R.2",
+  "phase": "008R.3 Static World Detailing",
+  "sourceLayoutPhase": "008R.1.1 MAST_B Site Alignment Correction",
+  "runtimeRandomization": false,
+  "props": [
+    {
+      "id": "TREE_R_01",
+      "type": "tree",
+      "worldRect": {
+        "x": -39.0,
+        "z": 36.7,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "RESIDENTIAL",
+      "style": "deciduous"
+    },
+    {
+      "id": "TREE_R_02",
+      "type": "tree",
+      "worldRect": {
+        "x": -34.2,
+        "z": 36.7,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "RESIDENTIAL",
+      "style": "deciduous"
+    },
+    {
+      "id": "TREE_R_03",
+      "type": "tree",
+      "worldRect": {
+        "x": -29.3,
+        "z": 36.7,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "RESIDENTIAL",
+      "style": "deciduous"
+    },
+    {
+      "id": "TREE_R_04",
+      "type": "tree",
+      "worldRect": {
+        "x": -24.5,
+        "z": 36.7,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "RESIDENTIAL",
+      "style": "deciduous"
+    },
+    {
+      "id": "TREE_R_05",
+      "type": "tree",
+      "worldRect": {
+        "x": -44.0,
+        "z": 29.3,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "RESIDENTIAL",
+      "style": "deciduous"
+    },
+    {
+      "id": "TREE_R_06",
+      "type": "tree",
+      "worldRect": {
+        "x": -39.0,
+        "z": 29.3,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "RESIDENTIAL",
+      "style": "deciduous"
+    },
+    {
+      "id": "TREE_R_07",
+      "type": "tree",
+      "worldRect": {
+        "x": -34.1,
+        "z": 29.3,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "RESIDENTIAL",
+      "style": "deciduous"
+    },
+    {
+      "id": "TREE_R_08",
+      "type": "tree",
+      "worldRect": {
+        "x": -29.2,
+        "z": 29.3,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "RESIDENTIAL",
+      "style": "deciduous"
+    },
+    {
+      "id": "TREE_R_09",
+      "type": "tree",
+      "worldRect": {
+        "x": -24.4,
+        "z": 29.3,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "RESIDENTIAL",
+      "style": "deciduous"
+    },
+    {
+      "id": "TREE_R_10",
+      "type": "tree",
+      "worldRect": {
+        "x": -46.7,
+        "z": 23.2,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "RESIDENTIAL",
+      "style": "deciduous"
+    },
+    {
+      "id": "TREE_R_11",
+      "type": "tree",
+      "worldRect": {
+        "x": -38.9,
+        "z": 23.2,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "RESIDENTIAL",
+      "style": "deciduous"
+    },
+    {
+      "id": "TREE_R_12",
+      "type": "tree",
+      "worldRect": {
+        "x": -31.2,
+        "z": 23.2,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "RESIDENTIAL",
+      "style": "deciduous"
+    },
+    {
+      "id": "TREE_R_13",
+      "type": "tree",
+      "worldRect": {
+        "x": -25.3,
+        "z": 21.2,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "RESIDENTIAL",
+      "style": "deciduous"
+    },
+    {
+      "id": "TREE_R_14",
+      "type": "tree",
+      "worldRect": {
+        "x": -21.2,
+        "z": 21.2,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "RESIDENTIAL",
+      "style": "deciduous"
+    },
+    {
+      "id": "TREE_R_15",
+      "type": "tree",
+      "worldRect": {
+        "x": -25.3,
+        "z": 11.5,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "RESIDENTIAL",
+      "style": "deciduous"
+    },
+    {
+      "id": "TREE_R_16",
+      "type": "tree",
+      "worldRect": {
+        "x": -21.2,
+        "z": 11.5,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "RESIDENTIAL",
+      "style": "deciduous"
+    },
+    {
+      "id": "TREE_R_17",
+      "type": "tree",
+      "worldRect": {
+        "x": -48.8,
+        "z": 13.1,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "RESIDENTIAL",
+      "style": "deciduous"
+    },
+    {
+      "id": "TREE_R_18",
+      "type": "tree",
+      "worldRect": {
+        "x": -43.0,
+        "z": 13.1,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "RESIDENTIAL",
+      "style": "deciduous"
+    },
+    {
+      "id": "TREE_R_19",
+      "type": "tree",
+      "worldRect": {
+        "x": -35.2,
+        "z": 13.1,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "RESIDENTIAL",
+      "style": "deciduous"
+    },
+    {
+      "id": "TREE_R_20",
+      "type": "tree",
+      "worldRect": {
+        "x": -28.2,
+        "z": 13.1,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "RESIDENTIAL",
+      "style": "deciduous"
+    },
+    {
+      "id": "TREE_R_21",
+      "type": "tree",
+      "worldRect": {
+        "x": -48.4,
+        "z": 3.2,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "RESIDENTIAL",
+      "style": "deciduous"
+    },
+    {
+      "id": "TREE_R_22",
+      "type": "tree",
+      "worldRect": {
+        "x": -43.2,
+        "z": 3.2,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "RESIDENTIAL",
+      "style": "deciduous"
+    },
+    {
+      "id": "TREE_R_23",
+      "type": "tree",
+      "worldRect": {
+        "x": -35.3,
+        "z": 3.2,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "RESIDENTIAL",
+      "style": "deciduous"
+    },
+    {
+      "id": "TREE_R_24",
+      "type": "tree",
+      "worldRect": {
+        "x": -27.5,
+        "z": 3.2,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "RESIDENTIAL",
+      "style": "deciduous"
+    },
+    {
+      "id": "TREE_R_25",
+      "type": "tree",
+      "worldRect": {
+        "x": -21.0,
+        "z": 3.2,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "RESIDENTIAL",
+      "style": "deciduous"
+    },
+    {
+      "id": "TREE_I_01",
+      "type": "tree",
+      "worldRect": {
+        "x": -12.1,
+        "z": 37.4,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "DOWNTOWN",
+      "style": "urban"
+    },
+    {
+      "id": "TREE_I_02",
+      "type": "tree",
+      "worldRect": {
+        "x": -6.8,
+        "z": 37.4,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "DOWNTOWN",
+      "style": "urban"
+    },
+    {
+      "id": "TREE_I_03",
+      "type": "tree",
+      "worldRect": {
+        "x": 5.2,
+        "z": 37.3,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "DOWNTOWN",
+      "style": "urban"
+    },
+    {
+      "id": "TREE_I_04",
+      "type": "tree",
+      "worldRect": {
+        "x": 10.8,
+        "z": 37.3,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "DOWNTOWN",
+      "style": "urban"
+    },
+    {
+      "id": "TREE_I_05",
+      "type": "tree",
+      "worldRect": {
+        "x": -11.4,
+        "z": 21.7,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "DOWNTOWN",
+      "style": "urban"
+    },
+    {
+      "id": "TREE_I_06",
+      "type": "tree",
+      "worldRect": {
+        "x": -7.2,
+        "z": 21.7,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "DOWNTOWN",
+      "style": "urban"
+    },
+    {
+      "id": "TREE_I_07",
+      "type": "tree",
+      "worldRect": {
+        "x": -3.1,
+        "z": 21.7,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "DOWNTOWN",
+      "style": "urban"
+    },
+    {
+      "id": "TREE_I_08",
+      "type": "tree",
+      "worldRect": {
+        "x": 4.7,
+        "z": 21.7,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "DOWNTOWN",
+      "style": "urban"
+    },
+    {
+      "id": "TREE_I_09",
+      "type": "tree",
+      "worldRect": {
+        "x": 8.8,
+        "z": 21.7,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "DOWNTOWN",
+      "style": "urban"
+    },
+    {
+      "id": "TREE_I_10",
+      "type": "tree",
+      "worldRect": {
+        "x": 12.8,
+        "z": 21.7,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "DOWNTOWN",
+      "style": "urban"
+    },
+    {
+      "id": "TREE_I_11",
+      "type": "tree",
+      "worldRect": {
+        "x": -13.3,
+        "z": 15.0,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "DOWNTOWN",
+      "style": "urban"
+    },
+    {
+      "id": "TREE_I_12",
+      "type": "tree",
+      "worldRect": {
+        "x": 14.2,
+        "z": 18.5,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "DOWNTOWN",
+      "style": "urban"
+    },
+    {
+      "id": "TREE_I_13",
+      "type": "tree",
+      "worldRect": {
+        "x": -13.1,
+        "z": -0.7,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "DOWNTOWN",
+      "style": "urban"
+    },
+    {
+      "id": "TREE_I_14",
+      "type": "tree",
+      "worldRect": {
+        "x": 14.2,
+        "z": -0.7,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "DOWNTOWN",
+      "style": "urban"
+    },
+    {
+      "id": "TREE_G_01",
+      "type": "tree",
+      "worldRect": {
+        "x": 24.2,
+        "z": 37.5,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "HEALTH",
+      "style": "deciduous"
+    },
+    {
+      "id": "TREE_G_02",
+      "type": "tree",
+      "worldRect": {
+        "x": 28.8,
+        "z": 37.5,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "HEALTH",
+      "style": "deciduous"
+    },
+    {
+      "id": "TREE_G_03",
+      "type": "tree",
+      "worldRect": {
+        "x": 42.5,
+        "z": 37.5,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "HEALTH",
+      "style": "deciduous"
+    },
+    {
+      "id": "TREE_G_04",
+      "type": "tree",
+      "worldRect": {
+        "x": 44.2,
+        "z": 37.5,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "HEALTH",
+      "style": "deciduous"
+    },
+    {
+      "id": "TREE_G_05",
+      "type": "tree",
+      "worldRect": {
+        "x": 38.0,
+        "z": 10.55,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "HEALTH",
+      "style": "deciduous"
+    },
+    {
+      "id": "TREE_G_06",
+      "type": "tree",
+      "worldRect": {
+        "x": 42.0,
+        "z": 10.55,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "HEALTH",
+      "style": "deciduous"
+    },
+    {
+      "id": "TREE_G_07",
+      "type": "tree",
+      "worldRect": {
+        "x": 46.0,
+        "z": 10.55,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "HEALTH",
+      "style": "deciduous"
+    },
+    {
+      "id": "TREE_G_08",
+      "type": "tree",
+      "worldRect": {
+        "x": 49.5,
+        "z": 10.55,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "HEALTH",
+      "style": "deciduous"
+    },
+    {
+      "id": "TREE_G_09",
+      "type": "tree",
+      "worldRect": {
+        "x": 23.8,
+        "z": 0.05,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "HEALTH",
+      "style": "deciduous"
+    },
+    {
+      "id": "TREE_G_10",
+      "type": "tree",
+      "worldRect": {
+        "x": 28.8,
+        "z": 0.05,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "HEALTH",
+      "style": "deciduous"
+    },
+    {
+      "id": "TREE_G_11",
+      "type": "tree",
+      "worldRect": {
+        "x": 34.0,
+        "z": 0.05,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "HEALTH",
+      "style": "deciduous"
+    },
+    {
+      "id": "TREE_G_12",
+      "type": "tree",
+      "worldRect": {
+        "x": 39.2,
+        "z": 0.05,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "HEALTH",
+      "style": "deciduous"
+    },
+    {
+      "id": "TREE_G_13",
+      "type": "tree",
+      "worldRect": {
+        "x": 44.4,
+        "z": 0.05,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "HEALTH",
+      "style": "deciduous"
+    },
+    {
+      "id": "TREE_G_14",
+      "type": "tree",
+      "worldRect": {
+        "x": 49.2,
+        "z": 0.05,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "HEALTH",
+      "style": "deciduous"
+    },
+    {
+      "id": "TREE_S_01",
+      "type": "tree",
+      "worldRect": {
+        "x": -48.0,
+        "z": -12.0,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "SOUTH",
+      "style": "deciduous"
+    },
+    {
+      "id": "TREE_S_02",
+      "type": "tree",
+      "worldRect": {
+        "x": -40.0,
+        "z": -12.0,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "SOUTH",
+      "style": "deciduous"
+    },
+    {
+      "id": "TREE_S_03",
+      "type": "tree",
+      "worldRect": {
+        "x": -31.5,
+        "z": -12.0,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "SOUTH",
+      "style": "deciduous"
+    },
+    {
+      "id": "TREE_S_04",
+      "type": "tree",
+      "worldRect": {
+        "x": -48.5,
+        "z": -26.8,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "SOUTH",
+      "style": "deciduous"
+    },
+    {
+      "id": "TREE_S_05",
+      "type": "tree",
+      "worldRect": {
+        "x": -27.0,
+        "z": -26.8,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "SOUTH",
+      "style": "deciduous"
+    },
+    {
+      "id": "TREE_S_06",
+      "type": "tree",
+      "worldRect": {
+        "x": -13.0,
+        "z": -11.8,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "SOUTH",
+      "style": "deciduous"
+    },
+    {
+      "id": "TREE_S_07",
+      "type": "tree",
+      "worldRect": {
+        "x": -3.8,
+        "z": -10.9,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "SOUTH",
+      "style": "deciduous"
+    },
+    {
+      "id": "TREE_S_08",
+      "type": "tree",
+      "worldRect": {
+        "x": 5.2,
+        "z": -10.9,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "SOUTH",
+      "style": "deciduous"
+    },
+    {
+      "id": "TREE_S_09",
+      "type": "tree",
+      "worldRect": {
+        "x": 14.0,
+        "z": -10.9,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "SOUTH",
+      "style": "deciduous"
+    },
+    {
+      "id": "TREE_S_10",
+      "type": "tree",
+      "worldRect": {
+        "x": 29.5,
+        "z": -12.1,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "SOUTH",
+      "style": "deciduous"
+    },
+    {
+      "id": "TREE_S_11",
+      "type": "tree",
+      "worldRect": {
+        "x": 35.0,
+        "z": -12.1,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "SOUTH",
+      "style": "deciduous"
+    },
+    {
+      "id": "TREE_S_12",
+      "type": "tree",
+      "worldRect": {
+        "x": 40.5,
+        "z": -12.1,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "SOUTH",
+      "style": "deciduous"
+    },
+    {
+      "id": "TREE_S_13",
+      "type": "tree",
+      "worldRect": {
+        "x": 46.0,
+        "z": -12.1,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "SOUTH",
+      "style": "deciduous"
+    },
+    {
+      "id": "TREE_S_14",
+      "type": "tree",
+      "worldRect": {
+        "x": 49.3,
+        "z": -25.2,
+        "width": 1.35,
+        "depth": 1.35
+      },
+      "rotation": 0,
+      "district": "SOUTH",
+      "style": "deciduous"
+    },
+    {
+      "id": "SHRUB_01",
+      "type": "shrub",
+      "worldRect": {
+        "x": -44.0,
+        "z": 35.2,
+        "width": 0.75,
+        "depth": 0.75
+      },
+      "rotation": 0,
+      "style": "low"
+    },
+    {
+      "id": "SHRUB_02",
+      "type": "shrub",
+      "worldRect": {
+        "x": -36.6,
+        "z": 35.2,
+        "width": 0.75,
+        "depth": 0.75
+      },
+      "rotation": 0,
+      "style": "low"
+    },
+    {
+      "id": "SHRUB_03",
+      "type": "shrub",
+      "worldRect": {
+        "x": -31.7,
+        "z": 35.2,
+        "width": 0.75,
+        "depth": 0.75
+      },
+      "rotation": 0,
+      "style": "low"
+    },
+    {
+      "id": "SHRUB_04",
+      "type": "shrub",
+      "worldRect": {
+        "x": -26.9,
+        "z": 35.2,
+        "width": 0.75,
+        "depth": 0.75
+      },
+      "rotation": 0,
+      "style": "low"
+    },
+    {
+      "id": "SHRUB_05",
+      "type": "shrub",
+      "worldRect": {
+        "x": -22.0,
+        "z": 35.2,
+        "width": 0.75,
+        "depth": 0.75
+      },
+      "rotation": 0,
+      "style": "low"
+    },
+    {
+      "id": "SHRUB_06",
+      "type": "shrub",
+      "worldRect": {
+        "x": -46.7,
+        "z": 15.0,
+        "width": 0.75,
+        "depth": 0.75
+      },
+      "rotation": 0,
+      "style": "low"
+    },
+    {
+      "id": "SHRUB_07",
+      "type": "shrub",
+      "worldRect": {
+        "x": -38.9,
+        "z": 15.0,
+        "width": 0.75,
+        "depth": 0.75
+      },
+      "rotation": 0,
+      "style": "low"
+    },
+    {
+      "id": "SHRUB_08",
+      "type": "shrub",
+      "worldRect": {
+        "x": -31.2,
+        "z": 15.0,
+        "width": 0.75,
+        "depth": 0.75
+      },
+      "rotation": 0,
+      "style": "low"
+    },
+    {
+      "id": "SHRUB_09",
+      "type": "shrub",
+      "worldRect": {
+        "x": -11.0,
+        "z": 19.3,
+        "width": 0.75,
+        "depth": 0.75
+      },
+      "rotation": 0,
+      "style": "low"
+    },
+    {
+      "id": "SHRUB_10",
+      "type": "shrub",
+      "worldRect": {
+        "x": -3.8,
+        "z": 19.3,
+        "width": 0.75,
+        "depth": 0.75
+      },
+      "rotation": 0,
+      "style": "low"
+    },
+    {
+      "id": "SHRUB_11",
+      "type": "shrub",
+      "worldRect": {
+        "x": 4.2,
+        "z": 10.8,
+        "width": 0.75,
+        "depth": 0.75
+      },
+      "rotation": 0,
+      "style": "low"
+    },
+    {
+      "id": "SHRUB_12",
+      "type": "shrub",
+      "worldRect": {
+        "x": 11.2,
+        "z": 10.8,
+        "width": 0.75,
+        "depth": 0.75
+      },
+      "rotation": 0,
+      "style": "low"
+    },
+    {
+      "id": "SHRUB_13",
+      "type": "shrub",
+      "worldRect": {
+        "x": 22.5,
+        "z": 35.5,
+        "width": 0.75,
+        "depth": 0.75
+      },
+      "rotation": 0,
+      "style": "low"
+    },
+    {
+      "id": "SHRUB_14",
+      "type": "shrub",
+      "worldRect": {
+        "x": 49.5,
+        "z": 22.9,
+        "width": 0.75,
+        "depth": 0.75
+      },
+      "rotation": 0,
+      "style": "low"
+    },
+    {
+      "id": "SHRUB_15",
+      "type": "shrub",
+      "worldRect": {
+        "x": 24.2,
+        "z": 14.8,
+        "width": 0.75,
+        "depth": 0.75
+      },
+      "rotation": 0,
+      "style": "low"
+    },
+    {
+      "id": "SHRUB_16",
+      "type": "shrub",
+      "worldRect": {
+        "x": 32.3,
+        "z": 14.8,
+        "width": 0.75,
+        "depth": 0.75
+      },
+      "rotation": 0,
+      "style": "low"
+    },
+    {
+      "id": "SHRUB_17",
+      "type": "shrub",
+      "worldRect": {
+        "x": -45.5,
+        "z": -19.8,
+        "width": 0.75,
+        "depth": 0.75
+      },
+      "rotation": 0,
+      "style": "low"
+    },
+    {
+      "id": "SHRUB_18",
+      "type": "shrub",
+      "worldRect": {
+        "x": -34.0,
+        "z": -19.5,
+        "width": 0.75,
+        "depth": 0.75
+      },
+      "rotation": 0,
+      "style": "low"
+    },
+    {
+      "id": "SHRUB_19",
+      "type": "shrub",
+      "worldRect": {
+        "x": -28.2,
+        "z": -19.8,
+        "width": 0.75,
+        "depth": 0.75
+      },
+      "rotation": 0,
+      "style": "low"
+    },
+    {
+      "id": "SHRUB_20",
+      "type": "shrub",
+      "worldRect": {
+        "x": 31.0,
+        "z": -25.2,
+        "width": 0.75,
+        "depth": 0.75
+      },
+      "rotation": 0,
+      "style": "low"
+    },
+    {
+      "id": "SHRUB_21",
+      "type": "shrub",
+      "worldRect": {
+        "x": 38.0,
+        "z": -25.2,
+        "width": 0.75,
+        "depth": 0.75
+      },
+      "rotation": 0,
+      "style": "low"
+    },
+    {
+      "id": "SHRUB_22",
+      "type": "shrub",
+      "worldRect": {
+        "x": 45.0,
+        "z": -25.2,
+        "width": 0.75,
+        "depth": 0.75
+      },
+      "rotation": 0,
+      "style": "low"
+    },
+    {
+      "id": "BENCH_01",
+      "type": "bench",
+      "worldRect": {
+        "x": -23.2,
+        "z": 18.6,
+        "width": 1.5,
+        "depth": 0.55
+      },
+      "rotation": 0,
+      "style": "wood"
+    },
+    {
+      "id": "BENCH_02",
+      "type": "bench",
+      "worldRect": {
+        "x": -23.2,
+        "z": 14.2,
+        "width": 1.5,
+        "depth": 0.55
+      },
+      "rotation": 0,
+      "style": "wood"
+    },
+    {
+      "id": "BENCH_03",
+      "type": "bench",
+      "worldRect": {
+        "x": -25.0,
+        "z": 16.3,
+        "width": 0.55,
+        "depth": 1.5
+      },
+      "rotation": 1.5707963267948966,
+      "style": "wood"
+    },
+    {
+      "id": "BENCH_04",
+      "type": "bench",
+      "worldRect": {
+        "x": -9.2,
+        "z": 21.7,
+        "width": 1.5,
+        "depth": 0.55
+      },
+      "rotation": 0,
+      "style": "wood"
+    },
+    {
+      "id": "BENCH_05",
+      "type": "bench",
+      "worldRect": {
+        "x": -5.1,
+        "z": 21.7,
+        "width": 1.5,
+        "depth": 0.55
+      },
+      "rotation": 0,
+      "style": "wood"
+    },
+    {
+      "id": "BENCH_06",
+      "type": "bench",
+      "worldRect": {
+        "x": 6.7,
+        "z": 21.7,
+        "width": 1.5,
+        "depth": 0.55
+      },
+      "rotation": 0,
+      "style": "wood"
+    },
+    {
+      "id": "BENCH_07",
+      "type": "bench",
+      "worldRect": {
+        "x": 10.8,
+        "z": 21.7,
+        "width": 1.5,
+        "depth": 0.55
+      },
+      "rotation": 0,
+      "style": "wood"
+    },
+    {
+      "id": "BENCH_08",
+      "type": "bench",
+      "worldRect": {
+        "x": 26.4,
+        "z": 0.05,
+        "width": 1.5,
+        "depth": 0.55
+      },
+      "rotation": 0,
+      "style": "wood"
+    },
+    {
+      "id": "BENCH_09",
+      "type": "bench",
+      "worldRect": {
+        "x": 31.6,
+        "z": 0.05,
+        "width": 1.5,
+        "depth": 0.55
+      },
+      "rotation": 0,
+      "style": "wood"
+    },
+    {
+      "id": "BENCH_10",
+      "type": "bench",
+      "worldRect": {
+        "x": 36.8,
+        "z": 0.05,
+        "width": 1.5,
+        "depth": 0.55
+      },
+      "rotation": 0,
+      "style": "wood"
+    },
+    {
+      "id": "BENCH_11",
+      "type": "bench",
+      "worldRect": {
+        "x": 42.0,
+        "z": 0.05,
+        "width": 1.5,
+        "depth": 0.55
+      },
+      "rotation": 0,
+      "style": "wood"
+    },
+    {
+      "id": "BENCH_12",
+      "type": "bench",
+      "worldRect": {
+        "x": 47.2,
+        "z": 0.05,
+        "width": 1.5,
+        "depth": 0.55
+      },
+      "rotation": 0,
+      "style": "wood"
+    },
+    {
+      "id": "LAMP_01",
+      "type": "lamp",
+      "worldRect": {
+        "x": -47,
+        "z": 27.75,
+        "width": 0.32,
+        "depth": 0.32
+      },
+      "rotation": 0,
+      "style": "modern"
+    },
+    {
+      "id": "LAMP_02",
+      "type": "lamp",
+      "worldRect": {
+        "x": -41,
+        "z": 27.75,
+        "width": 0.32,
+        "depth": 0.32
+      },
+      "rotation": 0,
+      "style": "modern"
+    },
+    {
+      "id": "LAMP_03",
+      "type": "lamp",
+      "worldRect": {
+        "x": -34,
+        "z": 27.75,
+        "width": 0.32,
+        "depth": 0.32
+      },
+      "rotation": 0,
+      "style": "modern"
+    },
+    {
+      "id": "LAMP_04",
+      "type": "lamp",
+      "worldRect": {
+        "x": -27,
+        "z": 27.75,
+        "width": 0.32,
+        "depth": 0.32
+      },
+      "rotation": 0,
+      "style": "modern"
+    },
+    {
+      "id": "LAMP_05",
+      "type": "lamp",
+      "worldRect": {
+        "x": -9,
+        "z": 27.75,
+        "width": 0.32,
+        "depth": 0.32
+      },
+      "rotation": 0,
+      "style": "modern"
+    },
+    {
+      "id": "LAMP_06",
+      "type": "lamp",
+      "worldRect": {
+        "x": 7,
+        "z": 27.75,
+        "width": 0.32,
+        "depth": 0.32
+      },
+      "rotation": 0,
+      "style": "modern"
+    },
+    {
+      "id": "LAMP_07",
+      "type": "lamp",
+      "worldRect": {
+        "x": 28,
+        "z": 27.75,
+        "width": 0.32,
+        "depth": 0.32
+      },
+      "rotation": 0,
+      "style": "modern"
+    },
+    {
+      "id": "LAMP_08",
+      "type": "lamp",
+      "worldRect": {
+        "x": 36,
+        "z": 27.75,
+        "width": 0.32,
+        "depth": 0.32
+      },
+      "rotation": 0,
+      "style": "modern"
+    },
+    {
+      "id": "LAMP_09",
+      "type": "lamp",
+      "worldRect": {
+        "x": 44,
+        "z": 27.75,
+        "width": 0.32,
+        "depth": 0.32
+      },
+      "rotation": 0,
+      "style": "modern"
+    },
+    {
+      "id": "LAMP_10",
+      "type": "lamp",
+      "worldRect": {
+        "x": 49,
+        "z": 27.75,
+        "width": 0.32,
+        "depth": 0.32
+      },
+      "rotation": 0,
+      "style": "modern"
+    },
+    {
+      "id": "LAMP_11",
+      "type": "lamp",
+      "worldRect": {
+        "x": -47,
+        "z": 8.18,
+        "width": 0.32,
+        "depth": 0.32
+      },
+      "rotation": 0,
+      "style": "modern"
+    },
+    {
+      "id": "LAMP_12",
+      "type": "lamp",
+      "worldRect": {
+        "x": -40,
+        "z": 8.18,
+        "width": 0.32,
+        "depth": 0.32
+      },
+      "rotation": 0,
+      "style": "modern"
+    },
+    {
+      "id": "LAMP_13",
+      "type": "lamp",
+      "worldRect": {
+        "x": -33,
+        "z": 8.18,
+        "width": 0.32,
+        "depth": 0.32
+      },
+      "rotation": 0,
+      "style": "modern"
+    },
+    {
+      "id": "LAMP_14",
+      "type": "lamp",
+      "worldRect": {
+        "x": -26,
+        "z": 8.18,
+        "width": 0.32,
+        "depth": 0.32
+      },
+      "rotation": 0,
+      "style": "modern"
+    },
+    {
+      "id": "LAMP_15",
+      "type": "lamp",
+      "worldRect": {
+        "x": -9,
+        "z": 8.18,
+        "width": 0.32,
+        "depth": 0.32
+      },
+      "rotation": 0,
+      "style": "modern"
+    },
+    {
+      "id": "LAMP_16",
+      "type": "lamp",
+      "worldRect": {
+        "x": 7,
+        "z": 8.18,
+        "width": 0.32,
+        "depth": 0.32
+      },
+      "rotation": 0,
+      "style": "modern"
+    },
+    {
+      "id": "LAMP_17",
+      "type": "lamp",
+      "worldRect": {
+        "x": 28,
+        "z": 8.18,
+        "width": 0.32,
+        "depth": 0.32
+      },
+      "rotation": 0,
+      "style": "modern"
+    },
+    {
+      "id": "LAMP_18",
+      "type": "lamp",
+      "worldRect": {
+        "x": 36,
+        "z": 8.18,
+        "width": 0.32,
+        "depth": 0.32
+      },
+      "rotation": 0,
+      "style": "modern"
+    },
+    {
+      "id": "LAMP_19",
+      "type": "lamp",
+      "worldRect": {
+        "x": 44,
+        "z": 8.18,
+        "width": 0.32,
+        "depth": 0.32
+      },
+      "rotation": 0,
+      "style": "modern"
+    },
+    {
+      "id": "LAMP_20",
+      "type": "lamp",
+      "worldRect": {
+        "x": 49,
+        "z": 8.18,
+        "width": 0.32,
+        "depth": 0.32
+      },
+      "rotation": 0,
+      "style": "modern"
+    },
+    {
+      "id": "LAMP_21",
+      "type": "lamp",
+      "worldRect": {
+        "x": -47,
+        "z": -8.08,
+        "width": 0.32,
+        "depth": 0.32
+      },
+      "rotation": 0,
+      "style": "modern"
+    },
+    {
+      "id": "LAMP_22",
+      "type": "lamp",
+      "worldRect": {
+        "x": -40,
+        "z": -8.08,
+        "width": 0.32,
+        "depth": 0.32
+      },
+      "rotation": 0,
+      "style": "modern"
+    },
+    {
+      "id": "LAMP_23",
+      "type": "lamp",
+      "worldRect": {
+        "x": -33,
+        "z": -8.08,
+        "width": 0.32,
+        "depth": 0.32
+      },
+      "rotation": 0,
+      "style": "modern"
+    },
+    {
+      "id": "LAMP_24",
+      "type": "lamp",
+      "worldRect": {
+        "x": -26,
+        "z": -8.08,
+        "width": 0.32,
+        "depth": 0.32
+      },
+      "rotation": 0,
+      "style": "modern"
+    },
+    {
+      "id": "LAMP_25",
+      "type": "lamp",
+      "worldRect": {
+        "x": -9,
+        "z": -8.08,
+        "width": 0.32,
+        "depth": 0.32
+      },
+      "rotation": 0,
+      "style": "modern"
+    },
+    {
+      "id": "LAMP_26",
+      "type": "lamp",
+      "worldRect": {
+        "x": 7,
+        "z": -8.08,
+        "width": 0.32,
+        "depth": 0.32
+      },
+      "rotation": 0,
+      "style": "modern"
+    },
+    {
+      "id": "LAMP_27",
+      "type": "lamp",
+      "worldRect": {
+        "x": 28,
+        "z": -8.08,
+        "width": 0.32,
+        "depth": 0.32
+      },
+      "rotation": 0,
+      "style": "modern"
+    },
+    {
+      "id": "LAMP_28",
+      "type": "lamp",
+      "worldRect": {
+        "x": 36,
+        "z": -8.08,
+        "width": 0.32,
+        "depth": 0.32
+      },
+      "rotation": 0,
+      "style": "modern"
+    },
+    {
+      "id": "LAMP_29",
+      "type": "lamp",
+      "worldRect": {
+        "x": 44,
+        "z": -8.08,
+        "width": 0.32,
+        "depth": 0.32
+      },
+      "rotation": 0,
+      "style": "modern"
+    },
+    {
+      "id": "LAMP_30",
+      "type": "lamp",
+      "worldRect": {
+        "x": 49,
+        "z": -8.08,
+        "width": 0.32,
+        "depth": 0.32
+      },
+      "rotation": 0,
+      "style": "modern"
+    },
+    {
+      "id": "LAMP_31",
+      "type": "lamp",
+      "worldRect": {
+        "x": -13,
+        "z": -20.7,
+        "width": 0.32,
+        "depth": 0.32
+      },
+      "rotation": 0,
+      "style": "modern"
+    },
+    {
+      "id": "LAMP_32",
+      "type": "lamp",
+      "worldRect": {
+        "x": -8,
+        "z": -20.7,
+        "width": 0.32,
+        "depth": 0.32
+      },
+      "rotation": 0,
+      "style": "modern"
+    },
+    {
+      "id": "LAMP_33",
+      "type": "lamp",
+      "worldRect": {
+        "x": -4,
+        "z": -20.7,
+        "width": 0.32,
+        "depth": 0.32
+      },
+      "rotation": 0,
+      "style": "modern"
+    },
+    {
+      "id": "LAMP_34",
+      "type": "lamp",
+      "worldRect": {
+        "x": 5,
+        "z": -20.7,
+        "width": 0.32,
+        "depth": 0.32
+      },
+      "rotation": 0,
+      "style": "modern"
+    },
+    {
+      "id": "LAMP_35",
+      "type": "lamp",
+      "worldRect": {
+        "x": 10,
+        "z": -20.7,
+        "width": 0.32,
+        "depth": 0.32
+      },
+      "rotation": 0,
+      "style": "modern"
+    },
+    {
+      "id": "LAMP_36",
+      "type": "lamp",
+      "worldRect": {
+        "x": 14,
+        "z": -20.7,
+        "width": 0.32,
+        "depth": 0.32
+      },
+      "rotation": 0,
+      "style": "modern"
+    },
+    {
+      "id": "LAMP_37",
+      "type": "lamp",
+      "worldRect": {
+        "x": -50.85,
+        "z": 34,
+        "width": 0.32,
+        "depth": 0.32
+      },
+      "rotation": 1.5707963267948966,
+      "style": "modern"
+    },
+    {
+      "id": "LAMP_38",
+      "type": "lamp",
+      "worldRect": {
+        "x": -50.85,
+        "z": 17,
+        "width": 0.32,
+        "depth": 0.32
+      },
+      "rotation": 1.5707963267948966,
+      "style": "modern"
+    },
+    {
+      "id": "LAMP_39",
+      "type": "lamp",
+      "worldRect": {
+        "x": -50.85,
+        "z": 0,
+        "width": 0.32,
+        "depth": 0.32
+      },
+      "rotation": 1.5707963267948966,
+      "style": "modern"
+    },
+    {
+      "id": "LAMP_40",
+      "type": "lamp",
+      "worldRect": {
+        "x": -50.85,
+        "z": -17,
+        "width": 0.32,
+        "depth": 0.32
+      },
+      "rotation": 1.5707963267948966,
+      "style": "modern"
+    },
+    {
+      "id": "LAMP_41",
+      "type": "lamp",
+      "worldRect": {
+        "x": -50.85,
+        "z": -34,
+        "width": 0.32,
+        "depth": 0.32
+      },
+      "rotation": 1.5707963267948966,
+      "style": "modern"
+    },
+    {
+      "id": "LAMP_42",
+      "type": "lamp",
+      "worldRect": {
+        "x": 50.88,
+        "z": 24.0,
+        "width": 0.32,
+        "depth": 0.32
+      },
+      "rotation": 1.5707963267948966,
+      "style": "modern"
+    },
+    {
+      "id": "LAMP_43",
+      "type": "lamp",
+      "worldRect": {
+        "x": 50.88,
+        "z": 8.3,
+        "width": 0.32,
+        "depth": 0.32
+      },
+      "rotation": 1.5707963267948966,
+      "style": "modern"
+    },
+    {
+      "id": "LAMP_44",
+      "type": "lamp",
+      "worldRect": {
+        "x": 50.88,
+        "z": 0,
+        "width": 0.32,
+        "depth": 0.32
+      },
+      "rotation": 1.5707963267948966,
+      "style": "modern"
+    },
+    {
+      "id": "LAMP_45",
+      "type": "lamp",
+      "worldRect": {
+        "x": 50.88,
+        "z": -17,
+        "width": 0.32,
+        "depth": 0.32
+      },
+      "rotation": 1.5707963267948966,
+      "style": "modern"
+    },
+    {
+      "id": "LAMP_46",
+      "type": "lamp",
+      "worldRect": {
+        "x": 50.88,
+        "z": -25.5,
+        "width": 0.32,
+        "depth": 0.32
+      },
+      "rotation": 1.5707963267948966,
+      "style": "modern"
+    },
+    {
+      "id": "SIGN_RES",
+      "type": "sign",
+      "worldRect": {
+        "x": -48.0,
+        "z": 28.0,
+        "width": 0.75,
+        "depth": 0.35
+      },
+      "rotation": 0,
+      "style": "directional",
+      "text": "Wohngebiet"
+    },
+    {
+      "id": "SIGN_DOWNTOWN",
+      "type": "sign",
+      "worldRect": {
+        "x": -13.2,
+        "z": 28.0,
+        "width": 0.75,
+        "depth": 0.35
+      },
+      "rotation": 0,
+      "style": "directional",
+      "text": "Innenstadt"
+    },
+    {
+      "id": "SIGN_HEALTH",
+      "type": "sign",
+      "worldRect": {
+        "x": 22.8,
+        "z": 28.0,
+        "width": 0.75,
+        "depth": 0.35
+      },
+      "rotation": 0,
+      "style": "directional",
+      "text": "Krankenhaus"
+    },
+    {
+      "id": "SIGN_BOS",
+      "type": "sign",
+      "worldRect": {
+        "x": -48.0,
+        "z": -9.5,
+        "width": 0.75,
+        "depth": 0.35
+      },
+      "rotation": 0,
+      "style": "directional",
+      "text": "BOS-Campus"
+    },
+    {
+      "id": "SIGN_ARENA",
+      "type": "sign",
+      "worldRect": {
+        "x": 22.8,
+        "z": -9.5,
+        "width": 0.75,
+        "depth": 0.35
+      },
+      "rotation": 0,
+      "style": "directional",
+      "text": "Event Arena"
+    },
+    {
+      "id": "SIGN_TOWN",
+      "type": "sign",
+      "worldRect": {
+        "x": -13.0,
+        "z": 8.9,
+        "width": 0.75,
+        "depth": 0.35
+      },
+      "rotation": 0,
+      "style": "directional",
+      "text": "Rathaus"
+    },
+    {
+      "id": "SIGN_EMS",
+      "type": "sign",
+      "worldRect": {
+        "x": 22.7,
+        "z": 22.8,
+        "width": 0.75,
+        "depth": 0.35
+      },
+      "rotation": 0,
+      "style": "directional",
+      "text": "Rettungswache"
+    },
+    {
+      "id": "SIGN_FIRE",
+      "type": "sign",
+      "worldRect": {
+        "x": -45.0,
+        "z": -26.5,
+        "width": 0.75,
+        "depth": 0.35
+      },
+      "rotation": 0,
+      "style": "directional",
+      "text": "Feuerwehr"
+    },
+    {
+      "id": "BOLLARD_01",
+      "type": "bollard",
+      "worldRect": {
+        "x": -47.5,
+        "z": -20.2,
+        "width": 0.28,
+        "depth": 0.28
+      },
+      "rotation": 0,
+      "style": "safety"
+    },
+    {
+      "id": "BOLLARD_02",
+      "type": "bollard",
+      "worldRect": {
+        "x": -44.5,
+        "z": -20.2,
+        "width": 0.28,
+        "depth": 0.28
+      },
+      "rotation": 0,
+      "style": "safety"
+    },
+    {
+      "id": "BOLLARD_03",
+      "type": "bollard",
+      "worldRect": {
+        "x": -41.5,
+        "z": -20.2,
+        "width": 0.28,
+        "depth": 0.28
+      },
+      "rotation": 0,
+      "style": "safety"
+    },
+    {
+      "id": "BOLLARD_04",
+      "type": "bollard",
+      "worldRect": {
+        "x": -38.5,
+        "z": -20.2,
+        "width": 0.28,
+        "depth": 0.28
+      },
+      "rotation": 0,
+      "style": "safety"
+    },
+    {
+      "id": "BOLLARD_05",
+      "type": "bollard",
+      "worldRect": {
+        "x": -35.5,
+        "z": -20.2,
+        "width": 0.28,
+        "depth": 0.28
+      },
+      "rotation": 0,
+      "style": "safety"
+    },
+    {
+      "id": "BOLLARD_06",
+      "type": "bollard",
+      "worldRect": {
+        "x": -32.5,
+        "z": -20.2,
+        "width": 0.28,
+        "depth": 0.28
+      },
+      "rotation": 0,
+      "style": "safety"
+    },
+    {
+      "id": "BOLLARD_07",
+      "type": "bollard",
+      "worldRect": {
+        "x": 24.0,
+        "z": -25.5,
+        "width": 0.28,
+        "depth": 0.28
+      },
+      "rotation": 0,
+      "style": "safety"
+    },
+    {
+      "id": "BOLLARD_08",
+      "type": "bollard",
+      "worldRect": {
+        "x": 28.0,
+        "z": -25.5,
+        "width": 0.28,
+        "depth": 0.28
+      },
+      "rotation": 0,
+      "style": "safety"
+    },
+    {
+      "id": "BOLLARD_09",
+      "type": "bollard",
+      "worldRect": {
+        "x": 48.0,
+        "z": -25.5,
+        "width": 0.28,
+        "depth": 0.28
+      },
+      "rotation": 0,
+      "style": "safety"
+    }
+  ],
+  "buildingSigns": [
+    {
+      "id": "BS_I01",
+      "buildingId": "I01",
+      "text": "RATHAUS",
+      "side": "front"
+    },
+    {
+      "id": "BS_I02",
+      "buildingId": "I02",
+      "text": "SUPERMARKT",
+      "side": "front"
+    },
+    {
+      "id": "BS_G01",
+      "buildingId": "G01",
+      "text": "KRANKENHAUS",
+      "side": "front"
+    },
+    {
+      "id": "BS_G02",
+      "buildingId": "G02",
+      "text": "RETTUNG",
+      "side": "front"
+    },
+    {
+      "id": "BS_B01",
+      "buildingId": "B01",
+      "text": "LEITSTELLE",
+      "side": "front"
+    },
+    {
+      "id": "BS_B02",
+      "buildingId": "B02",
+      "text": "POLIZEI",
+      "side": "front"
+    },
+    {
+      "id": "BS_B03",
+      "buildingId": "B03",
+      "text": "NETZ",
+      "side": "front"
+    },
+    {
+      "id": "BS_B04",
+      "buildingId": "B04",
+      "text": "FEUERWEHR",
+      "side": "front"
+    },
+    {
+      "id": "BS_E01",
+      "buildingId": "E01",
+      "text": "EVENT ARENA",
+      "side": "front"
+    },
+    {
+      "id": "BS_B05",
+      "buildingId": "B05",
+      "text": "BOS SCHULUNG",
+      "side": "front"
+    },
+    {
+      "id": "BS_E03",
+      "buildingId": "E03",
+      "text": "EVENTLEITUNG",
+      "side": "front"
+    }
+  ],
+  "validationRules": {
+    "allPropsVsRoadSurfaces": 0,
+    "allPropsVsBuildings": 0,
+    "allPropsVsTowers": 0,
+    "allPropsVsTechnologyPlots": 0,
+    "allPropsVsParkingAreas": 0,
+    "treesShrubsBenchesVsNoBuildCorridors": 0,
+    "treesShrubsVsPavedAreas": 0,
+    "propVsProp": 0
+  },
+  "sourceLayoutSha256": "54c1c4eb578eb66a8d8a2978711ec414a5711e1ed5b571094fa2ec776c968d17",
+  "expectedCounts": {
+    "totalProps": 164,
+    "tree": 67,
+    "shrub": 22,
+    "bench": 12,
+    "lamp": 46,
+    "sign": 8,
+    "bollard": 9,
+    "buildingSigns": 11
+  }
+}
