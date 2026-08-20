@@ -1,0 +1,54 @@
+{
+  "title": "MISSION BOS MISSION 004 RETURN CORRIDOR REGRESSION",
+  "dependencyErrors": 0,
+  "contractErrors": 0,
+  "geometryErrors": 0,
+  "collisionErrors": 0,
+  "completionErrors": 0,
+  "downtownRouteLengthMeters": 73.876551,
+  "downtownLoopPeriodSeconds": 17.382718,
+  "baselinePhaseSamples": 1201,
+  "baselineCollisionPhaseSamples": 897,
+  "baselineFirstCollision": {
+    "phaseOffsetSeconds": 0,
+    "collision": {
+      "hit": true,
+      "time": 13.55,
+      "responseVehicleId": "RESPONSE_FIRE_01",
+      "civilianPose": {
+        "x": -17.04,
+        "z": 19.08527302839593,
+        "angle": 0
+      },
+      "responsePose": {
+        "x": -17.04,
+        "z": 22.534181952966144,
+        "angle": 3.141592653589793
+      }
+    }
+  },
+  "southHoldDistance": 50,
+  "eastHoldDistance": 27,
+  "northHoldDistance": 4,
+  "southHoldPose": {
+    "x": -13.001724685597127,
+    "z": 6.36,
+    "angle": -1.5707963267948966
+  },
+  "eastHoldPose": {
+    "x": 0.78,
+    "z": 15.889137657201431,
+    "angle": 3.141592653589793
+  },
+  "northHoldPose": {
+    "x": -12.32,
+    "z": 26.1,
+    "angle": 1.5707963267948966
+  },
+  "southHoldCollisionCount": 0,
+  "eastHoldCollisionCount": 0,
+  "northHoldCollisionCount": 0,
+  "maximumForwardTravelToHoldMeters": 27.876551,
+  "status": "PASSED",
+  "errors": []
+}

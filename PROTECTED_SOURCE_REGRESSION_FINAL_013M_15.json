@@ -1,0 +1,108 @@
+{
+  "status": "PASSED",
+  "checked": 17,
+  "rows": [
+    {
+      "file": "app.js",
+      "pass": true,
+      "expected": "4c019c939fddd53b508860511fe57f4439be06775b8a70d64164b45ce777a9d1",
+      "actual": "4c019c939fddd53b508860511fe57f4439be06775b8a70d64164b45ce777a9d1"
+    },
+    {
+      "file": "city-mission-004-controller.js",
+      "pass": true,
+      "expected": "0d14d100d2be586b3ec37366d04ac6ade7550f70f830e60569dce82d5bad3a94",
+      "actual": "0d14d100d2be586b3ec37366d04ac6ade7550f70f830e60569dce82d5bad3a94"
+    },
+    {
+      "file": "city-mission-004-response-controller.js",
+      "pass": true,
+      "expected": "c6034a83df2232ef2a998d48b3015bee67a37a7b295932d855b5da2d57abe6c0",
+      "actual": "c6034a83df2232ef2a998d48b3015bee67a37a7b295932d855b5da2d57abe6c0"
+    },
+    {
+      "file": "city-mission-002-controller.js",
+      "pass": true,
+      "expected": "34e2611cb05229919540e9918e89ca0c5b21d24d44e814586644db03c36678ba",
+      "actual": "34e2611cb05229919540e9918e89ca0c5b21d24d44e814586644db03c36678ba"
+    },
+    {
+      "file": "city-cell-load-controller.js",
+      "pass": true,
+      "expected": "dda0622f910aeee757d969217a437136fdafa9122b2f8fbb8105bd2ca5df9235",
+      "actual": "dda0622f910aeee757d969217a437136fdafa9122b2f8fbb8105bd2ca5df9235"
+    },
+    {
+      "file": "city-network-association-controller.js",
+      "pass": true,
+      "expected": "1d75f1f0e8fa8e3e66f3460ee9b02d7bf36ce032afe3b3daae2ab23716fb1bef",
+      "actual": "1d75f1f0e8fa8e3e66f3460ee9b02d7bf36ce032afe3b3daae2ab23716fb1bef"
+    },
+    {
+      "file": "city-auto-bos-priority-controller.js",
+      "pass": true,
+      "expected": "f68560e1281dd7463304ec188986984f4629b9db028c5dcef9f86f88f338e0df",
+      "actual": "f68560e1281dd7463304ec188986984f4629b9db028c5dcef9f86f88f338e0df"
+    },
+    {
+      "file": "city-cell-capacity-controller.js",
+      "pass": true,
+      "expected": "60669b01e6e6d99a7e7f582d558734fd2705c548cb9476c989ccad5d935cfaec",
+      "actual": "60669b01e6e6d99a7e7f582d558734fd2705c548cb9476c989ccad5d935cfaec"
+    },
+    {
+      "file": "city-ambulance-renderer.js",
+      "pass": true,
+      "expected": "a8a01a6a3f6310267c6808960cb0118397827844fb179e319fd08614205ded79",
+      "actual": "a8a01a6a3f6310267c6808960cb0118397827844fb179e319fd08614205ded79"
+    },
+    {
+      "file": "city-response-vehicle-renderer.js",
+      "pass": true,
+      "expected": "fcbdacf8c87b25b73aed4d247f10d5af770078600c532671e9f34cdf8fe2459d",
+      "actual": "fcbdacf8c87b25b73aed4d247f10d5af770078600c532671e9f34cdf8fe2459d"
+    },
+    {
+      "file": "city-traffic-renderer.js",
+      "pass": true,
+      "expected": "b50f20ac51227d4a78dda5e7af9133ce6161867977947f5cba70cc36f20c6ee4",
+      "actual": "b50f20ac51227d4a78dda5e7af9133ce6161867977947f5cba70cc36f20c6ee4"
+    },
+    {
+      "file": "city-mission-registry-controller.js",
+      "pass": true,
+      "expected": "64a04248b99daf645998f72d265cf3e528295a4e31efe8a447e5c4277c2aaa7a",
+      "actual": "64a04248b99daf645998f72d265cf3e528295a4e31efe8a447e5c4277c2aaa7a"
+    },
+    {
+      "file": "city-mission-003-controller.js",
+      "pass": true,
+      "expected": "bd084223be8e8e12288e21df32b8e38fe631dc27c0c64071902e5a94cfa266b3",
+      "actual": "bd084223be8e8e12288e21df32b8e38fe631dc27c0c64071902e5a94cfa266b3"
+    },
+    {
+      "file": "city-mission-003-response-controller.js",
+      "pass": true,
+      "expected": "93a78e5fa39c1f93053f9c33a237aead651638f40129d3e52c18b36399c2228a",
+      "actual": "93a78e5fa39c1f93053f9c33a237aead651638f40129d3e52c18b36399c2228a"
+    },
+    {
+      "file": "city-mission-001-controller.js",
+      "pass": true,
+      "expected": "96f753267f4fe3bb398faf954103ffd911de104d0ea096422e68464c5ddc9bfc",
+      "actual": "96f753267f4fe3bb398faf954103ffd911de104d0ea096422e68464c5ddc9bfc"
+    },
+    {
+      "file": "index.html",
+      "pass": true,
+      "expected": "b78b4cb0938fc4b083e028717577d64d02d3bda24370a84aba3bd4bba2f58f53",
+      "actual": "b78b4cb0938fc4b083e028717577d64d02d3bda24370a84aba3bd4bba2f58f53"
+    },
+    {
+      "file": "style.css",
+      "pass": true,
+      "expected": "44aaa0da36ab312a8df0953e9760d120fb9c82ddc8b58ad87c704d7f881def95",
+      "actual": "44aaa0da36ab312a8df0953e9760d120fb9c82ddc8b58ad87c704d7f881def95"
+    }
+  ]
+}

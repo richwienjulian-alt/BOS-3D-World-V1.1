@@ -1,0 +1,172 @@
+--- a/city-presenter-plan.js
++++ b/city-presenter-plan.js
+@@ -96,22 +96,25 @@
+             purpose: "Neutraler Einstieg vor der gef\u00fchrten Wohnungsbrand-Demo."
+           },
+           CAM_CITY_OVERVIEW: {
+-            label: "Stadt & Wohnungsbrand",
+-            purpose: "Stadtstruktur, Anfahrt und Einsatzumfeld von Mission 001 einordnen."
++            label: "Wohnquartier & Anfahrtsraum",
++            position: { x: -34, y: 16, z: 49 },
++            target: { x: -10.68, y: 3.2, z: 33.9 },
++            fov: 60,
++            purpose: "Wohnquartier, Ring Nord und die Anfahrt zum Wohnungsbrand in einem verständlichen Kontext zeigen."
+           },
+           CAM_INCIDENT_W14: {
+             label: "Einsatzstelle Wohnungsbrand",
+-            position: { x: -27, y: 11, z: 46 },
++            position: { x: -25, y: 10, z: 47 },
+             target: { x: -10.68, y: 4.8, z: 33.9 },
+-            fov: 58,
+-            purpose: "Wohnungsbrand, Einsatzkr\u00e4fte, Absperrung und Zuschauer im direkten Einsatzbild zeigen."
++            fov: 54,
++            purpose: "Brandobjekt, Einsatzkräfte, Absperrung und Zuschauer klar und ohne unnötige Distanz zeigen."
+           },
+           CAM_COMMUNICATION_MAST_B: {
+-            label: "Netzwirkung & MAST_B",
+-            position: { x: 29, y: 14, z: 30 },
+-            target: { x: 3, y: 5.2, z: 23 },
+-            fov: 61,
+-            purpose: "MAST_B, zivile Zelllast und BOS-Priorisierung im Zusammenhang mit Mission 001 zeigen."
++            label: "Netzwirkung Wohnungsbrand & MAST_B",
++            position: { x: 22, y: 16, z: 46 },
++            target: { x: 3, y: 7.0, z: 24 },
++            fov: 66,
++            purpose: "MAST_B und den betroffenen Innenstadt-/Wohnbereich gemeinsam zeigen, damit Zelllast und BOS-Priorisierung räumlich nachvollziehbar sind."
+           }
+         },
+         recommendedBookmarkByState: {
+@@ -140,25 +143,25 @@
+             purpose: "Neutraler Einstieg vor der gef\u00fchrten Arena-Demo."
+           },
+           CAM_CITY_OVERVIEW: {
+-            label: "Arena & Stadtquartier",
+-            position: { x: 51, y: 18, z: -5 },
+-            target: { x: 38, y: 2.5, z: -23.5 },
+-            fov: 60,
+-            purpose: "Arena, Rettungsweg und umliegendes Stadtquartier f\u00fcr Mission 002 einordnen."
++            label: "Arena, Rettungsweg & Gesundheitsquartier",
++            position: { x: 53, y: 21, z: 8 },
++            target: { x: 36, y: 2.5, z: 3 },
++            fov: 72,
++            purpose: "Arena, Rettungsweg in Richtung Norden und das Gesundheitsquartier als zusammenhängenden Einsatzraum zeigen."
+           },
+           CAM_INCIDENT_W14: {
+             label: "Einsatzstelle Arena-Notfall",
+-            position: { x: 52, y: 10, z: -38 },
++            position: { x: 50, y: 9, z: -41 },
+             target: { x: 41.15, y: 1.6, z: -26.65 },
+-            fov: 55,
+-            purpose: "Patient, Rettungsdienst und Arena-Vorplatz im direkten Einsatzbild zeigen."
++            fov: 52,
++            purpose: "Patient, Rettungswagen und Arena-Vorplatz in einer ruhigen, klaren Einsatzperspektive zeigen."
+           },
+           CAM_COMMUNICATION_MAST_B: {
+             label: "Arena-Netz & MAST_E",
+-            position: { x: 47, y: 15, z: -7 },
+-            target: { x: 33.5, y: 6.5, z: -20.5 },
+-            fov: 66,
+-            purpose: "Arena-Einsatz und MAST_E gemeinsam zeigen, um Zelllast und Rettungsdienst-Priorisierung zu erkl\u00e4ren."
++            position: { x: 11, y: 15, z: -4 },
++            target: { x: 31, y: 6.0, z: -18 },
++            fov: 62,
++            purpose: "MAST_E und Arena gemeinsam im Bild halten, damit hohe Veranstaltungszelllast und Rettungsdienst-Priorisierung verständlich erklärt werden können."
+           }
+         },
+         recommendedBookmarkByState: {
+@@ -190,25 +193,25 @@
+             purpose: "Neutraler Einstieg vor der gef\u00fchrten Stadtwerke-Demo."
+           },
+           CAM_CITY_OVERVIEW: {
+-            label: "Innenstadt & Wasserleck",
+-            position: { x: -30, y: 18, z: 30 },
++            label: "Innenstadt & Stadtwerke-Anfahrt",
++            position: { x: -29, y: 16, z: 25 },
+             target: { x: -7.26, y: 2.0, z: 6.36 },
+             fov: 60,
+-            purpose: "Innenstadt, Anfahrtskorridor und Einsatzumfeld des Wasserlecks einordnen."
++            purpose: "Innenstadt, Hauptachse und Einsatzumfeld des Wasserlecks in einem zusammenhängenden Stadtbild zeigen."
+           },
+           CAM_INCIDENT_W14: {
+             label: "Einsatzstelle Wasserleck",
+-            position: { x: -24, y: 10, z: 18 },
++            position: { x: -21, y: 9, z: 16 },
+             target: { x: -7.26, y: 1.8, z: 6.36 },
+-            fov: 55,
+-            purpose: "Wasseraustritt, Stadtwerke, Feuerwehr und Polizei im direkten Einsatzbild zeigen."
++            fov: 52,
++            purpose: "Wasseraustritt, Stadtwerke, Feuerwehr und Polizei kompakt und gut lesbar im direkten Einsatzbild zeigen."
+           },
+           CAM_COMMUNICATION_MAST_B: {
+             label: "Innenstadt-Netz & MAST_B",
+-            position: { x: 26, y: 14, z: 2 },
+-            target: { x: 4, y: 5, z: 10 },
+-            fov: 64,
+-            purpose: "Wasserleck und MAST_B gemeinsam zeigen, um die steigende Innenstadtlast und BOS-Priorisierung zu erkl\u00e4ren."
++            position: { x: 27, y: 15, z: -3 },
++            target: { x: 4, y: 5.0, z: 10 },
++            fov: 62,
++            purpose: "MAST_B und den Innenstadt-Einsatzbereich gemeinsam zeigen, um Lastanstieg und BOS-Priorisierung räumlich einzuordnen."
+           }
+         },
+         recommendedBookmarkByState: {
+@@ -240,25 +243,25 @@
+             purpose: "Neutraler Einstieg vor der gef\u00fchrten Verkehrsunfall-Demo."
+           },
+           CAM_CITY_OVERVIEW: {
+-            label: "Gesundheitsquartier & Ringstra\u00dfe",
+-            position: { x: 16, y: 18, z: 52 },
+-            target: { x: 33, y: 2, z: 36 },
+-            fov: 60,
+-            purpose: "Ringstra\u00dfe, Gesundheitsquartier und Anfahrtsraum von Mission 004 einordnen."
++            label: "Ring Nord & Gesundheitsquartier",
++            position: { x: 7, y: 16, z: 53 },
++            target: { x: 31.6, y: 2.0, z: 40.3 },
++            fov: 61,
++            purpose: "Ring Nord, Unfallbereich und Gesundheitsquartier gemeinsam zeigen, ohne in eine zu hohe Vogelperspektive zu wechseln."
+           },
+           CAM_INCIDENT_W14: {
+             label: "Einsatzstelle Verkehrsunfall",
+-            position: { x: 18, y: 10, z: 51 },
++            position: { x: 18, y: 9, z: 52 },
+             target: { x: 31.6, y: 1.8, z: 40.3 },
+-            fov: 55,
+-            purpose: "Unfallfahrzeuge, Patient, Zuschauer und eintreffende Einsatzkr\u00e4fte im direkten Einsatzbild zeigen."
++            fov: 52,
++            purpose: "Unfallfahrzeuge, Patient, Zuschauer und Einsatzkräfte aus einer nahen, stabilen Präsentationsperspektive zeigen."
+           },
+           CAM_COMMUNICATION_MAST_B: {
+             label: "Unfallzelle & MAST_C",
+-            position: { x: 52, y: 14, z: 50 },
+-            target: { x: 40.8, y: 6.5, z: 37.6 },
+-            fov: 66,
+-            purpose: "Unfallstelle und MAST_C gemeinsam zeigen, wenn die Zelle bereits vor Feuerwehr und Polizei \u00fcberlastet ist."
++            position: { x: 53, y: 16, z: 53 },
++            target: { x: 43, y: 7.0, z: 38 },
++            fov: 62,
++            purpose: "MAST_C und den Unfallbereich gemeinsam zeigen, damit frühe Überlastung und anschließende BOS-Priorisierung direkt nachvollziehbar sind."
+           }
+         },
+         recommendedBookmarkByState: {
+--- a/index.html
++++ b/index.html
+@@ -248,14 +248,11 @@
+             <strong id="presenter-hint-title">Bereitschaft</strong>
+             <p id="presenter-hint-message">Presenter wird initialisiert.</p>
+           </div>
+-          <div class="presenter-actions">
+-            <button id="presenter-next-button" class="presenter-next-button" type="button" disabled>Nächster Schritt</button>
+-            <button id="presenter-reset-button" class="presenter-reset-button" type="button">Demo zurücksetzen</button>
+-          </div>
+-          <div class="presenter-network-controls">
+-            <span class="presenter-label">Netz-Demo</span>
+-            <button id="overload-button" class="secondary-button" type="button">Netzlast simulieren</button>
+-            <button id="bos-button" class="primary-button" type="button">BOS-Spur: automatisch</button>
++          <div id="presenter-compatibility-controls" hidden aria-hidden="true">
++            <button id="presenter-next-button" type="button" tabindex="-1">Nächster Schritt</button>
++            <button id="presenter-reset-button" type="button" tabindex="-1">Demo zurücksetzen</button>
++            <button id="overload-button" type="button" tabindex="-1">Netzlast simulieren</button>
++            <button id="bos-button" type="button" tabindex="-1">BOS-Spur: automatisch</button>
+           </div>
+           <p id="presenter-status" class="presenter-status">Freie Kamera</p>
+           <p class="presenter-manual-note">Kamera und Aktionen werden ausschließlich manuell ausgelöst.</p>

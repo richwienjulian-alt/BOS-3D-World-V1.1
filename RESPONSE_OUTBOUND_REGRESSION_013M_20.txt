@@ -1,0 +1,4 @@
+MISSION_003 effective delays fire=0.00s police=5.00s; strict SAT=CLEAR
+MISSION_004 effective delays fire=0.00s police=5.00s; strict SAT=CLEAR
+MISSION BOS BUILD 013M.10 OUTBOUND COLLISION VALIDATION
+STATUS: PASSED

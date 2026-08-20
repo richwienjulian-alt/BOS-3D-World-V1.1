@@ -1,0 +1,13 @@
+{
+  "status": "PASSED",
+  "changedExistingProductionLike": [
+    "city-presenter-plan.js",
+    "index.html"
+  ],
+  "unchangedExistingProductionLikeCount": 237,
+  "missingExisting": [],
+  "localScriptReferences": 159,
+  "missingLocalScripts": [],
+  "domIds": 94,
+  "duplicateDomIds": []
+}

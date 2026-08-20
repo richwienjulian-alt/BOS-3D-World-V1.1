@@ -1,0 +1,22 @@
+{
+  "status": "PASSED",
+  "counts": {
+    "sourceDependencyErrors": 0,
+    "sourcePhaseErrors": 0,
+    "policyErrors": 0,
+    "endpointDefinitionErrors": 0,
+    "endpointReferenceErrors": 0,
+    "duplicateIdErrors": 0,
+    "radioModelErrors": 0,
+    "dynamicLoadPolicyErrors": 0,
+    "visualizationPolicyErrors": 0,
+    "inspectionPolicyErrors": 0,
+    "inspectionReferenceErrors": 0,
+    "dashboardPolicyErrors": 0,
+    "runtimeContractErrors": 0,
+    "referenceSimulationErrors": 0,
+    "fixedServingTowerErrors": 0,
+    "expectedCountErrors": 0
+  },
+  "errors": []
+}

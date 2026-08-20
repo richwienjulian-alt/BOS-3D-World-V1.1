@@ -1,0 +1,25 @@
+{
+  "validator": "BUILD_013M18_SOURCE_REGRESSION",
+  "sourceBuild": "Mission-BOS-Build-013M.17",
+  "protectedChecked": 178,
+  "allowedExistingProductionChanges": [
+    "app.js",
+    "city-customer-dashboard-plan.js",
+    "city-network-exploration-plan.js",
+    "city-network-inspection-controller.js",
+    "customer-dashboard-contract-validator.js",
+    "customer-dashboard-dom-validator.js",
+    "index.html",
+    "network-exploration-validator.js",
+    "style.css"
+  ],
+  "requiredNewFiles": [
+    "city-touch-camera-plan.js",
+    "touch-camera-validator.js",
+    "city-touch-camera-controller.js",
+    "city-customer-incident-presentation-plan.js",
+    "customer-incident-presentation-validator.js"
+  ],
+  "status": "PASSED",
+  "errors": []
+}

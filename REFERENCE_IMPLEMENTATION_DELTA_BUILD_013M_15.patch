@@ -1,0 +1,100 @@
+--- a/city-arena-event-controller.js
++++ b/city-arena-event-controller.js
+@@ -157,8 +157,11 @@
+       sourceMutationErrors: 0,
+       automaticActionErrors: 0,
+       fixedServingTowerErrors: 0,
++      recoverableWarnings: 0,
+       status: "PASSED",
+       failed: false,
++      fatal: false,
++      warnings: [],
+       errors: []
+     };
+   }
+@@ -169,7 +172,9 @@
+     Object.keys(safety).forEach(function (key) {
+       if (/Errors$/.test(key)) console[method](key + ": " + safety[key]);
+     });
++    console[method]("Recoverable warnings: " + Number(safety.recoverableWarnings || 0));
+     console[method]("STATUS: " + safety.status);
++    if (safety.warnings && safety.warnings.length) console.warn(safety.warnings);
+     if (safety.errors.length) console.error(safety.errors);
+     console.groupEnd();
+   }
+@@ -182,6 +187,7 @@
+     safety.dependencyErrors = 1;
+     safety.status = "FAILED";
+     safety.failed = true;
++    safety.fatal = true;
+     safety.errors.push(message || "Arena event controller initialization failed.");
+     logSafety(safety);
+     if (ui && ui.status) ui.status.textContent = "Nicht verfügbar";
+@@ -323,6 +329,18 @@
+         ? ambulanceFoundationRuntime.getState() : "FAILED";
+     }
+ 
++    function getCellLoadSafety() {
++      return cellLoadRuntime && typeof cellLoadRuntime.getSafetyStatus === "function"
++        ? cellLoadRuntime.getSafetyStatus() : null;
++    }
++
++    function cellLoadRuntimeUsable() {
++      var status = getCellLoadSafety();
++      if (!status) return false;
++      if (status.status === "PASSED") return true;
++      return status.fatal !== true;
++    }
++
+     function canActivate(ownerId) {
+       var missionOwned = ownerId === "MISSION_002";
+       var activeMissionId = getActiveMissionId();
+@@ -332,7 +350,7 @@
+         !(ambulanceFoundationRuntime.isActive && ambulanceFoundationRuntime.isActive()) &&
+         isBosActive() !== true && isManualLoadActive() !== true &&
+         renderer.getSafetyStatus().status === "PASSED" &&
+-        cellLoadRuntime.getSafetyStatus().status === "PASSED";
++        cellLoadRuntimeUsable();
+     }
+ 
+     function resolvePosition(endpoint) {
+@@ -541,10 +559,23 @@
+ 
+     function runSafetyCheck(initial) {
+       var next = emptySafety();
++      var rendererSafety = renderer && typeof renderer.getSafetyStatus === "function"
++        ? renderer.getSafetyStatus() : null;
++      var cellLoadSafety = getCellLoadSafety();
+       if (!validation || validation.status !== "PASSED" || towerRecords.length !== 5 ||
+-          renderer.getSafetyStatus().status !== "PASSED" || cellLoadRuntime.getSafetyStatus().status !== "PASSED") {
++          !rendererSafety || rendererSafety.status !== "PASSED") {
++        next.dependencyErrors += 1;
++        next.errors.push("One or more structural arena event dependencies are not safe.");
++      }
++      if (!cellLoadSafety) {
++        next.dependencyErrors += 1;
++        next.errors.push("Cell-load runtime safety is unavailable.");
++      } else if (cellLoadSafety.fatal === true) {
+         next.dependencyErrors += 1;
+-        next.errors.push("One or more arena event dependencies are not safe.");
++        next.errors.push("Cell-load runtime reported a fatal error.");
++      } else if (cellLoadSafety.status !== "PASSED") {
++        next.recoverableWarnings += 1;
++        next.warnings.push("Cell-load runtime reported a recoverable association warning.");
+       }
+       if (sourceSignature(options) !== source) {
+         next.sourceMutationErrors += 1;
+@@ -627,9 +658,13 @@
+       if (next.errors.length) {
+         next.status = "FAILED";
+         next.failed = true;
++        next.fatal = true;
+         safety = next;
+         if (!failed) fail(next.errors[0]);
+       } else {
++        next.status = "PASSED";
++        next.failed = false;
++        next.fatal = false;
+         safety = next;
+       }
+       if (initial || safety.failed) logSafety(safety);

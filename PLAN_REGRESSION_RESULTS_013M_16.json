@@ -1,0 +1,15 @@
+{
+  "status": "PASSED",
+  "results": [
+    {
+      "name": "MISSION_003_RESPONSE",
+      "status": "PASSED",
+      "errors": []
+    },
+    {
+      "name": "MISSION_004_PLAN",
+      "status": "PASSED",
+      "errors": []
+    }
+  ]
+}

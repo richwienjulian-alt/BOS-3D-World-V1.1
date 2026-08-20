@@ -1,0 +1,22 @@
+{
+  "title": "013M.13 FINALIZATION ROOT CAUSE",
+  "status": "REPRODUCED",
+  "checks": [
+    {
+      "label": "Mission 002 shared baseline is a Mission 004 pre-READY gate",
+      "reproduced": true
+    },
+    {
+      "label": "Dashboard/cell-load threshold is a hard Mission 004 completion gate",
+      "reproduced": true
+    },
+    {
+      "label": "Completion timeout can fail an operationally complete mission",
+      "reproduced": true
+    },
+    {
+      "label": "No deterministic network finalization adapter is used",
+      "reproduced": true
+    }
+  ]
+}

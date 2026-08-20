@@ -1,0 +1,5 @@
+MISSION BOS BUILD 013M.19 INTERNAL SHA-256 VERIFICATION
+STATUS: PASSED
+FINAL SHA256SUMS entries: 500
+Verified entries: 500
+Root SHA256SUMS.txt is intentionally not self-hashed.

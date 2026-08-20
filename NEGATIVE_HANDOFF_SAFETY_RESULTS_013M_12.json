@@ -1,0 +1,9 @@
+{
+  "checks": {
+    "normalResetRejectsAmbulanceResetFailure": true,
+    "normalResetRejectsResponseResetFailure": true,
+    "fatalAmbulanceBlocksHandoff": true,
+    "fatalResponseBlocksHandoff": true
+  },
+  "status": "PASSED"
+}

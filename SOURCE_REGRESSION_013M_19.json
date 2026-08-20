@@ -1,0 +1,28 @@
+{
+  "validator": "BUILD_013M19_SOURCE_REGRESSION",
+  "protectedChecked": 221,
+  "allowedExistingProductionChanges": [
+    "app.js",
+    "city-customer-dashboard-plan.js",
+    "city-touch-camera-controller.js",
+    "city-touch-camera-plan.js",
+    "customer-dashboard-contract-validator.js",
+    "customer-dashboard-dom-validator.js",
+    "index.html",
+    "style.css",
+    "touch-camera-validator.js"
+  ],
+  "actualAllowedChanges": [
+    "app.js",
+    "city-customer-dashboard-plan.js",
+    "city-touch-camera-controller.js",
+    "city-touch-camera-plan.js",
+    "customer-dashboard-contract-validator.js",
+    "customer-dashboard-dom-validator.js",
+    "index.html",
+    "style.css",
+    "touch-camera-validator.js"
+  ],
+  "status": "PASSED",
+  "errors": []
+}

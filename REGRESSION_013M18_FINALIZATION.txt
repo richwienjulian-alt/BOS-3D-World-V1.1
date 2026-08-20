@@ -1,0 +1,157 @@
+=== node /mnt/data/build013m18_work/validation-013m14/validators/mission-004-finalization-contract-validator.js /mnt/data/build013m18_work ===
+{
+  "title": "MISSION 004 FINALIZATION CONTRACT",
+  "status": "PASSED",
+  "errors": []
+}
+=== node /mnt/data/build013m18_work/validation-013m14/validators/mission-004-finalization-source-validator.js /mnt/data/build013m18_work ===
+{
+  "title": "MISSION 004 FINALIZATION SOURCE",
+  "status": "PASSED",
+  "checks": [
+    {
+      "label": "M2 baseline is diagnostic/post-commit only",
+      "ok": true
+    },
+    {
+      "label": "Cell load threshold is non-blocking",
+      "ok": true
+    },
+    {
+      "label": "Commit requires shared network + priority + response handoff",
+      "ok": true
+    },
+    {
+      "label": "Deterministic finalizer exists",
+      "ok": true
+    },
+    {
+      "label": "Fallback starts before unchanged 8s deadline",
+      "ok": true
+    },
+    {
+      "label": "Shared vehicle reset not added",
+      "ok": true
+    },
+    {
+      "label": "Network adapter has guarded finalizer",
+      "ok": true
+    },
+    {
+      "label": "Network finalizer pins exact base",
+      "ok": true
+    }
+  ]
+}
+=== node /mnt/data/build013m18_work/validation-013m14/validators/mission-004-finalization-runtime-validator.js /mnt/data/build013m18_work ===
+node:fs:442
+    return binding.readFileUtf8(path, stringToFlags(options.flag));
+                   ^
+
+Error: EISDIR: illegal operation on a directory, read
+    at Object.readFileSync (node:fs:442:20)
+    at Object.<anonymous> (/mnt/data/build013m18_work/validation-013m14/validators/mission-004-finalization-runtime-validator.js:5:15)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49 {
+  errno: -21,
+  code: 'EISDIR',
+  syscall: 'read'
+}
+
+Node.js v22.16.0
+=== node /mnt/data/build013m18_work/mission-004-integration-validator.js /mnt/data/build013m18_work ===
+/mnt/data/build013m18_work/mission-004-integration-validator.js:34
+  window.MissionBosMission004IntegrationValidator = { validate: validate, logResult: logResult };
+  ^
+
+ReferenceError: window is not defined
+    at /mnt/data/build013m18_work/mission-004-integration-validator.js:34:3
+    at Object.<anonymous> (/mnt/data/build013m18_work/mission-004-integration-validator.js:35:3)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49
+
+Node.js v22.16.0
+=== node /mnt/data/build013m18_work/mission-004-network-timing-validator.js /mnt/data/build013m18_work ===
+/mnt/data/build013m18_work/mission-004-network-timing-validator.js:58
+  window.MissionBosMission004NetworkTimingValidator = { validate: validate, logResult: logResult };
+  ^
+
+ReferenceError: window is not defined
+    at /mnt/data/build013m18_work/mission-004-network-timing-validator.js:58:3
+    at Object.<anonymous> (/mnt/data/build013m18_work/mission-004-network-timing-validator.js:59:3)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49
+
+Node.js v22.16.0
+=== node /mnt/data/build013m18_work/mission-004-ambulance-corridor-validator.js /mnt/data/build013m18_work ===
+/mnt/data/build013m18_work/mission-004-ambulance-corridor-validator.js:151
+  window.MissionBosMission004AmbulanceCorridorValidator = { validate: validate, logResult: logResult };
+  ^
+
+ReferenceError: window is not defined
+    at /mnt/data/build013m18_work/mission-004-ambulance-corridor-validator.js:151:3
+    at Object.<anonymous> (/mnt/data/build013m18_work/mission-004-ambulance-corridor-validator.js:152:3)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49
+
+Node.js v22.16.0
+=== node /mnt/data/build013m18_work/mission-004-return-maneuver-contract-validator.js /mnt/data/build013m18_work ===
+/mnt/data/build013m18_work/mission-004-return-maneuver-contract-validator.js:46
+  window.MissionBosMission004ReturnManeuverContractValidator = { validate: validate, logResult: logResult };
+  ^
+
+ReferenceError: window is not defined
+    at /mnt/data/build013m18_work/mission-004-return-maneuver-contract-validator.js:46:3
+    at Object.<anonymous> (/mnt/data/build013m18_work/mission-004-return-maneuver-contract-validator.js:47:3)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49
+
+Node.js v22.16.0
+=== node /mnt/data/build013m18_work/mission-004-polish-contract-validator.js /mnt/data/build013m18_work ===
+/mnt/data/build013m18_work/mission-004-polish-contract-validator.js:94
+  window.MissionBosMission004PolishContractValidator = { validate: validate, logResult: logResult };
+  ^
+
+ReferenceError: window is not defined
+    at /mnt/data/build013m18_work/mission-004-polish-contract-validator.js:94:3
+    at Object.<anonymous> (/mnt/data/build013m18_work/mission-004-polish-contract-validator.js:95:3)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49
+
+Node.js v22.16.0
