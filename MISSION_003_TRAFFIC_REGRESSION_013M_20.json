@@ -1,0 +1,15 @@
+{
+  "validator": "MISSION_003_UTILITY_TRAFFIC",
+  "baselineCollisionPhases": 64,
+  "firstCollision": {
+    "phase": 3.399999999999996,
+    "t": 9.54999999999984
+  },
+  "safeHolds": [
+    4,
+    25,
+    43
+  ],
+  "maxWaitSeconds": 7.764414,
+  "status": "PASSED"
+}

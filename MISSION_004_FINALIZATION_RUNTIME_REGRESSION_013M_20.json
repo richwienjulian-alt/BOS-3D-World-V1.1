@@ -1,0 +1,144 @@
+{
+  "title": "MISSION 004 FINALIZATION RUNTIME",
+  "status": "PASSED",
+  "results": [
+    {
+      "name": "normal-network-cell-load-nonblocking",
+      "state": "READY",
+      "seconds": 6.2,
+      "settlement": {
+        "active": false,
+        "elapsedSeconds": 0,
+        "blockers": [],
+        "fallbackIssued": false,
+        "fallbackResult": null,
+        "postCommitMission002Baseline": {
+          "ready": false,
+          "blockers": [
+            "TEST_M2_PENDING"
+          ]
+        },
+        "cellLoadProfileState": "READY",
+        "networkState": "READY",
+        "bosEndpointIds": [
+          "A",
+          "B",
+          "C"
+        ]
+      },
+      "counters": {
+        "end": 1,
+        "finalizeNetwork": 0,
+        "priorityReset": 0,
+        "capacityReset": 0,
+        "loadReset": 0,
+        "responseFinalize": 1,
+        "sceneReset": 2
+      }
+    },
+    {
+      "name": "deterministic-finalization",
+      "state": "READY",
+      "seconds": 7.2,
+      "settlement": {
+        "active": false,
+        "elapsedSeconds": 0,
+        "blockers": [],
+        "fallbackIssued": true,
+        "fallbackResult": {
+          "ok": true,
+          "priority": true,
+          "capacity": true,
+          "load": true,
+          "network": true
+        },
+        "postCommitMission002Baseline": {
+          "ready": false,
+          "blockers": [
+            "TEST_M2_PENDING"
+          ]
+        },
+        "cellLoadProfileState": "READY",
+        "networkState": "READY",
+        "bosEndpointIds": [
+          "A",
+          "B",
+          "C"
+        ]
+      },
+      "counters": {
+        "end": 1,
+        "finalizeNetwork": 1,
+        "priorityReset": 1,
+        "capacityReset": 1,
+        "loadReset": 1,
+        "responseFinalize": 1,
+        "sceneReset": 2
+      }
+    },
+    {
+      "name": "m2-baseline-not-precommit",
+      "state": "READY",
+      "seconds": 1.3,
+      "settlement": {
+        "active": false,
+        "elapsedSeconds": 0,
+        "blockers": [],
+        "fallbackIssued": false,
+        "fallbackResult": null,
+        "postCommitMission002Baseline": {
+          "ready": false,
+          "blockers": [
+            "TEST_M2_PENDING"
+          ]
+        },
+        "cellLoadProfileState": "READY",
+        "networkState": "READY",
+        "bosEndpointIds": [
+          "A",
+          "B",
+          "C"
+        ]
+      },
+      "counters": {
+        "end": 1,
+        "finalizeNetwork": 0,
+        "priorityReset": 0,
+        "capacityReset": 0,
+        "loadReset": 0,
+        "responseFinalize": 1,
+        "sceneReset": 2
+      }
+    },
+    {
+      "name": "response-safety-still-blocks",
+      "state": "RETURNING",
+      "seconds": 25,
+      "settlement": {
+        "active": false,
+        "elapsedSeconds": 0,
+        "blockers": [],
+        "fallbackIssued": false,
+        "fallbackResult": null,
+        "postCommitMission002Baseline": null,
+        "cellLoadProfileState": "RETURNING",
+        "networkState": "RETURNING",
+        "bosEndpointIds": [
+          "A",
+          "B",
+          "C"
+        ]
+      },
+      "counters": {
+        "end": 0,
+        "finalizeNetwork": 0,
+        "priorityReset": 0,
+        "capacityReset": 0,
+        "loadReset": 0,
+        "responseFinalize": 0,
+        "sceneReset": 1
+      }
+    }
+  ],
+  "errors": []
+}

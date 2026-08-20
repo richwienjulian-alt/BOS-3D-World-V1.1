@@ -1,0 +1,8 @@
+{
+  "validator": "MISSION_SPECIFIC_CAMERA_PROFILES",
+  "status": "PASSED",
+  "profiles": 4,
+  "baseBookmarks": 4,
+  "resolvedBookmarks": 16,
+  "errors": []
+}

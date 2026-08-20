@@ -1,0 +1,17 @@
+{
+  "validator": "MISSION_004_DOWNTOWN_OUTBOUND",
+  "baselineCollisionPhases": 92,
+  "firstCollision": {
+    "phase": 0,
+    "t": 12.435000000000544,
+    "responder": "RESPONSE_FIRE_01"
+  },
+  "safeHolds": [
+    4,
+    27,
+    50
+  ],
+  "maxWaitSeconds": 6.559188,
+  "returnCorridorPreserved": true,
+  "status": "PASSED"
+}

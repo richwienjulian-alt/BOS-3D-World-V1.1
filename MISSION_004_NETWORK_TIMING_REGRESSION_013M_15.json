@@ -1,0 +1,17 @@
+{
+  "title": "MISSION BOS MISSION 004 NETWORK TIMING REGRESSION",
+  "dependencyErrors": 0,
+  "traceErrors": 0,
+  "preArrivalLoadErrors": 0,
+  "overloadTimingErrors": 0,
+  "responderEntryErrors": 0,
+  "priorityErrors": 0,
+  "dynamicCellErrors": 0,
+  "ambulanceArrivalTime": 14.7,
+  "overloadTime": 15.15,
+  "priorityTime": 15.35,
+  "fireArrivalTime": 36.95,
+  "policeArrivalTime": 37.95,
+  "status": "PASSED",
+  "errors": []
+}

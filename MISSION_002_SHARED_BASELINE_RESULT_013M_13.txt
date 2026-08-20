@@ -1,0 +1,6 @@
+MISSION BOS 013M.12 MISSION 002 SHARED BASELINE VALIDATION
+baselineReadyWhileMission004StillSelected: PASSED
+canStartStillUserGated: PASSED
+immediateStartAfterSelection: PASSED
+fatalAmbulanceSafetyStillBlocks: PASSED
+STATUS: PASSED

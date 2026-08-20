@@ -1,0 +1,3843 @@
+[
+  {
+    "time": 6.4,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 0,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 6.45,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 0.28250000000000003,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 6.5,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 0.5650000000000001,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 6.55,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 0.8475000000000001,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 6.6,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 1.1300000000000001,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 6.65,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 1.4125,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 6.7,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 1.695,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 6.75,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 1.9775,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 6.8,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 2.2600000000000002,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 6.85,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 2.5425000000000004,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 6.9,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 2.8250000000000006,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 6.95,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 3.107500000000001,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 7,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 3.390000000000001,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 7.05,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 3.672500000000001,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 7.1,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 3.9550000000000014,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 7.15,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 4.237500000000002,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 7.2,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 4.520000000000001,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 7.25,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 4.802500000000001,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 7.3,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 5.085000000000001,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 7.35,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 5.367500000000001,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 7.4,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 5.65,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 7.45,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 5.9325,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 7.5,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 6.215,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 7.55,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 6.4975,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 7.6,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 6.779999999999999,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 7.65,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 7.062499999999999,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 7.7,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 7.344999999999999,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 7.75,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 7.627499999999999,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 7.8,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 7.909999999999998,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 7.85,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 8.192499999999999,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 7.9,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 8.475,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 7.95,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 8.7575,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 8,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 9.040000000000001,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 8.05,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 9.322500000000002,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 8.1,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 9.605000000000002,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 8.15,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 9.887500000000003,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 8.2,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 10.170000000000003,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 8.25,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 10.452500000000004,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 8.3,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 10.735000000000005,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 8.35,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 11.017500000000005,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 8.4,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 11.300000000000006,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 8.45,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 11.582500000000007,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 8.5,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 11.865000000000007,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 8.55,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 12.147500000000008,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 8.6,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 12.430000000000009,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 8.65,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 12.71250000000001,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 8.7,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 12.99500000000001,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 8.75,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 13.27750000000001,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 8.8,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 13.560000000000011,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 8.85,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 13.842500000000012,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 8.9,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 14.125000000000012,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 8.95,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 14.407500000000013,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 9,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 14.690000000000014,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 9.05,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 14.972500000000014,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 9.1,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 15.255000000000015,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 9.15,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 15.537500000000016,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 9.2,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 15.820000000000016,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 9.25,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 16.102500000000017,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 9.3,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 16.385000000000016,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 9.35,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 16.667500000000015,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 9.4,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 16.950000000000014,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 9.45,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 17.232500000000012,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 9.5,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 17.51500000000001,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 9.55,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 17.79750000000001,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 9.6,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 18.08000000000001,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 9.65,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 18.362500000000008,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 9.7,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 18.645000000000007,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 9.75,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 18.927500000000006,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 9.8,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 19.210000000000004,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 9.85,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 19.492500000000003,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 9.9,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 19.775000000000002,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 9.95,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 20.0575,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 10,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 20.34,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 10.05,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 20.6225,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 10.1,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 20.904999999999998,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 10.15,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 21.187499999999996,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 10.2,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 21.469999999999995,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 10.25,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 21.752499999999994,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 10.3,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 22.034999999999993,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 10.35,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 22.317499999999992,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 10.4,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 22.59999999999999,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 10.45,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 22.88249999999999,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 10.5,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 23.16499999999999,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 10.55,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 23.447499999999987,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 10.6,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 23.729999999999986,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 10.65,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 24.012499999999985,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 10.7,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 24.294999999999984,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 10.75,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 24.577499999999983,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 10.8,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 24.85999999999998,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 10.85,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 25.14249999999998,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 10.9,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 25.42499999999998,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 10.95,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 25.70749999999998,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 11,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 25.989999999999977,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 11.05,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 26.272499999999976,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 11.1,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 26.554999999999975,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 11.15,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 26.837499999999974,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 11.2,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 27.119999999999973,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 11.25,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 27.40249999999997,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 11.3,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 27.68499999999997,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 11.35,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 27.96749999999997,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 11.4,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 28.249999999999968,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 11.45,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 28.532499999999967,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 11.5,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 28.814999999999966,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 11.55,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 29.097499999999965,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 11.6,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 29.379999999999963,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 11.65,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 29.662499999999962,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 11.7,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 29.94499999999996,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 11.75,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 30.22749999999996,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 11.8,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 30.50999999999996,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 11.85,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 30.792499999999958,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 11.9,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 31.074999999999957,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 11.95,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 31.357499999999956,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 12,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 31.639999999999954,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 12.05,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 31.922499999999953,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 12.1,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 32.204999999999956,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 12.15,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 32.487499999999955,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 12.2,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 32.76999999999995,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 12.25,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 33.05249999999995,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 12.3,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 33.33499999999995,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 12.35,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 33.61749999999995,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 12.4,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 33.89999999999995,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 12.45,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 34.18249999999995,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 12.5,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 34.46499999999995,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 12.55,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 34.747499999999945,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 12.6,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 35.029999999999944,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 12.65,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 35.31249999999994,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 12.7,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 35.59499999999994,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 12.75,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 35.87749999999994,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 12.8,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 36.15999999999994,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 12.85,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 36.44249999999994,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 12.9,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 36.72499999999994,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 12.95,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 37.007499999999936,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 13,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 37.289999999999935,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 13.05,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 37.572499999999934,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 13.1,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 37.85499999999993,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 13.15,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 38.13749999999993,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 13.2,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 38.41999999999993,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 13.25,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 38.70249999999993,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 13.3,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 38.98499999999993,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 13.35,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 39.26749999999993,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 13.4,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 39.549999999999926,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 13.45,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 39.832499999999925,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 13.5,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 40.114999999999924,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 13.55,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 40.39749999999992,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 13.6,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 40.67999999999992,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 13.65,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 40.96249999999992,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 13.7,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 41.24499999999992,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 13.75,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 41.52749999999992,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 13.8,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 41.80999999999992,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 13.85,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 42.092499999999916,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 13.9,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 42.374999999999915,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 13.95,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 42.657499999999914,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 14,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 42.93999999999991,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 14.05,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 43.22249999999991,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 14.1,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 43.50499999999991,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 14.15,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 43.78749999999991,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 14.2,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 44.06999999999991,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 14.25,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 44.35249999999991,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 14.3,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 44.634999999999906,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 14.35,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 44.917499999999905,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 14.4,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 45.1999999999999,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 14.45,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 45.4824999999999,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 14.5,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 45.7649999999999,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 14.55,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 46.0474999999999,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 14.6,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 46.3299999999999,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 14.65,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 46.6124999999999,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 14.7,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 46.8949999999999,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 14.75,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 47.177499999999895,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 14.8,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 47.459999999999894,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 14.85,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 47.74249999999989,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 14.9,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 48.02499999999989,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 14.95,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 48.30749999999989,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 15,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 48.58999999999989,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 15.05,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 48.87249999999989,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 15.1,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 49.15499999999989,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 15.15,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 49.437499999999886,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 15.2,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 49.719999999999885,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 15.25,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 50.002499999999884,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 15.3,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 50.28499999999988,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 15.35,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 50.56749999999988,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 15.4,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 50.84999999999988,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 15.45,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 51.13249999999988,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 15.5,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 51.41499999999988,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 15.55,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 51.69749999999988,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 15.6,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 51.979999999999876,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 15.65,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 52.262499999999875,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 15.7,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 52.544999999999874,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 15.75,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 52.82749999999987,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 15.8,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 53.10999999999987,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 15.85,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 53.39249999999987,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 15.9,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 53.67499999999987,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 15.95,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 53.95749999999987,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 16,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 54.23999999999987,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 16.05,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 54.522499999999866,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 16.1,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 54.804999999999865,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 16.15,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 55.087499999999864,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 16.2,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 55.36999999999986,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 16.25,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 55.65249999999986,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 16.3,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 55.93499999999986,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 16.35,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 56.21749999999986,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 16.4,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 56.49999999999986,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 16.45,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 56.78249999999986,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 16.5,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 57.064999999999856,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 16.55,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 57.347499999999854,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 16.6,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 57.62999999999985,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 16.65,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 57.91249999999985,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 16.7,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 58.19499999999985,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 16.75,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 58.47749999999985,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 16.8,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 58.75999999999985,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 16.85,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 59.04249999999985,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 16.9,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 59.32499999999985,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 16.95,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 59.607499999999845,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 17,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 59.889999999999844,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 17.05,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 60.17249999999984,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 17.1,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 60.45499999999984,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 17.15,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 60.73749999999984,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 17.2,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 61.01999999999984,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 17.25,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 61.30249999999984,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 17.3,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 61.58499999999984,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 17.35,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 61.867499999999836,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 17.4,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 62.149999999999835,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 17.45,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 62.432499999999834,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 17.5,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 62.71499999999983,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 17.55,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 62.99749999999983,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 17.6,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 63.27999999999983,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 17.65,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 63.56249999999983,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 17.7,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 63.84499999999983,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 17.75,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 64.12749999999983,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 17.8,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 64.40999999999983,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 17.85,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 64.69249999999982,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 17.9,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 64.97499999999982,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 17.95,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 65.25749999999982,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 18,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 65.53999999999982,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 18.05,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 65.82249999999982,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 18.1,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 66.10499999999982,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 18.15,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 66.38749999999982,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 18.2,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 66.66999999999982,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 18.25,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 66.95249999999982,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 18.3,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 67.23499999999981,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 18.35,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 67.51749999999981,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 18.4,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 67.79999999999981,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 18.45,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 68.08249999999981,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 18.5,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 68.36499999999981,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 18.55,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 68.64749999999981,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 18.6,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 68.92999999999981,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 18.65,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 69.2124999999998,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 18.7,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 69.4949999999998,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 18.75,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 69.7774999999998,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 18.8,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 70.0599999999998,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 18.85,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 70.3424999999998,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 18.9,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 70.6249999999998,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 18.95,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 70.9074999999998,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 19,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 71.1899999999998,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 19.05,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 71.4724999999998,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 19.1,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 71.7549999999998,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 19.15,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 72.0374999999998,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 19.2,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 72.3199999999998,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 19.25,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 72.6024999999998,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 19.3,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 72.88499999999979,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 19.35,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 73.16749999999979,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 19.4,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 73.44999999999979,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 19.45,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 73.73249999999979,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 19.5,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 74.01499999999979,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 19.55,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 74.29749999999979,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 19.6,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 74.57999999999979,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 19.65,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 74.86249999999978,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 19.7,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 75.14499999999978,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 19.75,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "TO_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 75.42749999999978,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 19.8,
+    "missionState": "TRANSPORTING",
+    "responseState": "RETURNING",
+    "ambulanceState": "AT_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 75.5135948015659,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 19.8,
+    "missionState": "AT_HOSPITAL",
+    "responseState": "RETURNING",
+    "ambulanceState": "AT_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 75.5135948015659,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 19.85,
+    "missionState": "AT_HOSPITAL",
+    "responseState": "RETURNING",
+    "ambulanceState": "AT_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 75.5135948015659,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 19.9,
+    "missionState": "AT_HOSPITAL",
+    "responseState": "RETURNING",
+    "ambulanceState": "AT_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 75.5135948015659,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 19.95,
+    "missionState": "AT_HOSPITAL",
+    "responseState": "RETURNING",
+    "ambulanceState": "AT_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 75.5135948015659,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 20,
+    "missionState": "AT_HOSPITAL",
+    "responseState": "RETURNING",
+    "ambulanceState": "AT_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 75.5135948015659,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 20.05,
+    "missionState": "AT_HOSPITAL",
+    "responseState": "RETURNING",
+    "ambulanceState": "AT_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 75.5135948015659,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 20.1,
+    "missionState": "AT_HOSPITAL",
+    "responseState": "RETURNING",
+    "ambulanceState": "AT_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 75.5135948015659,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 20.15,
+    "missionState": "AT_HOSPITAL",
+    "responseState": "RETURNING",
+    "ambulanceState": "AT_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 75.5135948015659,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 20.2,
+    "missionState": "AT_HOSPITAL",
+    "responseState": "RETURNING",
+    "ambulanceState": "AT_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 75.5135948015659,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 20.25,
+    "missionState": "AT_HOSPITAL",
+    "responseState": "RETURNING",
+    "ambulanceState": "AT_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 75.5135948015659,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 20.3,
+    "missionState": "AT_HOSPITAL",
+    "responseState": "RETURNING",
+    "ambulanceState": "AT_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 75.5135948015659,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 20.35,
+    "missionState": "AT_HOSPITAL",
+    "responseState": "RETURNING",
+    "ambulanceState": "AT_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 75.5135948015659,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 20.4,
+    "missionState": "AT_HOSPITAL",
+    "responseState": "RETURNING",
+    "ambulanceState": "AT_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 75.5135948015659,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 20.45,
+    "missionState": "AT_HOSPITAL",
+    "responseState": "RETURNING",
+    "ambulanceState": "AT_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 75.5135948015659,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 20.5,
+    "missionState": "AT_HOSPITAL",
+    "responseState": "RETURNING",
+    "ambulanceState": "AT_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 75.5135948015659,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 20.55,
+    "missionState": "AT_HOSPITAL",
+    "responseState": "RETURNING",
+    "ambulanceState": "AT_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 75.5135948015659,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 20.6,
+    "missionState": "AT_HOSPITAL",
+    "responseState": "RETURNING",
+    "ambulanceState": "AT_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 75.5135948015659,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 20.65,
+    "missionState": "AT_HOSPITAL",
+    "responseState": "RETURNING",
+    "ambulanceState": "AT_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 75.5135948015659,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 20.7,
+    "missionState": "AT_HOSPITAL",
+    "responseState": "RETURNING",
+    "ambulanceState": "AT_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 75.5135948015659,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 20.75,
+    "missionState": "AT_HOSPITAL",
+    "responseState": "RETURNING",
+    "ambulanceState": "AT_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 75.5135948015659,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 20.8,
+    "missionState": "AT_HOSPITAL",
+    "responseState": "RETURNING",
+    "ambulanceState": "AT_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 75.5135948015659,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 20.85,
+    "missionState": "AT_HOSPITAL",
+    "responseState": "RETURNING",
+    "ambulanceState": "AT_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 75.5135948015659,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 20.9,
+    "missionState": "AT_HOSPITAL",
+    "responseState": "RETURNING",
+    "ambulanceState": "AT_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 75.5135948015659,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 20.95,
+    "missionState": "AT_HOSPITAL",
+    "responseState": "RETURNING",
+    "ambulanceState": "AT_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 75.5135948015659,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 21,
+    "missionState": "AT_HOSPITAL",
+    "responseState": "RETURNING",
+    "ambulanceState": "AT_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 75.5135948015659,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 21.05,
+    "missionState": "AT_HOSPITAL",
+    "responseState": "RETURNING",
+    "ambulanceState": "AT_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 75.5135948015659,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 21.1,
+    "missionState": "AT_HOSPITAL",
+    "responseState": "RETURNING",
+    "ambulanceState": "AT_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 75.5135948015659,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 21.15,
+    "missionState": "AT_HOSPITAL",
+    "responseState": "RETURNING",
+    "ambulanceState": "AT_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 75.5135948015659,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 21.2,
+    "missionState": "AT_HOSPITAL",
+    "responseState": "RETURNING",
+    "ambulanceState": "AT_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 75.5135948015659,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 21.25,
+    "missionState": "AT_HOSPITAL",
+    "responseState": "RETURNING",
+    "ambulanceState": "AT_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 75.5135948015659,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 21.3,
+    "missionState": "AT_HOSPITAL",
+    "responseState": "RETURNING",
+    "ambulanceState": "AT_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 75.5135948015659,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 21.35,
+    "missionState": "AT_HOSPITAL",
+    "responseState": "RETURNING",
+    "ambulanceState": "AT_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 75.5135948015659,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 21.4,
+    "missionState": "AT_HOSPITAL",
+    "responseState": "RETURNING",
+    "ambulanceState": "AT_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 75.5135948015659,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 21.45,
+    "missionState": "AT_HOSPITAL",
+    "responseState": "RETURNING",
+    "ambulanceState": "AT_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 75.5135948015659,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 21.5,
+    "missionState": "AT_HOSPITAL",
+    "responseState": "RETURNING",
+    "ambulanceState": "AT_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 75.5135948015659,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 21.55,
+    "missionState": "AT_HOSPITAL",
+    "responseState": "RETURNING",
+    "ambulanceState": "AT_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 75.5135948015659,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 21.6,
+    "missionState": "AT_HOSPITAL",
+    "responseState": "RETURNING",
+    "ambulanceState": "AT_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 75.5135948015659,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 21.65,
+    "missionState": "AT_HOSPITAL",
+    "responseState": "RETURNING",
+    "ambulanceState": "AT_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 75.5135948015659,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 21.7,
+    "missionState": "AT_HOSPITAL",
+    "responseState": "RETURNING",
+    "ambulanceState": "AT_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 75.5135948015659,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 21.75,
+    "missionState": "AT_HOSPITAL",
+    "responseState": "RETURNING",
+    "ambulanceState": "AT_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 75.5135948015659,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 21.8,
+    "missionState": "AT_HOSPITAL",
+    "responseState": "RETURNING",
+    "ambulanceState": "AT_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 75.5135948015659,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 21.85,
+    "missionState": "AT_HOSPITAL",
+    "responseState": "RETURNING",
+    "ambulanceState": "AT_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 75.5135948015659,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 21.9,
+    "missionState": "AT_HOSPITAL",
+    "responseState": "RETURNING",
+    "ambulanceState": "AT_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 75.5135948015659,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 21.95,
+    "missionState": "AT_HOSPITAL",
+    "responseState": "RETURNING",
+    "ambulanceState": "AT_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 75.5135948015659,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 22,
+    "missionState": "AT_HOSPITAL",
+    "responseState": "RETURNING",
+    "ambulanceState": "AT_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 75.5135948015659,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 22.05,
+    "missionState": "AT_HOSPITAL",
+    "responseState": "RETURNING",
+    "ambulanceState": "AT_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 75.5135948015659,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 22.1,
+    "missionState": "AT_HOSPITAL",
+    "responseState": "RETURNING",
+    "ambulanceState": "AT_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 75.5135948015659,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 22.15,
+    "missionState": "AT_HOSPITAL",
+    "responseState": "RETURNING",
+    "ambulanceState": "AT_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 75.5135948015659,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 22.2,
+    "missionState": "AT_HOSPITAL",
+    "responseState": "RETURNING",
+    "ambulanceState": "AT_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 75.5135948015659,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 22.25,
+    "missionState": "AT_HOSPITAL",
+    "responseState": "RETURNING",
+    "ambulanceState": "AT_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 75.5135948015659,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 22.3,
+    "missionState": "AT_HOSPITAL",
+    "responseState": "RETURNING",
+    "ambulanceState": "AT_HOSPITAL",
+    "routeId": "AMBULANCE_M004_TO_HOSPITAL_ROUTE",
+    "distance": 75.5135948015659,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 22.3,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 0,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": [],
+    "returnCommandResult": true
+  },
+  {
+    "time": 22.35,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 0.2625,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 22.4,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 0.525,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 22.45,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 0.7875000000000001,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 22.5,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 1.05,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 22.55,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 1.3125,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 22.6,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 1.575,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 22.65,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 1.8375,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 22.7,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 2.1,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 22.75,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 2.3625000000000003,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 22.8,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 2.6250000000000004,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 22.85,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 2.8875000000000006,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 22.9,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 3.150000000000001,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 22.95,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 3.412500000000001,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 23,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 3.675000000000001,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 23.05,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 3.9375000000000013,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 23.1,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 4.200000000000001,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 23.15,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 4.462500000000001,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 23.2,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 4.725000000000001,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 23.25,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 4.987500000000002,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 23.3,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 5.250000000000002,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 23.35,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 5.512500000000002,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 23.4,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 5.775000000000002,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 23.45,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 6.037500000000002,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 23.5,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 6.3000000000000025,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 23.55,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 6.562500000000003,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 23.6,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 6.825000000000003,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 23.65,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 7.087500000000003,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 23.7,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 7.350000000000003,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 23.75,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 7.612500000000003,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 23.8,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 7.8750000000000036,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 23.85,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 8.137500000000003,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 23.9,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 8.400000000000002,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 23.95,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 8.662500000000001,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 24,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 8.925,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 24.05,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 9.1875,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 24.1,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 9.45,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 24.15,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 9.712499999999999,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 24.2,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 9.974999999999998,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 24.25,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 10.237499999999997,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 24.3,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 10.499999999999996,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 24.35,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 10.762499999999996,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 24.4,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 11.024999999999995,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 24.45,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 11.287499999999994,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 24.5,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 11.549999999999994,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 24.55,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 11.812499999999993,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 24.6,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 12.074999999999992,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 24.65,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 12.337499999999991,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 24.7,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 12.59999999999999,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 24.75,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 12.86249999999999,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 24.8,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 13.12499999999999,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 24.85,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 13.387499999999989,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 24.9,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 13.649999999999988,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 24.95,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 13.912499999999987,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 25,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 14.174999999999986,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 25.05,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 14.437499999999986,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 25.1,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 14.699999999999985,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 25.15,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 14.962499999999984,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 25.2,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 15.224999999999984,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 25.25,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 15.487499999999983,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 25.3,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 15.749999999999982,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 25.35,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "RETURNING",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 16.01249999999998,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 25.4,
+    "missionState": "RETURNING",
+    "responseState": "RETURNING",
+    "ambulanceState": "AT_STATION",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 16.037019347558108,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  },
+  {
+    "time": 25.4,
+    "missionState": "READY",
+    "responseState": "COMPLETE",
+    "ambulanceState": "AT_STATION",
+    "routeId": "AMBULANCE_M004_HOSPITAL_TO_STATION_ROUTE",
+    "distance": 16.037019347558108,
+    "ambulanceSafetyStatus": "PASSED",
+    "ambulanceSafetyErrors": []
+  }
+]

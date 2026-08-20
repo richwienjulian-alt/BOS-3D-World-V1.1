@@ -1,0 +1,29 @@
+{
+  "validator": "LEGACY_PRESENTER_PLAN_COMPATIBILITY",
+  "status": "PASSED",
+  "result": {
+    "title": "MISSION BOS PRESENTER & DEMO CONTROL VALIDATION",
+    "counts": {
+      "sourceDependencyErrors": 0,
+      "sourcePhaseErrors": 0,
+      "policyErrors": 0,
+      "bookmarkDefinitionErrors": 0,
+      "bookmarkBoundsErrors": 0,
+      "bookmarkObstacleErrors": 0,
+      "bookmarkDuplicateErrors": 0,
+      "stateHintErrors": 0,
+      "actionPolicyErrors": 0,
+      "resetPolicyErrors": 0,
+      "expectedCountErrors": 0
+    },
+    "actual": {
+      "cameraBookmarks": 4,
+      "stateHints": 12,
+      "actionableStates": 3,
+      "automaticCameraTransitions": 0,
+      "automaticMissionActions": 0
+    },
+    "errors": [],
+    "status": "PASSED"
+  }
+}

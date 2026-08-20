@@ -1,0 +1,8 @@
+{
+  "validator": "MOUSE_WHEEL_FOV_ZOOM",
+  "minFov": 36,
+  "maxFov": 78,
+  "sensitivity": 0.025,
+  "status": "PASSED",
+  "errors": []
+}
