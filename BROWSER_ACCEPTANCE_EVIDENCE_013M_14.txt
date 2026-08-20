@@ -1,0 +1,37 @@
+Mission BOS – Build 013M.14
+REAL BROWSER ACCEPTANCE EVIDENCE
+
+STATUS: NOT EXECUTED
+RELEASE GATE: BLOCKED / NOT A RELEASE CANDIDATE
+
+Environment attempt
+- Browser: Chromium 144.0.7559.96 (Debian GNU/Linux 13)
+- Local build URL attempted: http://127.0.0.1:8879/index.html
+- Local server readiness: confirmed by curl; index.html returned 21677 bytes.
+- Chromium command: headless local navigation with direct proxy bypass.
+- Chromium result: timed out after 20 seconds (exit code 124).
+- DOM output: 0 bytes.
+- Local HTTP log: readiness curl GET observed; no additional GET from Chromium was observed.
+- Result: the Mission BOS DOM/WebGL runtime was never loaded, therefore no real Mission 004/Mission 002 browser sequence could be executed in this environment.
+
+Required real runs
+1. Mission 004 completion: NOT EXECUTED (0/10)
+2. Mission 004 -> Mission 002 immediate start: NOT EXECUTED (0/10)
+3. Fresh Mission 002: NOT EXECUTED (0/5)
+4. Mission 003 outbound browser runs: NOT EXECUTED (0/3)
+5. Mission 004 outbound browser runs: NOT EXECUTED (0/3)
+6. Dashboard "Netz & Priorisierung" persistence during full M004: NOT EXECUTED (0/10)
+
+Per-run evidence required by release gate
+Run 01: NOT EXECUTED
+Run 02: NOT EXECUTED
+Run 03: NOT EXECUTED
+Run 04: NOT EXECUTED
+Run 05: NOT EXECUTED
+Run 06: NOT EXECUTED
+Run 07: NOT EXECUTED
+Run 08: NOT EXECUTED
+Run 09: NOT EXECUTED
+Run 10: NOT EXECUTED
+
+No technical harness result is being presented as a replacement for the required browser acceptance.

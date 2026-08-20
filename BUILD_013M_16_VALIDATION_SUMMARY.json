@@ -1,0 +1,36 @@
+{
+  "build": "013M.16",
+  "baseSha256": "a1d3a21a280a8d0d5bbc9e7947926893662820bdcb5c1e24f80233a31e4311ac",
+  "trafficYieldRuntime": {
+    "title": "MISSION BOS BUILD 013M.16 TECHNICAL TRAFFIC YIELD RUNTIME",
+    "mission003": {
+      "routeLength": 68.11655062880573,
+      "runs": 120,
+      "passed": 120,
+      "failed": [],
+      "holds": [
+        4,
+        25,
+        43
+      ]
+    },
+    "mission004": {
+      "routeLength": 73.876551,
+      "runs": 120,
+      "passed": 120,
+      "failed": [],
+      "holds": [
+        4,
+        27,
+        50
+      ]
+    },
+    "status": "PASSED"
+  },
+  "presenterRuntime": {
+    "status": "PASSED",
+    "runs": 12,
+    "passed": 12
+  },
+  "browserAcceptance": "NOT EXECUTED"
+}

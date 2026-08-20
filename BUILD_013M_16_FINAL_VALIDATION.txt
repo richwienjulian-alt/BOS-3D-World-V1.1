@@ -1,0 +1,389 @@
+=== CONTRACT ===
+{
+  "validator": "BUILD_013M16_CONTRACT",
+  "status": "PASSED",
+  "errors": []
+}
+=== M003 UTILITY TRAFFIC ===
+{
+  "validator": "MISSION_003_UTILITY_TRAFFIC",
+  "baselineCollisionPhases": 64,
+  "firstCollision": {
+    "phase": 3.399999999999996,
+    "t": 9.54999999999984
+  },
+  "safeHolds": [
+    4,
+    25,
+    43
+  ],
+  "maxWaitSeconds": 7.764414,
+  "status": "PASSED"
+}
+=== M003 SUPPORT SOURCE ===
+{
+  "validator": "MISSION_003_SUPPORT_YIELD_SOURCE",
+  "status": "PASSED",
+  "errors": []
+}
+=== M004 DOWNTOWN OUTBOUND ===
+{
+  "validator": "MISSION_004_DOWNTOWN_OUTBOUND",
+  "baselineCollisionPhases": 92,
+  "firstCollision": {
+    "phase": 0,
+    "t": 12.435000000000544,
+    "responder": "RESPONSE_FIRE_01"
+  },
+  "safeHolds": [
+    4,
+    27,
+    50
+  ],
+  "maxWaitSeconds": 6.559188,
+  "returnCorridorPreserved": true,
+  "status": "PASSED"
+}
+=== M004 OUTBOUND SOURCE ===
+{
+  "validator": "MISSION_004_OUTBOUND_YIELD_SOURCE",
+  "status": "PASSED",
+  "errors": []
+}
+=== PRESENTER ===
+{
+  "validator": "CROSS_MISSION_PRESENTER",
+  "status": "PASSED",
+  "errors": []
+}
+=== TYPOGRAPHY ===
+{
+  "validator": "DASHBOARD_TYPOGRAPHY",
+  "status": "PASSED",
+  "errors": []
+}
+=== WHEEL ===
+{
+  "validator": "MOUSE_WHEEL_FOV_ZOOM",
+  "minFov": 36,
+  "maxFov": 78,
+  "sensitivity": 0.025,
+  "status": "PASSED",
+  "errors": []
+}
+=== PROTECTED ===
+{
+  "validator": "BUILD_013M16_PROTECTED_SOURCE_REGRESSION",
+  "protectedFiles": 177,
+  "status": "PASSED",
+  "errors": []
+}
+=== RESPONSE OUTBOUND ===
+MISSION_003 effective delays fire=0.00s police=5.00s; strict SAT=CLEAR
+MISSION_004 effective delays fire=0.00s police=5.00s; strict SAT=CLEAR
+MISSION BOS BUILD 013M.10 OUTBOUND COLLISION VALIDATION
+STATUS: PASSED
+=== POST M004 M002 ===
+{
+  "status": "PASSED",
+  "arenaSafety": {
+    "title": "MISSION BOS ARENA EVENT CONTROLLER RUNTIME SAFETY",
+    "dependencyErrors": 0,
+    "actorReferenceErrors": 0,
+    "phoneReferenceErrors": 0,
+    "invalidRadioErrors": 0,
+    "unknownTowerErrors": 0,
+    "visibleDemandErrors": 0,
+    "aggregateDemandErrors": 0,
+    "cellLoadRangeErrors": 0,
+    "eventStartConflictErrors": 0,
+    "missionStartDuringEventErrors": 0,
+    "remainingLoadErrors": 0,
+    "remainingLineErrors": 0,
+    "duplicateCrowdErrors": 0,
+    "sourceMutationErrors": 0,
+    "automaticActionErrors": 0,
+    "fixedServingTowerErrors": 0,
+    "recoverableWarnings": 1,
+    "status": "PASSED",
+    "failed": false,
+    "fatal": false,
+    "warnings": [
+      "Cell-load runtime reported a recoverable association warning."
+    ],
+    "errors": []
+  },
+  "baseline": {
+    "ready": true,
+    "blockers": [],
+    "ambulanceState": "AT_STATION",
+    "networkReady": true,
+    "safetyStatus": "PASSED"
+  },
+  "canStart": true,
+  "started": true,
+  "mission002State": "EVENT_ACTIVE"
+}
+=== NETWORK PERSISTENCE ===
+MISSION BOS 013M.11 CUSTOMER NETWORK PERSISTENCE VALIDATION
+noTransientCellLoadHide: PASSED
+persistentCellLoadSurface: PASSED
+fatalAwareSnapshotGate: PASSED
+lastKnownGoodFallback: PASSED
+networkReadinessMethod: PASSED
+STATUS: PASSED
+=== ARENA RECOVERABLE ===
+{
+  "status": "PASSED",
+  "controller": "/mnt/data/build013m16_work/city-arena-event-controller.js",
+  "result": {
+    "stateAfterWarning": "INACTIVE",
+    "recoverableSafety": {
+      "title": "MISSION BOS ARENA EVENT CONTROLLER RUNTIME SAFETY",
+      "dependencyErrors": 0,
+      "actorReferenceErrors": 0,
+      "phoneReferenceErrors": 0,
+      "invalidRadioErrors": 0,
+      "unknownTowerErrors": 0,
+      "visibleDemandErrors": 0,
+      "aggregateDemandErrors": 0,
+      "cellLoadRangeErrors": 0,
+      "eventStartConflictErrors": 0,
+      "missionStartDuringEventErrors": 0,
+      "remainingLoadErrors": 0,
+      "remainingLineErrors": 0,
+      "duplicateCrowdErrors": 0,
+      "sourceMutationErrors": 0,
+      "automaticActionErrors": 0,
+      "fixedServingTowerErrors": 0,
+      "recoverableWarnings": 1,
+      "status": "PASSED",
+      "failed": false,
+      "fatal": false,
+      "warnings": [
+        "Cell-load runtime reported a recoverable association warning."
+      ],
+      "errors": []
+    },
+    "activateRecoverable": true,
+    "fatalState": "FAILED",
+    "fatalSafety": {
+      "title": "MISSION BOS ARENA EVENT CONTROLLER RUNTIME SAFETY",
+      "dependencyErrors": 1,
+      "actorReferenceErrors": 0,
+      "phoneReferenceErrors": 0,
+      "invalidRadioErrors": 0,
+      "unknownTowerErrors": 0,
+      "visibleDemandErrors": 0,
+      "aggregateDemandErrors": 0,
+      "cellLoadRangeErrors": 0,
+      "eventStartConflictErrors": 0,
+      "missionStartDuringEventErrors": 0,
+      "remainingLoadErrors": 0,
+      "remainingLineErrors": 0,
+      "duplicateCrowdErrors": 0,
+      "sourceMutationErrors": 0,
+      "automaticActionErrors": 0,
+      "fixedServingTowerErrors": 0,
+      "recoverableWarnings": 0,
+      "status": "FAILED",
+      "failed": true,
+      "fatal": true,
+      "warnings": [],
+      "errors": [
+        "Cell-load runtime reported a fatal error."
+      ]
+    },
+    "activateFatal": false
+  }
+}
+=== M004 FINALIZATION CONTRACT ===
+{
+  "title": "MISSION 004 FINALIZATION CONTRACT",
+  "status": "PASSED",
+  "errors": []
+}
+=== M004 FINALIZATION SOURCE ===
+{
+  "title": "MISSION 004 FINALIZATION SOURCE",
+  "status": "PASSED",
+  "checks": [
+    {
+      "label": "M2 baseline is diagnostic/post-commit only",
+      "ok": true
+    },
+    {
+      "label": "Cell load threshold is non-blocking",
+      "ok": true
+    },
+    {
+      "label": "Commit requires shared network + priority + response handoff",
+      "ok": true
+    },
+    {
+      "label": "Deterministic finalizer exists",
+      "ok": true
+    },
+    {
+      "label": "Fallback starts before unchanged 8s deadline",
+      "ok": true
+    },
+    {
+      "label": "Shared vehicle reset not added",
+      "ok": true
+    },
+    {
+      "label": "Network adapter has guarded finalizer",
+      "ok": true
+    },
+    {
+      "label": "Network finalizer pins exact base",
+      "ok": true
+    }
+  ]
+}
+=== M004 FINALIZATION RUNTIME ===
+{
+  "title": "MISSION 004 FINALIZATION RUNTIME",
+  "status": "PASSED",
+  "results": [
+    {
+      "name": "normal-network-cell-load-nonblocking",
+      "state": "READY",
+      "seconds": 6.2,
+      "settlement": {
+        "active": false,
+        "elapsedSeconds": 0,
+        "blockers": [],
+        "fallbackIssued": false,
+        "fallbackResult": null,
+        "postCommitMission002Baseline": {
+          "ready": false,
+          "blockers": [
+            "TEST_M2_PENDING"
+          ]
+        },
+        "cellLoadProfileState": "READY",
+        "networkState": "READY",
+        "bosEndpointIds": [
+          "A",
+          "B",
+          "C"
+        ]
+      },
+      "counters": {
+        "end": 1,
+        "finalizeNetwork": 0,
+        "priorityReset": 0,
+        "capacityReset": 0,
+        "loadReset": 0,
+        "responseFinalize": 1,
+        "sceneReset": 2
+      }
+    },
+    {
+      "name": "deterministic-finalization",
+      "state": "READY",
+      "seconds": 7.2,
+      "settlement": {
+        "active": false,
+        "elapsedSeconds": 0,
+        "blockers": [],
+        "fallbackIssued": true,
+        "fallbackResult": {
+          "ok": true,
+          "priority": true,
+          "capacity": true,
+          "load": true,
+          "network": true
+        },
+        "postCommitMission002Baseline": {
+          "ready": false,
+          "blockers": [
+            "TEST_M2_PENDING"
+          ]
+        },
+        "cellLoadProfileState": "READY",
+        "networkState": "READY",
+        "bosEndpointIds": [
+          "A",
+          "B",
+          "C"
+        ]
+      },
+      "counters": {
+        "end": 1,
+        "finalizeNetwork": 1,
+        "priorityReset": 1,
+        "capacityReset": 1,
+        "loadReset": 1,
+        "responseFinalize": 1,
+        "sceneReset": 2
+      }
+    },
+    {
+      "name": "m2-baseline-not-precommit",
+      "state": "READY",
+      "seconds": 1.3,
+      "settlement": {
+        "active": false,
+        "elapsedSeconds": 0,
+        "blockers": [],
+        "fallbackIssued": false,
+        "fallbackResult": null,
+        "postCommitMission002Baseline": {
+          "ready": false,
+          "blockers": [
+            "TEST_M2_PENDING"
+          ]
+        },
+        "cellLoadProfileState": "READY",
+        "networkState": "READY",
+        "bosEndpointIds": [
+          "A",
+          "B",
+          "C"
+        ]
+      },
+      "counters": {
+        "end": 1,
+        "finalizeNetwork": 0,
+        "priorityReset": 0,
+        "capacityReset": 0,
+        "loadReset": 0,
+        "responseFinalize": 1,
+        "sceneReset": 2
+      }
+    },
+    {
+      "name": "response-safety-still-blocks",
+      "state": "RETURNING",
+      "seconds": 25,
+      "settlement": {
+        "active": false,
+        "elapsedSeconds": 0,
+        "blockers": [],
+        "fallbackIssued": false,
+        "fallbackResult": null,
+        "postCommitMission002Baseline": null,
+        "cellLoadProfileState": "RETURNING",
+        "networkState": "RETURNING",
+        "bosEndpointIds": [
+          "A",
+          "B",
+          "C"
+        ]
+      },
+      "counters": {
+        "end": 0,
+        "finalizeNetwork": 0,
+        "priorityReset": 0,
+        "capacityReset": 0,
+        "loadReset": 0,
+        "responseFinalize": 0,
+        "sceneReset": 1
+      }
+    }
+  ],
+  "errors": []
+}

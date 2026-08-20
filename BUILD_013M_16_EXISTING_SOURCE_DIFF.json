@@ -1,0 +1,37 @@
+{
+  "changedExistingProductionLikeFiles": [
+    [
+      "city-mission-004-response-controller.js",
+      "CHANGED"
+    ],
+    [
+      "mission-003-response-validator.js",
+      "CHANGED"
+    ],
+    [
+      "city-presenter-controller.js",
+      "CHANGED"
+    ],
+    [
+      "city-mission-003-response-controller.js",
+      "CHANGED"
+    ],
+    [
+      "style.css",
+      "CHANGED"
+    ],
+    [
+      "app.js",
+      "CHANGED"
+    ],
+    [
+      "city-mission-004-plan.js",
+      "CHANGED"
+    ],
+    [
+      "city-mission-003-response-plan.js",
+      "CHANGED"
+    ]
+  ],
+  "count": 8
+}

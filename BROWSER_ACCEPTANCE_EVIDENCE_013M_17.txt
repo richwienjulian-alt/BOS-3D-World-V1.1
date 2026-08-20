@@ -1,0 +1,50 @@
+MISSION BOS - BUILD 013M.17 BROWSER ACCEPTANCE EVIDENCE
+Date: 2026-08-20
+Browser: Chromium 144.0.7559.96 built on Debian GNU/Linux 13 (trixie)
+Status: NOT EXECUTED
+
+Reason:
+The final build is reachable from the local HTTP server with curl (HTTP 200), but the managed Chromium process in this sandbox does not issue a GET request to the loopback server and returns 0 DOM bytes before the 25-second timeout. Therefore no real WebGL/camera visual acceptance can be claimed here.
+
+Attempt evidence:
+- Local URL: http://127.0.0.1:8765/index.html
+- curl result: HTTP 200
+- Chromium command: headless, direct proxy, proxy bypass for all hosts
+- Chromium exit: timeout (124)
+- DOM bytes: 0
+- HTTP server log contains only the curl GET and no Chromium GET
+
+Required real acceptance still open:
+MISSION 001
+[ ] 1 Stadt visually appropriate
+[ ] 2 Einsatz still frames Wohnungsbrand correctly
+[ ] 3 Netz still frames MAST_B correctly
+[ ] Mouse wheel releases bookmark and zoom remains functional
+
+MISSION 002
+[ ] 1 Stadt shows Arena district
+[ ] 2 Einsatz shows Arena emergency / patient
+[ ] 3 Netz frames Arena and MAST_E
+[ ] No visible W14 / wrong MAST_B metadata
+
+MISSION 003
+[ ] 1 Stadt shows Innenstadt / water leak context
+[ ] 2 Einsatz shows water leak response
+[ ] 3 Netz frames leak and MAST_B
+[ ] Mission 003 traffic fix remains visually collision-free
+
+MISSION 004
+[ ] 1 Stadt shows Ringstrasse / Gesundheitsquartier
+[ ] 2 Einsatz shows traffic accident
+[ ] 3 Netz frames accident and MAST_C
+[ ] No visible W14 / wrong MAST_B metadata
+[ ] Mission 004 completes to READY
+[ ] Mission 002 starts afterwards without reload
+
+INTERACTION
+[ ] Mission change does not move camera automatically
+[ ] Active bookmark is released on mission change
+[ ] Keyboard 0/1/2/3 follows current mission profile
+[ ] Mouse wheel releases bookmark and zooms
+
+FINAL BROWSER STATUS: NOT EXECUTED

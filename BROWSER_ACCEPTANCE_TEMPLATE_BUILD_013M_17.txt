@@ -1,0 +1,42 @@
+MISSION BOS - BUILD 013M.17 BROWSER ACCEPTANCE
+
+Tester:
+Datum:
+Browser:
+
+MISSION 001
+[ ] Stadt passend
+[ ] Einsatz passend
+[ ] Netz passend
+[ ] Mausrad / freie Kamera passend
+
+MISSION 002
+[ ] Stadt zeigt Arena-Quartier
+[ ] Einsatz zeigt Arena-Notfall
+[ ] Netz zeigt MAST_E + Arena
+[ ] Keine W14-/MAST_B-Falschbeschriftung
+
+MISSION 003
+[ ] Stadt zeigt Innenstadt / Leck
+[ ] Einsatz zeigt Wasserleck
+[ ] Netz zeigt MAST_B + Leck
+
+MISSION 004
+[ ] Stadt zeigt Ringstrasse / Gesundheitsquartier
+[ ] Einsatz zeigt Unfallstelle
+[ ] Netz zeigt MAST_C + Unfallstelle
+[ ] Keine W14-/MAST_B-Falschbeschriftung
+
+INTERAKTION
+[ ] Missionswechsel bewegt Kamera nicht automatisch
+[ ] Altes Bookmark wird beim Missionswechsel geloest
+[ ] Tastatur 0/1/2/3 folgt aktuellem Missionsprofil
+[ ] Mausrad loest Bookmark und zoomt
+
+REGRESSION
+[ ] Mission 003 vollstaendig
+[ ] Mission 004 vollstaendig
+[ ] Mission 004 -> Mission 002 startbar
+
+GESAMTSTATUS: PASSED / FAILED
+Notizen:

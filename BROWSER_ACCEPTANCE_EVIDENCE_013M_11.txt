@@ -1,0 +1,16 @@
+Mission BOS – Build 013M.11 – Browser Acceptance Evidence
+
+Local HTTP endpoint check:
+- curl HEAD /index.html: HTTP 200
+
+Chromium attempt:
+- executable: /usr/bin/chromium
+- mode: --headless --no-sandbox --disable-gpu --disable-dev-shm-usage --no-proxy-server --dump-dom
+- timeout: 20 seconds
+- exit code: 124 (timeout)
+- DOM bytes: 0
+- local server requests from Chromium: 0
+- server log contained only the separate curl HEAD request
+
+Conclusion:
+The real WebGL/browser acceptance cannot be executed reliably in this sandbox. Browser acceptance remains PENDING and is not replaced by Node/controller/DOM harness results.

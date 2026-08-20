@@ -1,0 +1,711 @@
+=== node /mnt/data/build013m18_work/validation-013m18/validators/build-013m18-ux-contract-validator.js /mnt/data/build013m18_work ===
+{
+  "validator": "BUILD_013M18_UX_PREPARATION_CONTRACT",
+  "status": "PASSED",
+  "errors": []
+}
+=== node /mnt/data/build013m18_work/validation-013m18/validators/baseline-ux-architecture-validator.js /mnt/data/build013m18_work ===
+{
+  "validator": "BASELINE_UX_ARCHITECTURE_013M17",
+  "status": "PASSED",
+  "errors": []
+}
+=== node /mnt/data/build013m18_work/validation-013m18/validators/incident-copy-contract-validator.js /mnt/data/build013m18_work ===
+{
+  "validator": "INCIDENT_COPY_CONTRACT_013M18",
+  "status": "PASSED",
+  "errors": []
+}
+=== node /mnt/data/build013m18_work/build-013m18-source-regression-validator.js /mnt/data/build013m18_work ===
+{
+  "validator": "BUILD_013M18_SOURCE_REGRESSION",
+  "sourceBuild": "Mission-BOS-Build-013M.17",
+  "protectedChecked": 178,
+  "allowedExistingProductionChanges": [
+    "app.js",
+    "city-customer-dashboard-plan.js",
+    "city-network-exploration-plan.js",
+    "city-network-inspection-controller.js",
+    "customer-dashboard-contract-validator.js",
+    "customer-dashboard-dom-validator.js",
+    "index.html",
+    "network-exploration-validator.js",
+    "style.css"
+  ],
+  "requiredNewFiles": [
+    "city-touch-camera-plan.js",
+    "touch-camera-validator.js",
+    "city-touch-camera-controller.js",
+    "city-customer-incident-presentation-plan.js",
+    "customer-incident-presentation-validator.js"
+  ],
+  "status": "PASSED",
+  "errors": []
+}
+=== node /mnt/data/build013m18_work/TECHNICAL_TOUCH_CAMERA_RUNTIME_HARNESS_013M_18.js ===
+{
+  "status": "PASSED",
+  "checks": [
+    {
+      "name": "tap selects once",
+      "passed": true,
+      "detail": {
+        "taps": [
+          {
+            "x": 104,
+            "y": 104,
+            "rect": {
+              "left": 0,
+              "top": 0,
+              "width": 800,
+              "height": 600
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "pan moves ground camera",
+      "passed": true,
+      "detail": {
+        "panCalls": [
+          [
+            0.08,
+            -0.8
+          ],
+          [
+            0.12,
+            -0.8
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            -2,
+            0
+          ],
+          [
+            0,
+            -2
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "name": "pan does not tap",
+      "passed": true,
+      "detail": {
+        "taps": [
+          {
+            "x": 104,
+            "y": 104,
+            "rect": {
+              "left": 0,
+              "top": 0,
+              "width": 800,
+              "height": 600
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "pan preserves height in adapter harness",
+      "passed": true,
+      "detail": {
+        "x": -1.6,
+        "y": 9,
+        "z": 45.800000000000004
+      }
+    },
+    {
+      "name": "pinch apart lowers FOV",
+      "passed": true,
+      "detail": {
+        "pinchFov": 56
+      }
+    },
+    {
+      "name": "pinch does not tap",
+      "passed": true,
+      "detail": {
+        "taps": [
+          {
+            "x": 104,
+            "y": 104,
+            "rect": {
+              "left": 0,
+              "top": 0,
+              "width": 800,
+              "height": 600
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "zoom-in clamps at 36",
+      "passed": true,
+      "detail": {
+        "fov": 36
+      }
+    },
+    {
+      "name": "zoom-out clamps at 78",
+      "passed": true,
+      "detail": {
+        "fov": 78
+      }
+    },
+    {
+      "name": "four dashboard pan commands",
+      "passed": true,
+      "detail": {
+        "panCalls": 6
+      }
+    },
+    {
+      "name": "home uses adapter",
+      "passed": true,
+      "detail": {
+        "homeCalls": 1,
+        "pose": {
+          "x": 0.78,
+          "y": 9,
+          "z": 46
+        },
+        "fov": 56
+      }
+    },
+    {
+      "name": "pointer cancel recorded",
+      "passed": true,
+      "detail": {
+        "status": "PASSED",
+        "pointerCancelCount": 1,
+        "tapCount": 1,
+        "panCount": 2,
+        "pinchCount": 1,
+        "dashboardCommandCount": 45,
+        "rejectedMousePointerCount": 1,
+        "errors": []
+      }
+    },
+    {
+      "name": "mouse ignored by touch controller",
+      "passed": true,
+      "detail": {
+        "status": "PASSED",
+        "pointerCancelCount": 1,
+        "tapCount": 1,
+        "panCount": 2,
+        "pinchCount": 1,
+        "dashboardCommandCount": 45,
+        "rejectedMousePointerCount": 1,
+        "errors": []
+      }
+    },
+    {
+      "name": "presenter release used",
+      "passed": true,
+      "detail": {
+        "releaseCount": 47
+      }
+    },
+    {
+      "name": "runtime remains passed",
+      "passed": true,
+      "detail": {
+        "status": "PASSED",
+        "pointerCancelCount": 1,
+        "tapCount": 1,
+        "panCount": 2,
+        "pinchCount": 1,
+        "dashboardCommandCount": 45,
+        "rejectedMousePointerCount": 1,
+        "errors": []
+      }
+    }
+  ],
+  "manifest": {
+    "status": "PASSED",
+    "build": "013M.18",
+    "pointerTypes": [
+      "touch",
+      "pen"
+    ],
+    "dashboardControls": 7,
+    "inspectionAvailable": true
+  },
+  "safety": {
+    "status": "PASSED",
+    "pointerCancelCount": 1,
+    "tapCount": 1,
+    "panCount": 2,
+    "pinchCount": 1,
+    "dashboardCommandCount": 45,
+    "rejectedMousePointerCount": 1,
+    "errors": []
+  },
+  "metrics": {
+    "tapSelections": 1,
+    "panCalls": 6,
+    "pinchFov": 56,
+    "projectionUpdates": 41,
+    "releaseCount": 47,
+    "homeCalls": 1
+  }
+}
+=== node /mnt/data/build013m18_work/TECHNICAL_NETWORK_INSPECTION_TOUCH_HARNESS_013M_18.js ===
+{
+  "status": "PASSED",
+  "errors": [],
+  "manifest": {
+    "title": "MISSION BOS NETWORK INSPECTION RUNTIME MANIFEST",
+    "actual": {
+      "targets": 12,
+      "towers": 5,
+      "responseVehicles": 2,
+      "civilianVehicles": 2,
+      "civilianPedestrians": 2,
+      "incidentBuildings": 1,
+      "requiredDashboardElements": 8,
+      "standalonePanels": 0,
+      "automaticSelections": 0,
+      "cameraActions": 0,
+      "missionActions": 0
+    },
+    "expected": {
+      "representativeEndpoints": 4,
+      "representativeVehicles": 2,
+      "representativePedestrians": 2,
+      "totalDynamicDemandUnits": 6,
+      "defaultWeakLines": 4,
+      "inspectionTargets": 12,
+      "inspectionTowers": 5,
+      "inspectionResponseVehicles": 2,
+      "inspectionCivilianVehicles": 2,
+      "inspectionCivilianPedestrians": 2,
+      "inspectionIncidentBuildings": 1,
+      "newStandalonePanels": 0,
+      "missionSpecificServingTowerDefinitions": 0
+    },
+    "status": "PASSED",
+    "lines": [
+      "MISSION BOS NETWORK INSPECTION RUNTIME MANIFEST",
+      "Selectable targets: 12 / 12",
+      "Towers: 5 / 5",
+      "Response vehicles: 2 / 2",
+      "Civilian vehicles: 2 / 2",
+      "Civilian pedestrians: 2 / 2",
+      "Incident buildings: 1 / 1",
+      "Dashboard elements: 8 / 8",
+      "Standalone panels: 0 / 0",
+      "Automatic selections: 0 / 0",
+      "Camera actions: 0 / 0",
+      "Mission actions: 0 / 0",
+      "STATUS: PASSED"
+    ]
+  },
+  "initialSafety": {
+    "title": "MISSION BOS NETWORK INSPECTION RUNTIME SAFETY",
+    "dependencyErrors": 0,
+    "targetResolutionErrors": 0,
+    "domErrors": 0,
+    "invalidSelectionErrors": 0,
+    "cameraMutationErrors": 0,
+    "missionMutationErrors": 0,
+    "horizontalOverflowErrors": 0,
+    "keyConflictErrors": 0,
+    "status": "PASSED",
+    "failed": false,
+    "errors": []
+  },
+  "lastRayPoint": {
+    "x": -0.5,
+    "y": 0.5
+  },
+  "selection": {
+    "id": "INSPECT_MAST_A",
+    "kind": "tower",
+    "referenceId": "MAST_A",
+    "label": "MAST_A · Wohngebiet"
+  },
+  "panelVisible": true
+}
+=== node /mnt/data/build013m18_work/validators/cross-mission-presenter-validator.js /mnt/data/build013m18_work ===
+{
+  "validator": "CROSS_MISSION_PRESENTER",
+  "status": "PASSED",
+  "errors": []
+}
+=== node /mnt/data/build013m18_work/validators/mouse-wheel-zoom-validator.js /mnt/data/build013m18_work ===
+{
+  "validator": "MOUSE_WHEEL_FOV_ZOOM",
+  "minFov": 36,
+  "maxFov": 78,
+  "sensitivity": 0.025,
+  "status": "PASSED",
+  "errors": []
+}
+=== node /mnt/data/build013m18_work/validators/mission-003-utility-traffic-collision-validator.js /mnt/data/build013m18_work ===
+{
+  "validator": "MISSION_003_UTILITY_TRAFFIC",
+  "baselineCollisionPhases": 64,
+  "firstCollision": {
+    "phase": 3.399999999999996,
+    "t": 9.54999999999984
+  },
+  "safeHolds": [
+    4,
+    25,
+    43
+  ],
+  "maxWaitSeconds": 7.764414,
+  "status": "PASSED"
+}
+=== node /mnt/data/build013m18_work/validators/mission-003-support-yield-source-validator.js /mnt/data/build013m18_work ===
+{
+  "validator": "MISSION_003_SUPPORT_YIELD_SOURCE",
+  "status": "PASSED",
+  "errors": []
+}
+=== node /mnt/data/build013m18_work/validators/mission-004-downtown-outbound-collision-validator.js /mnt/data/build013m18_work ===
+{
+  "validator": "MISSION_004_DOWNTOWN_OUTBOUND",
+  "baselineCollisionPhases": 92,
+  "firstCollision": {
+    "phase": 0,
+    "t": 12.435000000000544,
+    "responder": "RESPONSE_FIRE_01"
+  },
+  "safeHolds": [
+    4,
+    27,
+    50
+  ],
+  "maxWaitSeconds": 6.559188,
+  "returnCorridorPreserved": true,
+  "status": "PASSED"
+}
+=== node /mnt/data/build013m18_work/validators/mission-004-outbound-yield-source-validator.js /mnt/data/build013m18_work ===
+{
+  "validator": "MISSION_004_OUTBOUND_YIELD_SOURCE",
+  "status": "PASSED",
+  "errors": []
+}
+=== node /mnt/data/build013m18_work/response-outbound-collision-validator.js /mnt/data/build013m18_work ===
+MISSION_003 effective delays fire=0.00s police=5.00s; strict SAT=CLEAR
+MISSION_004 effective delays fire=0.00s police=5.00s; strict SAT=CLEAR
+MISSION BOS BUILD 013M.10 OUTBOUND COLLISION VALIDATION
+STATUS: PASSED
+=== node /mnt/data/build013m18_work/mission-002-post-m004-start-validator.js /mnt/data/build013m18_work /mnt/data/build013m18_work/city-arena-event-controller.js ===
+{
+  "status": "PASSED",
+  "arenaSafety": {
+    "title": "MISSION BOS ARENA EVENT CONTROLLER RUNTIME SAFETY",
+    "dependencyErrors": 0,
+    "actorReferenceErrors": 0,
+    "phoneReferenceErrors": 0,
+    "invalidRadioErrors": 0,
+    "unknownTowerErrors": 0,
+    "visibleDemandErrors": 0,
+    "aggregateDemandErrors": 0,
+    "cellLoadRangeErrors": 0,
+    "eventStartConflictErrors": 0,
+    "missionStartDuringEventErrors": 0,
+    "remainingLoadErrors": 0,
+    "remainingLineErrors": 0,
+    "duplicateCrowdErrors": 0,
+    "sourceMutationErrors": 0,
+    "automaticActionErrors": 0,
+    "fixedServingTowerErrors": 0,
+    "recoverableWarnings": 1,
+    "status": "PASSED",
+    "failed": false,
+    "fatal": false,
+    "warnings": [
+      "Cell-load runtime reported a recoverable association warning."
+    ],
+    "errors": []
+  },
+  "baseline": {
+    "ready": true,
+    "blockers": [],
+    "ambulanceState": "AT_STATION",
+    "networkReady": true,
+    "safetyStatus": "PASSED"
+  },
+  "canStart": true,
+  "started": true,
+  "mission002State": "EVENT_ACTIVE"
+}
+=== node /mnt/data/build013m18_work/arena-event-recoverable-warning-validator.js /mnt/data/build013m18_work /mnt/data/build013m18_work/city-arena-event-controller.js ===
+{
+  "status": "PASSED",
+  "controller": "/mnt/data/build013m18_work/city-arena-event-controller.js",
+  "result": {
+    "stateAfterWarning": "INACTIVE",
+    "recoverableSafety": {
+      "title": "MISSION BOS ARENA EVENT CONTROLLER RUNTIME SAFETY",
+      "dependencyErrors": 0,
+      "actorReferenceErrors": 0,
+      "phoneReferenceErrors": 0,
+      "invalidRadioErrors": 0,
+      "unknownTowerErrors": 0,
+      "visibleDemandErrors": 0,
+      "aggregateDemandErrors": 0,
+      "cellLoadRangeErrors": 0,
+      "eventStartConflictErrors": 0,
+      "missionStartDuringEventErrors": 0,
+      "remainingLoadErrors": 0,
+      "remainingLineErrors": 0,
+      "duplicateCrowdErrors": 0,
+      "sourceMutationErrors": 0,
+      "automaticActionErrors": 0,
+      "fixedServingTowerErrors": 0,
+      "recoverableWarnings": 1,
+      "status": "PASSED",
+      "failed": false,
+      "fatal": false,
+      "warnings": [
+        "Cell-load runtime reported a recoverable association warning."
+      ],
+      "errors": []
+    },
+    "activateRecoverable": true,
+    "fatalState": "FAILED",
+    "fatalSafety": {
+      "title": "MISSION BOS ARENA EVENT CONTROLLER RUNTIME SAFETY",
+      "dependencyErrors": 1,
+      "actorReferenceErrors": 0,
+      "phoneReferenceErrors": 0,
+      "invalidRadioErrors": 0,
+      "unknownTowerErrors": 0,
+      "visibleDemandErrors": 0,
+      "aggregateDemandErrors": 0,
+      "cellLoadRangeErrors": 0,
+      "eventStartConflictErrors": 0,
+      "missionStartDuringEventErrors": 0,
+      "remainingLoadErrors": 0,
+      "remainingLineErrors": 0,
+      "duplicateCrowdErrors": 0,
+      "sourceMutationErrors": 0,
+      "automaticActionErrors": 0,
+      "fixedServingTowerErrors": 0,
+      "recoverableWarnings": 0,
+      "status": "FAILED",
+      "failed": true,
+      "fatal": true,
+      "warnings": [],
+      "errors": [
+        "Cell-load runtime reported a fatal error."
+      ]
+    },
+    "activateFatal": false
+  }
+}
+=== node /mnt/data/build013m18_work/customer-network-persistence-validator.js /mnt/data/build013m18_work ===
+MISSION BOS 013M.11 CUSTOMER NETWORK PERSISTENCE VALIDATION
+noTransientCellLoadHide: PASSED
+persistentCellLoadSurface: PASSED
+fatalAwareSnapshotGate: PASSED
+lastKnownGoodFallback: PASSED
+networkReadinessMethod: PASSED
+STATUS: PASSED
+=== node /mnt/data/build013m18_work/validation-013m14/validators/mission-004-finalization-contract-validator.js /mnt/data/build013m18_work ===
+{
+  "title": "MISSION 004 FINALIZATION CONTRACT",
+  "status": "PASSED",
+  "errors": []
+}
+=== node /mnt/data/build013m18_work/validation-013m14/validators/mission-004-finalization-source-validator.js /mnt/data/build013m18_work ===
+{
+  "title": "MISSION 004 FINALIZATION SOURCE",
+  "status": "PASSED",
+  "checks": [
+    {
+      "label": "M2 baseline is diagnostic/post-commit only",
+      "ok": true
+    },
+    {
+      "label": "Cell load threshold is non-blocking",
+      "ok": true
+    },
+    {
+      "label": "Commit requires shared network + priority + response handoff",
+      "ok": true
+    },
+    {
+      "label": "Deterministic finalizer exists",
+      "ok": true
+    },
+    {
+      "label": "Fallback starts before unchanged 8s deadline",
+      "ok": true
+    },
+    {
+      "label": "Shared vehicle reset not added",
+      "ok": true
+    },
+    {
+      "label": "Network adapter has guarded finalizer",
+      "ok": true
+    },
+    {
+      "label": "Network finalizer pins exact base",
+      "ok": true
+    }
+  ]
+}
+=== node /mnt/data/build013m18_work/validation-013m14/validators/mission-004-finalization-runtime-validator.js /mnt/data/build013m18_work/city-mission-004-controller.js ===
+{
+  "title": "MISSION 004 FINALIZATION RUNTIME",
+  "status": "PASSED",
+  "results": [
+    {
+      "name": "normal-network-cell-load-nonblocking",
+      "state": "READY",
+      "seconds": 6.2,
+      "settlement": {
+        "active": false,
+        "elapsedSeconds": 0,
+        "blockers": [],
+        "fallbackIssued": false,
+        "fallbackResult": null,
+        "postCommitMission002Baseline": {
+          "ready": false,
+          "blockers": [
+            "TEST_M2_PENDING"
+          ]
+        },
+        "cellLoadProfileState": "READY",
+        "networkState": "READY",
+        "bosEndpointIds": [
+          "A",
+          "B",
+          "C"
+        ]
+      },
+      "counters": {
+        "end": 1,
+        "finalizeNetwork": 0,
+        "priorityReset": 0,
+        "capacityReset": 0,
+        "loadReset": 0,
+        "responseFinalize": 1,
+        "sceneReset": 2
+      }
+    },
+    {
+      "name": "deterministic-finalization",
+      "state": "READY",
+      "seconds": 7.2,
+      "settlement": {
+        "active": false,
+        "elapsedSeconds": 0,
+        "blockers": [],
+        "fallbackIssued": true,
+        "fallbackResult": {
+          "ok": true,
+          "priority": true,
+          "capacity": true,
+          "load": true,
+          "network": true
+        },
+        "postCommitMission002Baseline": {
+          "ready": false,
+          "blockers": [
+            "TEST_M2_PENDING"
+          ]
+        },
+        "cellLoadProfileState": "READY",
+        "networkState": "READY",
+        "bosEndpointIds": [
+          "A",
+          "B",
+          "C"
+        ]
+      },
+      "counters": {
+        "end": 1,
+        "finalizeNetwork": 1,
+        "priorityReset": 1,
+        "capacityReset": 1,
+        "loadReset": 1,
+        "responseFinalize": 1,
+        "sceneReset": 2
+      }
+    },
+    {
+      "name": "m2-baseline-not-precommit",
+      "state": "READY",
+      "seconds": 1.3,
+      "settlement": {
+        "active": false,
+        "elapsedSeconds": 0,
+        "blockers": [],
+        "fallbackIssued": false,
+        "fallbackResult": null,
+        "postCommitMission002Baseline": {
+          "ready": false,
+          "blockers": [
+            "TEST_M2_PENDING"
+          ]
+        },
+        "cellLoadProfileState": "READY",
+        "networkState": "READY",
+        "bosEndpointIds": [
+          "A",
+          "B",
+          "C"
+        ]
+      },
+      "counters": {
+        "end": 1,
+        "finalizeNetwork": 0,
+        "priorityReset": 0,
+        "capacityReset": 0,
+        "loadReset": 0,
+        "responseFinalize": 1,
+        "sceneReset": 2
+      }
+    },
+    {
+      "name": "response-safety-still-blocks",
+      "state": "RETURNING",
+      "seconds": 25,
+      "settlement": {
+        "active": false,
+        "elapsedSeconds": 0,
+        "blockers": [],
+        "fallbackIssued": false,
+        "fallbackResult": null,
+        "postCommitMission002Baseline": null,
+        "cellLoadProfileState": "RETURNING",
+        "networkState": "RETURNING",
+        "bosEndpointIds": [
+          "A",
+          "B",
+          "C"
+        ]
+      },
+      "counters": {
+        "end": 0,
+        "finalizeNetwork": 0,
+        "priorityReset": 0,
+        "capacityReset": 0,
+        "loadReset": 0,
+        "responseFinalize": 0,
+        "sceneReset": 1
+      }
+    }
+  ],
+  "errors": []
+}
+FINAL TECHNICAL VALIDATION: PASSED

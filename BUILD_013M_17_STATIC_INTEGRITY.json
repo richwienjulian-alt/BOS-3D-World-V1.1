@@ -1,0 +1,13 @@
+{
+  "baseSha256": "400dc27e1a7c6f0dc4ea7a815914a88790d7a330cda9b1b0f7e30519a6f8f16b",
+  "changedExistingJsHtmlCss": [
+    "city-presenter-controller.js",
+    "city-presenter-plan.js"
+  ],
+  "changedExistingJsHtmlCssCount": 2,
+  "missingExistingSources": [],
+  "localScriptReferences": 154,
+  "missingLocalScriptReferences": [],
+  "duplicateDomIds": {},
+  "browserAcceptance": "NOT EXECUTED"
+}

@@ -1,0 +1,246 @@
+=== BUILD 013M.17 FINAL VALIDATION ===
+{
+  "validator": "BUILD_013M17_CONTRACT",
+  "status": "PASSED",
+  "errors": []
+}
+{
+  "validator": "MISSION_SPECIFIC_CAMERA_PROFILES",
+  "status": "PASSED",
+  "profiles": 4,
+  "baseBookmarks": 4,
+  "resolvedBookmarks": 16,
+  "errors": []
+}
+{
+  "validator": "MISSION_CAMERA_CONTROLLER_SOURCE",
+  "status": "PASSED",
+  "errors": []
+}
+MISSION BOS PRESENTER & DEMO CONTROL MANIFEST
+  Camera bookmarks: 4 / 4
+  State hints: 12 / 12
+  Actionable states: 3 / 3
+  Automatic camera transitions: 0 / 0
+  Automatic mission actions: 0 / 0
+  STATUS: PASSED
+MISSION BOS PRESENTER & DEMO CONTROL RUNTIME SAFETY
+  Plan validation: PASSED
+  DOM elements: PASSED
+  Mission runtime: PASSED
+  Camera adapter: PASSED
+  Automatic camera transitions: 0
+  Automatic mission actions: 0
+  Unauthorized actions: 0
+  STATUS: PASSED
+{
+  "validator": "MISSION_CAMERA_RUNTIME_HARNESS",
+  "status": "PASSED",
+  "releases": 7,
+  "errors": []
+}
+{
+  "validator": "LEGACY_PRESENTER_PLAN_COMPATIBILITY",
+  "status": "PASSED",
+  "result": {
+    "title": "MISSION BOS PRESENTER & DEMO CONTROL VALIDATION",
+    "counts": {
+      "sourceDependencyErrors": 0,
+      "sourcePhaseErrors": 0,
+      "policyErrors": 0,
+      "bookmarkDefinitionErrors": 0,
+      "bookmarkBoundsErrors": 0,
+      "bookmarkObstacleErrors": 0,
+      "bookmarkDuplicateErrors": 0,
+      "stateHintErrors": 0,
+      "actionPolicyErrors": 0,
+      "resetPolicyErrors": 0,
+      "expectedCountErrors": 0
+    },
+    "actual": {
+      "cameraBookmarks": 4,
+      "stateHints": 12,
+      "actionableStates": 3,
+      "automaticCameraTransitions": 0,
+      "automaticMissionActions": 0
+    },
+    "errors": [],
+    "status": "PASSED"
+  }
+}
+{
+  "validator": "BUILD_013M17_PROTECTED_SOURCES",
+  "status": "PASSED",
+  "checked": 184,
+  "errors": []
+}
+{
+  "validator": "CROSS_MISSION_PRESENTER",
+  "status": "PASSED",
+  "errors": []
+}
+{
+  "validator": "MOUSE_WHEEL_FOV_ZOOM",
+  "minFov": 36,
+  "maxFov": 78,
+  "sensitivity": 0.025,
+  "status": "PASSED",
+  "errors": []
+}
+{
+  "validator": "MISSION_003_UTILITY_TRAFFIC",
+  "baselineCollisionPhases": 64,
+  "firstCollision": {
+    "phase": 3.399999999999996,
+    "t": 9.54999999999984
+  },
+  "safeHolds": [
+    4,
+    25,
+    43
+  ],
+  "maxWaitSeconds": 7.764414,
+  "status": "PASSED"
+}
+{
+  "validator": "MISSION_003_SUPPORT_YIELD_SOURCE",
+  "status": "PASSED",
+  "errors": []
+}
+{
+  "validator": "MISSION_004_DOWNTOWN_OUTBOUND",
+  "baselineCollisionPhases": 92,
+  "firstCollision": {
+    "phase": 0,
+    "t": 12.435000000000544,
+    "responder": "RESPONSE_FIRE_01"
+  },
+  "safeHolds": [
+    4,
+    27,
+    50
+  ],
+  "maxWaitSeconds": 6.559188,
+  "returnCorridorPreserved": true,
+  "status": "PASSED"
+}
+{
+  "validator": "MISSION_004_OUTBOUND_YIELD_SOURCE",
+  "status": "PASSED",
+  "errors": []
+}
+MISSION_003 effective delays fire=0.00s police=5.00s; strict SAT=CLEAR
+MISSION_004 effective delays fire=0.00s police=5.00s; strict SAT=CLEAR
+MISSION BOS BUILD 013M.10 OUTBOUND COLLISION VALIDATION
+STATUS: PASSED
+{
+  "status": "PASSED",
+  "arenaSafety": {
+    "title": "MISSION BOS ARENA EVENT CONTROLLER RUNTIME SAFETY",
+    "dependencyErrors": 0,
+    "actorReferenceErrors": 0,
+    "phoneReferenceErrors": 0,
+    "invalidRadioErrors": 0,
+    "unknownTowerErrors": 0,
+    "visibleDemandErrors": 0,
+    "aggregateDemandErrors": 0,
+    "cellLoadRangeErrors": 0,
+    "eventStartConflictErrors": 0,
+    "missionStartDuringEventErrors": 0,
+    "remainingLoadErrors": 0,
+    "remainingLineErrors": 0,
+    "duplicateCrowdErrors": 0,
+    "sourceMutationErrors": 0,
+    "automaticActionErrors": 0,
+    "fixedServingTowerErrors": 0,
+    "recoverableWarnings": 1,
+    "status": "PASSED",
+    "failed": false,
+    "fatal": false,
+    "warnings": [
+      "Cell-load runtime reported a recoverable association warning."
+    ],
+    "errors": []
+  },
+  "baseline": {
+    "ready": true,
+    "blockers": [],
+    "ambulanceState": "AT_STATION",
+    "networkReady": true,
+    "safetyStatus": "PASSED"
+  },
+  "canStart": true,
+  "started": true,
+  "mission002State": "EVENT_ACTIVE"
+}
+MISSION BOS 013M.11 CUSTOMER NETWORK PERSISTENCE VALIDATION
+noTransientCellLoadHide: PASSED
+persistentCellLoadSurface: PASSED
+fatalAwareSnapshotGate: PASSED
+lastKnownGoodFallback: PASSED
+networkReadinessMethod: PASSED
+STATUS: PASSED
+{
+  "status": "PASSED",
+  "controller": "/mnt/data/build013m17_work/city-arena-event-controller.js",
+  "result": {
+    "stateAfterWarning": "INACTIVE",
+    "recoverableSafety": {
+      "title": "MISSION BOS ARENA EVENT CONTROLLER RUNTIME SAFETY",
+      "dependencyErrors": 0,
+      "actorReferenceErrors": 0,
+      "phoneReferenceErrors": 0,
+      "invalidRadioErrors": 0,
+      "unknownTowerErrors": 0,
+      "visibleDemandErrors": 0,
+      "aggregateDemandErrors": 0,
+      "cellLoadRangeErrors": 0,
+      "eventStartConflictErrors": 0,
+      "missionStartDuringEventErrors": 0,
+      "remainingLoadErrors": 0,
+      "remainingLineErrors": 0,
+      "duplicateCrowdErrors": 0,
+      "sourceMutationErrors": 0,
+      "automaticActionErrors": 0,
+      "fixedServingTowerErrors": 0,
+      "recoverableWarnings": 1,
+      "status": "PASSED",
+      "failed": false,
+      "fatal": false,
+      "warnings": [
+        "Cell-load runtime reported a recoverable association warning."
+      ],
+      "errors": []
+    },
+    "activateRecoverable": true,
+    "fatalState": "FAILED",
+    "fatalSafety": {
+      "title": "MISSION BOS ARENA EVENT CONTROLLER RUNTIME SAFETY",
+      "dependencyErrors": 1,
+      "actorReferenceErrors": 0,
+      "phoneReferenceErrors": 0,
+      "invalidRadioErrors": 0,
+      "unknownTowerErrors": 0,
+      "visibleDemandErrors": 0,
+      "aggregateDemandErrors": 0,
+      "cellLoadRangeErrors": 0,
+      "eventStartConflictErrors": 0,
+      "missionStartDuringEventErrors": 0,
+      "remainingLoadErrors": 0,
+      "remainingLineErrors": 0,
+      "duplicateCrowdErrors": 0,
+      "sourceMutationErrors": 0,
+      "automaticActionErrors": 0,
+      "fixedServingTowerErrors": 0,
+      "recoverableWarnings": 0,
+      "status": "FAILED",
+      "failed": true,
+      "fatal": true,
+      "warnings": [],
+      "errors": [
+        "Cell-load runtime reported a fatal error."
+      ]
+    },
+    "activateFatal": false
+  }
+}

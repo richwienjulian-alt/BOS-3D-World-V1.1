@@ -1,0 +1,25 @@
+T Mission – Build 013M.21
+REAL BROWSER ACCEPTANCE: NOT EXECUTED
+
+Environment attempt:
+- Browser: Chromium 144.0.7559.96
+- Local HTTP server: reachable by curl, HTTP 200
+- Chromium command: headless local HTTP navigation
+- Timeout: 15 seconds
+- Chromium DOM output: 0 bytes
+- HTTP server Chromium GET: none observed
+
+Also attempted static file screenshot rendering; Chromium timed out and produced no screenshot artifact.
+
+Therefore NOT VERIFIED in this environment:
+- visible desktop header layout / no overflow
+- visible tablet header layout / no overflow
+- Mission 001 start
+- Mission 002 start
+- Mission 003 start
+- Mission 004 full completion
+- Mission 004 -> Mission 002 without reload
+- Touch/tablet controls in real rendered application
+- Presenter controls in real rendered application
+
+Release status must remain pending until these checks are performed in a real browser environment.

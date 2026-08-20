@@ -1,0 +1,20 @@
+Mission BOS Build 013M.8 - Browser Acceptance Environment Evidence
+Date: 2026-08-11
+
+Local HTTP endpoint:
+http://127.0.0.1:8768/index.html
+Server status via curl: HTTP 200 OK
+
+Managed Chromium CDP evaluation after navigation:
+location.href = chrome-error://chromewebdata/
+document.title = 127.0.0.1
+document.body.innerText =
+127.0.0.1 is blocked
+Your organization doesn’t allow you to view this site
+
+typeof THREE = undefined
+typeof MissionBosMission004Controller = undefined
+document.querySelectorAll("canvas").length = 0
+
+Conclusion:
+The real WebGL build cannot be instantiated in this sandbox. No real-browser PASS is claimed.

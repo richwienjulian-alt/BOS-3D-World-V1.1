@@ -1,0 +1,22 @@
+Mission BOS – Build 013M.15 Browser Acceptance Evidence
+Generated: 2026-08-12T13:24:50+00:00
+
+STATUS: NOT EXECUTED
+RELEASE CANDIDATE: NO
+
+Required real-browser acceptance:
+- Mission 004 -> READY -> Mission 002 select/start: 10/10
+- Fresh Mission 002: 5/5
+- Mission 002 must enter EVENT_ACTIVE after the button click
+
+Environment attempt:
+- Browser: Chromium 144.0.7559.96
+- Local build endpoint responded to curl with HTTP 200 OK
+- Chromium command: headless --dump-dom against the local HTTP build
+- Timeout: 20 seconds
+- Chromium exit code: 124 (timeout)
+- DOM bytes returned: 0
+- No usable WebGL/DOM runtime was obtained for the application
+
+Therefore no real Mission 004 -> Mission 002 browser sequence was counted as PASSED.
+Technical Node/VM evidence is documented separately and must not be treated as browser acceptance.

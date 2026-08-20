@@ -1,0 +1,30 @@
+MISSION BOS – BUILD 013M.19 BROWSER ACCEPTANCE EVIDENCE
+
+STATUS: NOT EXECUTED
+DATE: 2026-08-20
+BROWSER: Chromium 144.0.7559.96 (Debian GNU/Linux 13)
+
+Reason:
+The real browser acceptance required by Build 013M.19 could not be executed in this sandbox.
+The build was served over a local HTTP server and was reachable with curl:
+- HTTP/1.0 200 OK
+- index.html Content-Length: 25301 bytes
+
+Chromium was launched headless with localhost proxy bypass and a 25 second timeout.
+Result:
+- Chromium exit code: 124 (timeout)
+- dumped DOM bytes: 0
+- local HTTP server log contains the curl HEAD request only; no Chromium GET request
+- therefore no real DOM/WebGL runtime, dashboard interaction, touch input or visible branding acceptance was executed
+
+NOT CLAIMED AS PASSED:
+- visible T MISSION + Telekom logo layout on desktop/tablet
+- Dashboard rotate-left/rotate-right interaction in real WebGL runtime
+- 24x left/right visual full-turn check
+- Presenter bookmark release after dashboard rotation
+- Mission 001–004 3/3 browser completion
+- Mission 004 -> Mission 002 5/5 browser sequence
+- Presenter mission camera profiles visible in browser
+- touch pan/pinch/tap and dashboard controls in real tablet/browser input
+
+Supporting technical evidence exists in the build, but it does not replace real browser acceptance.
