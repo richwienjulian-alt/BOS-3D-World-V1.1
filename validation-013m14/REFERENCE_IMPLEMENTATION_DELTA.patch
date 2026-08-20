@@ -1,0 +1,156 @@
+--- a/city-mission-004-controller.js
++++ b/city-mission-004-controller.js
+@@ -74,6 +74,9 @@
+     var completionSettlementStarted = false;
+     var completionSettlementElapsed = 0;
+     var completionSettlementBlockers = [];
++    var completionSettlementFallbackIssued = false;
++    var completionSettlementFallbackResult = null;
++    var completionPostCommitMission002Baseline = null;
+     var failure = "";
+ 
+     var manifestBase = {
+@@ -131,6 +134,9 @@
+         active: settlementContextActive(),
+         elapsedSeconds: completionSettlementElapsed,
+         blockers: completionSettlementBlockers.slice(),
++        fallbackIssued: completionSettlementFallbackIssued,
++        fallbackResult: completionSettlementFallbackResult,
++        postCommitMission002Baseline: copy(completionPostCommitMission002Baseline),
+         cellLoadProfileState: settlementContextActive() ? "READY" : state,
+         networkState: settlementContextActive() ? "READY" : state,
+         bosEndpointIds: settlementContextActive() ? [] : (plan.network.activeBosEndpointIds || []).slice()
+@@ -160,6 +166,25 @@
+       return load.getAllCells().every(function (cell) { return finite(cell.currentLoad, 101) <= limit + 1e-9; });
+     }
+ 
++    function finalizeSharedSettlementBaseline() {
++      var result = { ok: false, priority: null, capacity: null, load: null, network: null };
++      if (!settlementContextActive()) return result;
++      var handoff = response.getCrossMissionHandoffStatus ? response.getCrossMissionHandoffStatus() : null;
++      if (!handoff || handoff.ready !== true) return result;
++
++      result.priority = priority && typeof priority.reset === "function" ? priority.reset() : false;
++      if (result.priority !== true) return result;
++      result.capacity = capacity && typeof capacity.reset === "function" ? capacity.reset() : false;
++      if (result.capacity !== true) return result;
++      result.load = load && typeof load.reset === "function" ? load.reset() : false;
++      if (result.load !== true) return result;
++      result.network = network && typeof network.finalizeMissionSettlement === "function"
++        ? network.finalizeMissionSettlement()
++        : false;
++      result.ok = result.network === true;
++      return result;
++    }
++
+     function canStart() {
+       return !disposed && state === "READY" && selected() && otherMissionsReady() && response.allAtBase() &&
+         runtimeSafe(response) && runtimeSafe(scene) && runtimeSafe(network) && runtimeSafe(association) &&
+@@ -173,6 +198,9 @@
+       completionSettlementStarted = false;
+       completionSettlementElapsed = 0;
+       completionSettlementBlockers = [];
++      completionSettlementFallbackIssued = false;
++      completionSettlementFallbackResult = null;
++      completionPostCommitMission002Baseline = null;
+       finishIssued = false;
+       failure = "";
+       if (!scene.reset() || !response.reset()) {
+@@ -278,25 +306,57 @@
+           var priorityReady = noPriorityActive();
+           var responseHandoff = response.getCrossMissionHandoffStatus ? response.getCrossMissionHandoffStatus() : null;
+           var responseHandoffReady = !!responseHandoff && responseHandoff.ready === true;
+-          var mission002Baseline = mission002.getSharedStartBaselineStatus ? mission002.getSharedStartBaselineStatus() : null;
+-          var mission002BaselineReady = !!mission002Baseline && mission002Baseline.ready === true;
++
+           completionSettlementBlockers = [];
+           if (!sharedNetworkReady) completionSettlementBlockers.push("SHARED_NETWORK_NOT_READY");
+-          if (!cellLoadsReady) completionSettlementBlockers.push("CELL_LOADS_NOT_BASELINE");
+           if (!priorityReady) completionSettlementBlockers.push("BOS_PRIORITY_NOT_RELEASED");
+           if (!responseHandoffReady) completionSettlementBlockers.push("RESPONSE_HANDOFF_NOT_READY");
+-          if (!mission002BaselineReady) completionSettlementBlockers.push("MISSION_002_BASELINE_NOT_READY");
+-          if (sharedNetworkReady && cellLoadsReady && priorityReady && responseHandoffReady && mission002BaselineReady) {
+-            if (!response.finalizeForSharedHandoff || response.finalizeForSharedHandoff() !== true) return;
++          if (!cellLoadsReady) completionSettlementBlockers.push("CELL_LOADS_STILL_EASING_NON_BLOCKING");
++
++          var maximumSeconds = finite(sequence.completionSettlementMaximumSeconds, 8.0);
++          var deterministicFinalizeAt = Math.max(1.0, Math.min(6.0, maximumSeconds - 1.0));
++          if ((!sharedNetworkReady || !priorityReady) && responseHandoffReady &&
++              completionSettlementElapsed + 1e-9 >= deterministicFinalizeAt &&
++              completionSettlementFallbackIssued !== true) {
++            completionSettlementFallbackIssued = true;
++            completionSettlementFallbackResult = finalizeSharedSettlementBaseline();
++            sharedNetworkReady = typeof network.isReadyForMissionStart === "function"
++              ? network.isReadyForMissionStart() === true
++              : network.getLoad() <= finite((plan.network || {}).baseLoad, 38) + 4;
++            priorityReady = noPriorityActive();
++            cellLoadsReady = allCellLoadsAtOrBelow(readyLoad);
++            completionSettlementBlockers = [];
++            if (!sharedNetworkReady) completionSettlementBlockers.push("SHARED_NETWORK_NOT_READY");
++            if (!priorityReady) completionSettlementBlockers.push("BOS_PRIORITY_NOT_RELEASED");
++            if (!responseHandoffReady) completionSettlementBlockers.push("RESPONSE_HANDOFF_NOT_READY");
++            if (!cellLoadsReady) completionSettlementBlockers.push("CELL_LOADS_STILL_EASING_NON_BLOCKING");
++            if (!completionSettlementFallbackResult || completionSettlementFallbackResult.ok !== true) {
++              completionSettlementBlockers.push("DETERMINISTIC_BASELINE_FINALIZATION_REJECTED");
++            }
++          }
++
++          if (sharedNetworkReady && priorityReady && responseHandoffReady) {
++            if (!response.finalizeForSharedHandoff || response.finalizeForSharedHandoff() !== true) {
++              fail("Mission 004 shared response handoff finalization failed.");
++              return;
++            }
+             if (!scene.reset()) { fail("Mission 004 scene reset failed before READY."); return; }
++            completionPostCommitMission002Baseline = mission002.getSharedStartBaselineStatus
++              ? mission002.getSharedStartBaselineStatus()
++              : null;
+             finishIssued = false;
+             setState("READY");
+             networkEnded = false;
+             completionSettlementStarted = false;
+             completionSettlementElapsed = 0;
+             completionSettlementBlockers = [];
+-          } else if (completionSettlementElapsed + 1e-9 >= finite(sequence.completionSettlementMaximumSeconds, 8.0)) {
+-            fail("Mission 004 completion settlement exceeded the 8 second safety deadline. Pending: " +
++          } else if (completionSettlementElapsed + 1e-9 >= maximumSeconds) {
++            if (!responseHandoffReady) {
++              fail("Mission 004 shared response handoff did not become safe before the completion deadline. Pending: " +
++                (completionSettlementBlockers.length ? completionSettlementBlockers.join(", ") : "UNKNOWN"));
++              return;
++            }
++            fail("Mission 004 deterministic shared baseline finalization failed. Pending: " +
+               (completionSettlementBlockers.length ? completionSettlementBlockers.join(", ") : "UNKNOWN"));
+           }
+         }
+@@ -327,6 +387,9 @@
+       completionSettlementStarted = false;
+       completionSettlementElapsed = 0;
+       completionSettlementBlockers = [];
++      completionSettlementFallbackIssued = false;
++      completionSettlementFallbackResult = null;
++      completionPostCommitMission002Baseline = null;
+       failure = "";
+       return true;
+     }
+--- a/app.js
++++ b/app.js
+@@ -1055,6 +1055,19 @@
+         networkManager.bosPriorityActive !== true &&
+         Math.abs(networkLoad - baseLoad) <= 4;
+     },
++    finalizeMissionSettlement() {
++      const baseLoad = Number(networkPlan.baseLoad) || networkManager.baseLoad;
++      if (networkManager.validatedMissionActive === true) return false;
++      if (networkManager.manualLoadActive === true || networkManager.missionLoadActive === true) return false;
++      if (networkManager.validatedMissionResetting !== true && networkManager.validatedMissionBaseHold !== true) return false;
++      networkManager.validatedMissionTarget = baseLoad;
++      networkManager.validatedMissionResetting = false;
++      networkManager.validatedMissionBaseHold = true;
++      networkManager.bosPriorityActive = false;
++      networkLoad = baseLoad;
++      cityStateEngine.set(CITY_STATES.NORMAL);
++      return true;
++    },
+     isCapacityPrioritySettled() {
+       if (!validatedAutomaticBOSPriority || !validatedCellCapacity) return false;
+       const activeCells = validatedAutomaticBOSPriority.getAllCellStates().filter((cell) => cell.active);

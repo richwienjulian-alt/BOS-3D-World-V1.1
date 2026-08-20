@@ -1,0 +1,22 @@
+# Acceptance Checklist – Build 013M.16
+
+- [ ] Einzige Basis ist `Mission-BOS-Build-013M.15(2).zip` mit SHA-256 `a1d3a21...11ac`.
+- [ ] Mission 003 hält `VAN_SUPPORT_01` zusätzlich zum bestehenden Downtown-Fahrzeug kontrolliert an.
+- [ ] Mission 003 dispatcht erst nach bestätigtem Yield beider ziviler Konfliktfahrzeuge.
+- [ ] Mission 003: 10/10 Browserläufe ohne Stadtwerke/grauer-Van-Kollision oder Blockade.
+- [ ] Mission 004 reserviert `CAR_DOWNTOWN_01` bereits vor dem Outbound-Dispatch.
+- [ ] Mission 004 gibt den Outbound-Yield erst nach sicherer Ankunft Feuerwehr/Polizei frei.
+- [ ] Bestehende Mission-004-Return-Corridor-Reservation bleibt aktiv.
+- [ ] Mission 004: 10/10 Browserläufe bis READY ohne grünes Fahrzeug/Response-Kollision.
+- [ ] Mission 004 → Mission 002: mindestens 5/5 ohne Reload startbar.
+- [ ] Präsentationssteuerung funktioniert für Mission 001, 002, 003 und 004.
+- [ ] Klick von `Freie Erkundung` auf `Demo-Steuerung` startet die ausgewählte READY-Mission manuell.
+- [ ] Presenter startet niemals eine nicht ausgewählte Mission.
+- [ ] Presenter-Finish/Rückfahrt funktioniert bei COMPLETED für alle vier Missionen.
+- [ ] `Technische Details` und `Präsentationssteuerung` sind typografisch identisch.
+- [ ] Mausrad zoomt auf dem 3D-Canvas innerhalb FOV 36–78.
+- [ ] Mausrad löst aktive Presenter-Kamera-Lesezeichen kontrolliert.
+- [ ] Keine Einsatzroute oder Geschwindigkeit wurde verändert.
+- [ ] Keine Mobilfunk-/BOS-Priority-Logik wurde verändert.
+- [ ] Alle Preparation-Validatoren sind PASSED.
+- [ ] 177 geschützte JS/HTML/CSS-Dateien sind hash-identisch.

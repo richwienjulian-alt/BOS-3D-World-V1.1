@@ -1,0 +1,4 @@
+MISSION BOS BUILD 013M.18 PREPARATION ONLY
+
+Dieses Paket enthält absichtlich keinen Produktionspatch.
+Es definiert Architektur, UX, Copy, Risiken, Validierung und Implementierungsgrenzen für den späteren Build.

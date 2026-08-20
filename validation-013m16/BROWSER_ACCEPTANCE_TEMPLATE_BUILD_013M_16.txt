@@ -1,0 +1,57 @@
+MISSION BOS BUILD 013M.16 – BROWSER ACCEPTANCE
+
+Browser / Version:
+Datum / Uhrzeit:
+Tester:
+
+A) MISSION 003 – 10 RUNS
+Run | Startphase Verkehr | VAN_SUPPORT yield sichtbar | Stadtwerke-Kollision | Mission READY | Ergebnis
+01  |                    |                          | NEIN                | JA            |
+02  |
+03  |
+04  |
+05  |
+06  |
+07  |
+08  |
+09  |
+10  |
+
+B) MISSION 004 – 10 RUNS
+Run | Green-Car outbound yield | Outbound collision | Return corridor ok | Mission READY | Ergebnis
+01  |                        | NEIN               | JA                 | JA            |
+02  |
+03  |
+04  |
+05  |
+06  |
+07  |
+08  |
+09  |
+10  |
+
+C) MISSION 004 -> MISSION 002 – 5 RUNS OHNE RELOAD
+01 | M004 READY | M002 Start accepted | EVENT_ACTIVE | Ergebnis
+02 |
+03 |
+04 |
+05 |
+
+D) PRÄSENTATIONSSTEUERUNG
+Mission | 3x Auswahl -> Demo-Steuerung -> Start | korrekte Mission | Finish/Rückfahrt | Ergebnis
+001     |
+002     |
+003     |
+004     |
+
+E) DASHBOARD TYPOGRAFIE
+Technische Details / Präsentationssteuerung identische Größe/Gewicht/Ausrichtung: JA / NEIN
+
+F) MAUSRAD-ZOOM
+10x Zoom in: PASS / FAIL
+10x Zoom out: PASS / FAIL
+FOV bleibt 36..78: PASS / FAIL
+kein Browser-Scroll über Canvas: PASS / FAIL
+Presenter-Bookmark wird bei Wheel-Eingriff freigegeben: PASS / FAIL
+
+GESAMTSTATUS: PASSED / FAILED

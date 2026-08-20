@@ -1,0 +1,33 @@
+MISSION BOS BUILD 013M.14 - REAL BROWSER ACCEPTANCE
+
+Browser / Version:
+Execution date/time:
+Tester:
+
+M004 RUN 01: READY= ; fallback= ; settlementSeconds= ; lastBlockers= ; M002_START_AFTER= 
+M004 RUN 02: READY= ; fallback= ; settlementSeconds= ; lastBlockers= ; M002_START_AFTER= 
+M004 RUN 03: READY= ; fallback= ; settlementSeconds= ; lastBlockers= ; M002_START_AFTER= 
+M004 RUN 04: READY= ; fallback= ; settlementSeconds= ; lastBlockers= ; M002_START_AFTER= 
+M004 RUN 05: READY= ; fallback= ; settlementSeconds= ; lastBlockers= ; M002_START_AFTER= 
+M004 RUN 06: READY= ; fallback= ; settlementSeconds= ; lastBlockers= ; M002_START_AFTER= 
+M004 RUN 07: READY= ; fallback= ; settlementSeconds= ; lastBlockers= ; M002_START_AFTER= 
+M004 RUN 08: READY= ; fallback= ; settlementSeconds= ; lastBlockers= ; M002_START_AFTER= 
+M004 RUN 09: READY= ; fallback= ; settlementSeconds= ; lastBlockers= ; M002_START_AFTER= 
+M004 RUN 10: READY= ; fallback= ; settlementSeconds= ; lastBlockers= ; M002_START_AFTER= 
+
+FRESH M002 01:
+FRESH M002 02:
+FRESH M002 03:
+FRESH M002 04:
+FRESH M002 05:
+
+M003 OUTBOUND 01:
+M003 OUTBOUND 02:
+M003 OUTBOUND 03:
+M004 OUTBOUND 01:
+M004 OUTBOUND 02:
+M004 OUTBOUND 03:
+
+NETZ & PRIORISIERUNG VISIBLE 10/10:
+
+FINAL REAL BROWSER STATUS:

@@ -1,0 +1,114 @@
+--- /mnt/data/m013m12_inspect/city-mission-004-controller.js	2026-08-12 08:31:32.000000000 +0000
++++ /mnt/data/Mission_BOS_Build_013M13_Preparation/reference/city-mission-004-controller.js	2026-08-12 09:05:13.438715624 +0000
+@@ -73,6 +73,7 @@
+     var networkEnded = false;
+     var completionSettlementStarted = false;
+     var completionSettlementElapsed = 0;
++    var completionSettlementBlockers = [];
+     var failure = "";
+ 
+     var manifestBase = {
+@@ -121,6 +122,21 @@
+       return !priority.getAllCellStates().some(function (cell) { return cell && cell.active === true; });
+     }
+ 
++    function settlementContextActive() {
++      return completionSettlementStarted === true && state === "RETURNING";
++    }
++
++    function getCompletionSettlementStatus() {
++      return {
++        active: settlementContextActive(),
++        elapsedSeconds: completionSettlementElapsed,
++        blockers: completionSettlementBlockers.slice(),
++        cellLoadProfileState: settlementContextActive() ? "READY" : state,
++        networkState: settlementContextActive() ? "READY" : state,
++        bosEndpointIds: settlementContextActive() ? [] : (plan.network.activeBosEndpointIds || []).slice()
++      };
++    }
++
+     function commonIncidentTowerId() {
+       var ids = plan.network.activeBosEndpointIds || [];
+       var towerId = null;
+@@ -156,6 +172,7 @@
+       networkEnded = false;
+       completionSettlementStarted = false;
+       completionSettlementElapsed = 0;
++      completionSettlementBlockers = [];
+       finishIssued = false;
+       failure = "";
+       if (!scene.reset() || !response.reset()) {
+@@ -242,12 +259,14 @@
+       } else if (state === "RETURNING") {
+         var operationalComplete = response.allAtBase() && response.firePoliceAtBase() &&
+           response.isTrafficReleased() && response.isSceneCleared();
+-        if (operationalComplete && !completionSettlementStarted) {
++        var preSettlementHandoff = response.getCrossMissionHandoffStatus ? response.getCrossMissionHandoffStatus() : null;
++        if (operationalComplete && preSettlementHandoff && preSettlementHandoff.ready === true && !completionSettlementStarted) {
+           var endResult = network.endMission();
++          if (endResult === false) { fail("Mission 004 network settlement could not be started."); return; }
+           networkEnded = true;
+           completionSettlementStarted = true;
+           completionSettlementElapsed = 0;
+-          if (endResult === false) { fail("Mission 004 network settlement could not be started."); return; }
++          completionSettlementBlockers = [];
+         }
+         if (completionSettlementStarted) {
+           completionSettlementElapsed += Math.max(0, Math.min(finite(delta, 0), 0.1));
+@@ -255,11 +274,19 @@
+           var sharedNetworkReady = typeof network.isReadyForMissionStart === "function"
+             ? network.isReadyForMissionStart() === true
+             : network.getLoad() <= finite((plan.network || {}).baseLoad, 38) + 4;
++          var cellLoadsReady = allCellLoadsAtOrBelow(readyLoad);
++          var priorityReady = noPriorityActive();
+           var responseHandoff = response.getCrossMissionHandoffStatus ? response.getCrossMissionHandoffStatus() : null;
++          var responseHandoffReady = !!responseHandoff && responseHandoff.ready === true;
+           var mission002Baseline = mission002.getSharedStartBaselineStatus ? mission002.getSharedStartBaselineStatus() : null;
+-          var sharedRuntimeHandoffReady = !!responseHandoff && responseHandoff.ready === true &&
+-            !!mission002Baseline && mission002Baseline.ready === true;
+-          if (sharedNetworkReady && allCellLoadsAtOrBelow(readyLoad) && noPriorityActive() && sharedRuntimeHandoffReady) {
++          var mission002BaselineReady = !!mission002Baseline && mission002Baseline.ready === true;
++          completionSettlementBlockers = [];
++          if (!sharedNetworkReady) completionSettlementBlockers.push("SHARED_NETWORK_NOT_READY");
++          if (!cellLoadsReady) completionSettlementBlockers.push("CELL_LOADS_NOT_BASELINE");
++          if (!priorityReady) completionSettlementBlockers.push("BOS_PRIORITY_NOT_RELEASED");
++          if (!responseHandoffReady) completionSettlementBlockers.push("RESPONSE_HANDOFF_NOT_READY");
++          if (!mission002BaselineReady) completionSettlementBlockers.push("MISSION_002_BASELINE_NOT_READY");
++          if (sharedNetworkReady && cellLoadsReady && priorityReady && responseHandoffReady && mission002BaselineReady) {
+             if (!response.finalizeForSharedHandoff || response.finalizeForSharedHandoff() !== true) return;
+             if (!scene.reset()) { fail("Mission 004 scene reset failed before READY."); return; }
+             finishIssued = false;
+@@ -267,8 +294,10 @@
+             networkEnded = false;
+             completionSettlementStarted = false;
+             completionSettlementElapsed = 0;
++            completionSettlementBlockers = [];
+           } else if (completionSettlementElapsed + 1e-9 >= finite(sequence.completionSettlementMaximumSeconds, 8.0)) {
+-            fail("Mission 004 network settlement exceeded the 8 second safety deadline.");
++            fail("Mission 004 completion settlement exceeded the 8 second safety deadline. Pending: " +
++              (completionSettlementBlockers.length ? completionSettlementBlockers.join(", ") : "UNKNOWN"));
+           }
+         }
+       }
+@@ -297,6 +326,7 @@
+       networkEnded = false;
+       completionSettlementStarted = false;
+       completionSettlementElapsed = 0;
++      completionSettlementBlockers = [];
+       failure = "";
+       return true;
+     }
+@@ -378,9 +408,10 @@
+       update: update,
+       reset: reset,
+       getState: function () { return state; },
+-      getNetworkState: function () { return state; },
+-      getCellLoadProfileState: function () { return state; },
+-      getBosEndpointIds: function () { return (plan.network.activeBosEndpointIds || []).slice(); },
++      getNetworkState: function () { return settlementContextActive() ? "READY" : state; },
++      getCellLoadProfileState: function () { return settlementContextActive() ? "READY" : state; },
++      getBosEndpointIds: function () { return settlementContextActive() ? [] : (plan.network.activeBosEndpointIds || []).slice(); },
++      getCompletionSettlementStatus: getCompletionSettlementStatus,
+       getPhaseLabel: function () { return definition().phaseLabel || "Bereitschaft"; },
+       getStageLabel: function () { return definition().stageLabel || "Bereit"; },
+       getStatusLabel: function () { return definition().statusLabel || "Bereit"; },
