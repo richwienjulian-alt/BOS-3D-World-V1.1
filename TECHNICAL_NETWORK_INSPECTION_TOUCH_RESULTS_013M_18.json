@@ -1,0 +1,76 @@
+{
+  "status": "PASSED",
+  "errors": [],
+  "manifest": {
+    "title": "MISSION BOS NETWORK INSPECTION RUNTIME MANIFEST",
+    "actual": {
+      "targets": 12,
+      "towers": 5,
+      "responseVehicles": 2,
+      "civilianVehicles": 2,
+      "civilianPedestrians": 2,
+      "incidentBuildings": 1,
+      "requiredDashboardElements": 8,
+      "standalonePanels": 0,
+      "automaticSelections": 0,
+      "cameraActions": 0,
+      "missionActions": 0
+    },
+    "expected": {
+      "representativeEndpoints": 4,
+      "representativeVehicles": 2,
+      "representativePedestrians": 2,
+      "totalDynamicDemandUnits": 6,
+      "defaultWeakLines": 4,
+      "inspectionTargets": 12,
+      "inspectionTowers": 5,
+      "inspectionResponseVehicles": 2,
+      "inspectionCivilianVehicles": 2,
+      "inspectionCivilianPedestrians": 2,
+      "inspectionIncidentBuildings": 1,
+      "newStandalonePanels": 0,
+      "missionSpecificServingTowerDefinitions": 0
+    },
+    "status": "PASSED",
+    "lines": [
+      "MISSION BOS NETWORK INSPECTION RUNTIME MANIFEST",
+      "Selectable targets: 12 / 12",
+      "Towers: 5 / 5",
+      "Response vehicles: 2 / 2",
+      "Civilian vehicles: 2 / 2",
+      "Civilian pedestrians: 2 / 2",
+      "Incident buildings: 1 / 1",
+      "Dashboard elements: 8 / 8",
+      "Standalone panels: 0 / 0",
+      "Automatic selections: 0 / 0",
+      "Camera actions: 0 / 0",
+      "Mission actions: 0 / 0",
+      "STATUS: PASSED"
+    ]
+  },
+  "initialSafety": {
+    "title": "MISSION BOS NETWORK INSPECTION RUNTIME SAFETY",
+    "dependencyErrors": 0,
+    "targetResolutionErrors": 0,
+    "domErrors": 0,
+    "invalidSelectionErrors": 0,
+    "cameraMutationErrors": 0,
+    "missionMutationErrors": 0,
+    "horizontalOverflowErrors": 0,
+    "keyConflictErrors": 0,
+    "status": "PASSED",
+    "failed": false,
+    "errors": []
+  },
+  "lastRayPoint": {
+    "x": -0.5,
+    "y": 0.5
+  },
+  "selection": {
+    "id": "INSPECT_MAST_A",
+    "kind": "tower",
+    "referenceId": "MAST_A",
+    "label": "MAST_A · Wohngebiet"
+  },
+  "panelVisible": true
+}

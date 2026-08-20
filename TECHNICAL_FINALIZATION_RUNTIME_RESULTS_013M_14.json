@@ -1,0 +1,736 @@
+{
+  "status": "PASSED",
+  "naturalRuns": [
+    {
+      "run": 1,
+      "forcedFallback": false,
+      "mission004State": "READY",
+      "settlementSeconds": 5.2,
+      "sawSettlement": true,
+      "neutralContextOK": true,
+      "fallbackSeen": false,
+      "endMissionCalls": 1,
+      "networkFinalizerCalls": 0,
+      "priorityResetCalls": 0,
+      "capacityResetCalls": 0,
+      "loadResetCalls": 0,
+      "responseFinalizeCalls": 1,
+      "responseResetCalls": 1,
+      "sceneResetCalls": 2,
+      "postCommitSettlementStatus": {
+        "active": false,
+        "elapsedSeconds": 0,
+        "blockers": [],
+        "fallbackIssued": false,
+        "fallbackResult": null,
+        "postCommitMission002Baseline": {
+          "ready": true,
+          "blockers": [],
+          "ambulanceState": "AT_STATION",
+          "networkReady": true,
+          "safetyStatus": "PASSED"
+        },
+        "cellLoadProfileState": "READY",
+        "networkState": "READY",
+        "bosEndpointIds": [
+          "NET_FIRE_01",
+          "NET_POLICE_01",
+          "NET_AMBULANCE_01"
+        ]
+      },
+      "mission002BaselineReady": true,
+      "mission002CanStart": true,
+      "mission002StartResult": true,
+      "lastBlockers": [
+        "SHARED_NETWORK_NOT_READY"
+      ]
+    },
+    {
+      "run": 2,
+      "forcedFallback": false,
+      "mission004State": "READY",
+      "settlementSeconds": 5.2,
+      "sawSettlement": true,
+      "neutralContextOK": true,
+      "fallbackSeen": false,
+      "endMissionCalls": 1,
+      "networkFinalizerCalls": 0,
+      "priorityResetCalls": 0,
+      "capacityResetCalls": 0,
+      "loadResetCalls": 0,
+      "responseFinalizeCalls": 1,
+      "responseResetCalls": 1,
+      "sceneResetCalls": 2,
+      "postCommitSettlementStatus": {
+        "active": false,
+        "elapsedSeconds": 0,
+        "blockers": [],
+        "fallbackIssued": false,
+        "fallbackResult": null,
+        "postCommitMission002Baseline": {
+          "ready": true,
+          "blockers": [],
+          "ambulanceState": "AT_STATION",
+          "networkReady": true,
+          "safetyStatus": "PASSED"
+        },
+        "cellLoadProfileState": "READY",
+        "networkState": "READY",
+        "bosEndpointIds": [
+          "NET_FIRE_01",
+          "NET_POLICE_01",
+          "NET_AMBULANCE_01"
+        ]
+      },
+      "mission002BaselineReady": true,
+      "mission002CanStart": true,
+      "mission002StartResult": true,
+      "lastBlockers": [
+        "SHARED_NETWORK_NOT_READY"
+      ]
+    },
+    {
+      "run": 3,
+      "forcedFallback": false,
+      "mission004State": "READY",
+      "settlementSeconds": 5.2,
+      "sawSettlement": true,
+      "neutralContextOK": true,
+      "fallbackSeen": false,
+      "endMissionCalls": 1,
+      "networkFinalizerCalls": 0,
+      "priorityResetCalls": 0,
+      "capacityResetCalls": 0,
+      "loadResetCalls": 0,
+      "responseFinalizeCalls": 1,
+      "responseResetCalls": 1,
+      "sceneResetCalls": 2,
+      "postCommitSettlementStatus": {
+        "active": false,
+        "elapsedSeconds": 0,
+        "blockers": [],
+        "fallbackIssued": false,
+        "fallbackResult": null,
+        "postCommitMission002Baseline": {
+          "ready": true,
+          "blockers": [],
+          "ambulanceState": "AT_STATION",
+          "networkReady": true,
+          "safetyStatus": "PASSED"
+        },
+        "cellLoadProfileState": "READY",
+        "networkState": "READY",
+        "bosEndpointIds": [
+          "NET_FIRE_01",
+          "NET_POLICE_01",
+          "NET_AMBULANCE_01"
+        ]
+      },
+      "mission002BaselineReady": true,
+      "mission002CanStart": true,
+      "mission002StartResult": true,
+      "lastBlockers": [
+        "SHARED_NETWORK_NOT_READY"
+      ]
+    },
+    {
+      "run": 4,
+      "forcedFallback": false,
+      "mission004State": "READY",
+      "settlementSeconds": 5.2,
+      "sawSettlement": true,
+      "neutralContextOK": true,
+      "fallbackSeen": false,
+      "endMissionCalls": 1,
+      "networkFinalizerCalls": 0,
+      "priorityResetCalls": 0,
+      "capacityResetCalls": 0,
+      "loadResetCalls": 0,
+      "responseFinalizeCalls": 1,
+      "responseResetCalls": 1,
+      "sceneResetCalls": 2,
+      "postCommitSettlementStatus": {
+        "active": false,
+        "elapsedSeconds": 0,
+        "blockers": [],
+        "fallbackIssued": false,
+        "fallbackResult": null,
+        "postCommitMission002Baseline": {
+          "ready": true,
+          "blockers": [],
+          "ambulanceState": "AT_STATION",
+          "networkReady": true,
+          "safetyStatus": "PASSED"
+        },
+        "cellLoadProfileState": "READY",
+        "networkState": "READY",
+        "bosEndpointIds": [
+          "NET_FIRE_01",
+          "NET_POLICE_01",
+          "NET_AMBULANCE_01"
+        ]
+      },
+      "mission002BaselineReady": true,
+      "mission002CanStart": true,
+      "mission002StartResult": true,
+      "lastBlockers": [
+        "SHARED_NETWORK_NOT_READY"
+      ]
+    },
+    {
+      "run": 5,
+      "forcedFallback": false,
+      "mission004State": "READY",
+      "settlementSeconds": 5.2,
+      "sawSettlement": true,
+      "neutralContextOK": true,
+      "fallbackSeen": false,
+      "endMissionCalls": 1,
+      "networkFinalizerCalls": 0,
+      "priorityResetCalls": 0,
+      "capacityResetCalls": 0,
+      "loadResetCalls": 0,
+      "responseFinalizeCalls": 1,
+      "responseResetCalls": 1,
+      "sceneResetCalls": 2,
+      "postCommitSettlementStatus": {
+        "active": false,
+        "elapsedSeconds": 0,
+        "blockers": [],
+        "fallbackIssued": false,
+        "fallbackResult": null,
+        "postCommitMission002Baseline": {
+          "ready": true,
+          "blockers": [],
+          "ambulanceState": "AT_STATION",
+          "networkReady": true,
+          "safetyStatus": "PASSED"
+        },
+        "cellLoadProfileState": "READY",
+        "networkState": "READY",
+        "bosEndpointIds": [
+          "NET_FIRE_01",
+          "NET_POLICE_01",
+          "NET_AMBULANCE_01"
+        ]
+      },
+      "mission002BaselineReady": true,
+      "mission002CanStart": true,
+      "mission002StartResult": true,
+      "lastBlockers": [
+        "SHARED_NETWORK_NOT_READY"
+      ]
+    },
+    {
+      "run": 6,
+      "forcedFallback": false,
+      "mission004State": "READY",
+      "settlementSeconds": 5.2,
+      "sawSettlement": true,
+      "neutralContextOK": true,
+      "fallbackSeen": false,
+      "endMissionCalls": 1,
+      "networkFinalizerCalls": 0,
+      "priorityResetCalls": 0,
+      "capacityResetCalls": 0,
+      "loadResetCalls": 0,
+      "responseFinalizeCalls": 1,
+      "responseResetCalls": 1,
+      "sceneResetCalls": 2,
+      "postCommitSettlementStatus": {
+        "active": false,
+        "elapsedSeconds": 0,
+        "blockers": [],
+        "fallbackIssued": false,
+        "fallbackResult": null,
+        "postCommitMission002Baseline": {
+          "ready": true,
+          "blockers": [],
+          "ambulanceState": "AT_STATION",
+          "networkReady": true,
+          "safetyStatus": "PASSED"
+        },
+        "cellLoadProfileState": "READY",
+        "networkState": "READY",
+        "bosEndpointIds": [
+          "NET_FIRE_01",
+          "NET_POLICE_01",
+          "NET_AMBULANCE_01"
+        ]
+      },
+      "mission002BaselineReady": true,
+      "mission002CanStart": true,
+      "mission002StartResult": true,
+      "lastBlockers": [
+        "SHARED_NETWORK_NOT_READY"
+      ]
+    },
+    {
+      "run": 7,
+      "forcedFallback": false,
+      "mission004State": "READY",
+      "settlementSeconds": 5.2,
+      "sawSettlement": true,
+      "neutralContextOK": true,
+      "fallbackSeen": false,
+      "endMissionCalls": 1,
+      "networkFinalizerCalls": 0,
+      "priorityResetCalls": 0,
+      "capacityResetCalls": 0,
+      "loadResetCalls": 0,
+      "responseFinalizeCalls": 1,
+      "responseResetCalls": 1,
+      "sceneResetCalls": 2,
+      "postCommitSettlementStatus": {
+        "active": false,
+        "elapsedSeconds": 0,
+        "blockers": [],
+        "fallbackIssued": false,
+        "fallbackResult": null,
+        "postCommitMission002Baseline": {
+          "ready": true,
+          "blockers": [],
+          "ambulanceState": "AT_STATION",
+          "networkReady": true,
+          "safetyStatus": "PASSED"
+        },
+        "cellLoadProfileState": "READY",
+        "networkState": "READY",
+        "bosEndpointIds": [
+          "NET_FIRE_01",
+          "NET_POLICE_01",
+          "NET_AMBULANCE_01"
+        ]
+      },
+      "mission002BaselineReady": true,
+      "mission002CanStart": true,
+      "mission002StartResult": true,
+      "lastBlockers": [
+        "SHARED_NETWORK_NOT_READY"
+      ]
+    },
+    {
+      "run": 8,
+      "forcedFallback": false,
+      "mission004State": "READY",
+      "settlementSeconds": 5.2,
+      "sawSettlement": true,
+      "neutralContextOK": true,
+      "fallbackSeen": false,
+      "endMissionCalls": 1,
+      "networkFinalizerCalls": 0,
+      "priorityResetCalls": 0,
+      "capacityResetCalls": 0,
+      "loadResetCalls": 0,
+      "responseFinalizeCalls": 1,
+      "responseResetCalls": 1,
+      "sceneResetCalls": 2,
+      "postCommitSettlementStatus": {
+        "active": false,
+        "elapsedSeconds": 0,
+        "blockers": [],
+        "fallbackIssued": false,
+        "fallbackResult": null,
+        "postCommitMission002Baseline": {
+          "ready": true,
+          "blockers": [],
+          "ambulanceState": "AT_STATION",
+          "networkReady": true,
+          "safetyStatus": "PASSED"
+        },
+        "cellLoadProfileState": "READY",
+        "networkState": "READY",
+        "bosEndpointIds": [
+          "NET_FIRE_01",
+          "NET_POLICE_01",
+          "NET_AMBULANCE_01"
+        ]
+      },
+      "mission002BaselineReady": true,
+      "mission002CanStart": true,
+      "mission002StartResult": true,
+      "lastBlockers": [
+        "SHARED_NETWORK_NOT_READY"
+      ]
+    },
+    {
+      "run": 9,
+      "forcedFallback": false,
+      "mission004State": "READY",
+      "settlementSeconds": 5.2,
+      "sawSettlement": true,
+      "neutralContextOK": true,
+      "fallbackSeen": false,
+      "endMissionCalls": 1,
+      "networkFinalizerCalls": 0,
+      "priorityResetCalls": 0,
+      "capacityResetCalls": 0,
+      "loadResetCalls": 0,
+      "responseFinalizeCalls": 1,
+      "responseResetCalls": 1,
+      "sceneResetCalls": 2,
+      "postCommitSettlementStatus": {
+        "active": false,
+        "elapsedSeconds": 0,
+        "blockers": [],
+        "fallbackIssued": false,
+        "fallbackResult": null,
+        "postCommitMission002Baseline": {
+          "ready": true,
+          "blockers": [],
+          "ambulanceState": "AT_STATION",
+          "networkReady": true,
+          "safetyStatus": "PASSED"
+        },
+        "cellLoadProfileState": "READY",
+        "networkState": "READY",
+        "bosEndpointIds": [
+          "NET_FIRE_01",
+          "NET_POLICE_01",
+          "NET_AMBULANCE_01"
+        ]
+      },
+      "mission002BaselineReady": true,
+      "mission002CanStart": true,
+      "mission002StartResult": true,
+      "lastBlockers": [
+        "SHARED_NETWORK_NOT_READY"
+      ]
+    },
+    {
+      "run": 10,
+      "forcedFallback": false,
+      "mission004State": "READY",
+      "settlementSeconds": 5.2,
+      "sawSettlement": true,
+      "neutralContextOK": true,
+      "fallbackSeen": false,
+      "endMissionCalls": 1,
+      "networkFinalizerCalls": 0,
+      "priorityResetCalls": 0,
+      "capacityResetCalls": 0,
+      "loadResetCalls": 0,
+      "responseFinalizeCalls": 1,
+      "responseResetCalls": 1,
+      "sceneResetCalls": 2,
+      "postCommitSettlementStatus": {
+        "active": false,
+        "elapsedSeconds": 0,
+        "blockers": [],
+        "fallbackIssued": false,
+        "fallbackResult": null,
+        "postCommitMission002Baseline": {
+          "ready": true,
+          "blockers": [],
+          "ambulanceState": "AT_STATION",
+          "networkReady": true,
+          "safetyStatus": "PASSED"
+        },
+        "cellLoadProfileState": "READY",
+        "networkState": "READY",
+        "bosEndpointIds": [
+          "NET_FIRE_01",
+          "NET_POLICE_01",
+          "NET_AMBULANCE_01"
+        ]
+      },
+      "mission002BaselineReady": true,
+      "mission002CanStart": true,
+      "mission002StartResult": true,
+      "lastBlockers": [
+        "SHARED_NETWORK_NOT_READY"
+      ]
+    }
+  ],
+  "forcedFallbackRuns": [
+    {
+      "run": 1,
+      "forcedFallback": true,
+      "mission004State": "READY",
+      "settlementSeconds": 5.95,
+      "sawSettlement": true,
+      "neutralContextOK": true,
+      "fallbackSeen": false,
+      "endMissionCalls": 1,
+      "networkFinalizerCalls": 1,
+      "priorityResetCalls": 1,
+      "capacityResetCalls": 1,
+      "loadResetCalls": 1,
+      "responseFinalizeCalls": 1,
+      "responseResetCalls": 1,
+      "sceneResetCalls": 2,
+      "postCommitSettlementStatus": {
+        "active": false,
+        "elapsedSeconds": 0,
+        "blockers": [],
+        "fallbackIssued": true,
+        "fallbackResult": {
+          "ok": true,
+          "priority": true,
+          "capacity": true,
+          "load": true,
+          "network": true
+        },
+        "postCommitMission002Baseline": {
+          "ready": true,
+          "blockers": [],
+          "ambulanceState": "AT_STATION",
+          "networkReady": true,
+          "safetyStatus": "PASSED"
+        },
+        "cellLoadProfileState": "READY",
+        "networkState": "READY",
+        "bosEndpointIds": [
+          "NET_FIRE_01",
+          "NET_POLICE_01",
+          "NET_AMBULANCE_01"
+        ]
+      },
+      "mission002BaselineReady": true,
+      "mission002CanStart": true,
+      "mission002StartResult": true,
+      "lastBlockers": [
+        "SHARED_NETWORK_NOT_READY",
+        "BOS_PRIORITY_NOT_RELEASED",
+        "CELL_LOADS_STILL_EASING_NON_BLOCKING"
+      ]
+    },
+    {
+      "run": 2,
+      "forcedFallback": true,
+      "mission004State": "READY",
+      "settlementSeconds": 5.95,
+      "sawSettlement": true,
+      "neutralContextOK": true,
+      "fallbackSeen": false,
+      "endMissionCalls": 1,
+      "networkFinalizerCalls": 1,
+      "priorityResetCalls": 1,
+      "capacityResetCalls": 1,
+      "loadResetCalls": 1,
+      "responseFinalizeCalls": 1,
+      "responseResetCalls": 1,
+      "sceneResetCalls": 2,
+      "postCommitSettlementStatus": {
+        "active": false,
+        "elapsedSeconds": 0,
+        "blockers": [],
+        "fallbackIssued": true,
+        "fallbackResult": {
+          "ok": true,
+          "priority": true,
+          "capacity": true,
+          "load": true,
+          "network": true
+        },
+        "postCommitMission002Baseline": {
+          "ready": true,
+          "blockers": [],
+          "ambulanceState": "AT_STATION",
+          "networkReady": true,
+          "safetyStatus": "PASSED"
+        },
+        "cellLoadProfileState": "READY",
+        "networkState": "READY",
+        "bosEndpointIds": [
+          "NET_FIRE_01",
+          "NET_POLICE_01",
+          "NET_AMBULANCE_01"
+        ]
+      },
+      "mission002BaselineReady": true,
+      "mission002CanStart": true,
+      "mission002StartResult": true,
+      "lastBlockers": [
+        "SHARED_NETWORK_NOT_READY",
+        "BOS_PRIORITY_NOT_RELEASED",
+        "CELL_LOADS_STILL_EASING_NON_BLOCKING"
+      ]
+    },
+    {
+      "run": 3,
+      "forcedFallback": true,
+      "mission004State": "READY",
+      "settlementSeconds": 5.95,
+      "sawSettlement": true,
+      "neutralContextOK": true,
+      "fallbackSeen": false,
+      "endMissionCalls": 1,
+      "networkFinalizerCalls": 1,
+      "priorityResetCalls": 1,
+      "capacityResetCalls": 1,
+      "loadResetCalls": 1,
+      "responseFinalizeCalls": 1,
+      "responseResetCalls": 1,
+      "sceneResetCalls": 2,
+      "postCommitSettlementStatus": {
+        "active": false,
+        "elapsedSeconds": 0,
+        "blockers": [],
+        "fallbackIssued": true,
+        "fallbackResult": {
+          "ok": true,
+          "priority": true,
+          "capacity": true,
+          "load": true,
+          "network": true
+        },
+        "postCommitMission002Baseline": {
+          "ready": true,
+          "blockers": [],
+          "ambulanceState": "AT_STATION",
+          "networkReady": true,
+          "safetyStatus": "PASSED"
+        },
+        "cellLoadProfileState": "READY",
+        "networkState": "READY",
+        "bosEndpointIds": [
+          "NET_FIRE_01",
+          "NET_POLICE_01",
+          "NET_AMBULANCE_01"
+        ]
+      },
+      "mission002BaselineReady": true,
+      "mission002CanStart": true,
+      "mission002StartResult": true,
+      "lastBlockers": [
+        "SHARED_NETWORK_NOT_READY",
+        "BOS_PRIORITY_NOT_RELEASED",
+        "CELL_LOADS_STILL_EASING_NON_BLOCKING"
+      ]
+    },
+    {
+      "run": 4,
+      "forcedFallback": true,
+      "mission004State": "READY",
+      "settlementSeconds": 5.95,
+      "sawSettlement": true,
+      "neutralContextOK": true,
+      "fallbackSeen": false,
+      "endMissionCalls": 1,
+      "networkFinalizerCalls": 1,
+      "priorityResetCalls": 1,
+      "capacityResetCalls": 1,
+      "loadResetCalls": 1,
+      "responseFinalizeCalls": 1,
+      "responseResetCalls": 1,
+      "sceneResetCalls": 2,
+      "postCommitSettlementStatus": {
+        "active": false,
+        "elapsedSeconds": 0,
+        "blockers": [],
+        "fallbackIssued": true,
+        "fallbackResult": {
+          "ok": true,
+          "priority": true,
+          "capacity": true,
+          "load": true,
+          "network": true
+        },
+        "postCommitMission002Baseline": {
+          "ready": true,
+          "blockers": [],
+          "ambulanceState": "AT_STATION",
+          "networkReady": true,
+          "safetyStatus": "PASSED"
+        },
+        "cellLoadProfileState": "READY",
+        "networkState": "READY",
+        "bosEndpointIds": [
+          "NET_FIRE_01",
+          "NET_POLICE_01",
+          "NET_AMBULANCE_01"
+        ]
+      },
+      "mission002BaselineReady": true,
+      "mission002CanStart": true,
+      "mission002StartResult": true,
+      "lastBlockers": [
+        "SHARED_NETWORK_NOT_READY",
+        "BOS_PRIORITY_NOT_RELEASED",
+        "CELL_LOADS_STILL_EASING_NON_BLOCKING"
+      ]
+    },
+    {
+      "run": 5,
+      "forcedFallback": true,
+      "mission004State": "READY",
+      "settlementSeconds": 5.95,
+      "sawSettlement": true,
+      "neutralContextOK": true,
+      "fallbackSeen": false,
+      "endMissionCalls": 1,
+      "networkFinalizerCalls": 1,
+      "priorityResetCalls": 1,
+      "capacityResetCalls": 1,
+      "loadResetCalls": 1,
+      "responseFinalizeCalls": 1,
+      "responseResetCalls": 1,
+      "sceneResetCalls": 2,
+      "postCommitSettlementStatus": {
+        "active": false,
+        "elapsedSeconds": 0,
+        "blockers": [],
+        "fallbackIssued": true,
+        "fallbackResult": {
+          "ok": true,
+          "priority": true,
+          "capacity": true,
+          "load": true,
+          "network": true
+        },
+        "postCommitMission002Baseline": {
+          "ready": true,
+          "blockers": [],
+          "ambulanceState": "AT_STATION",
+          "networkReady": true,
+          "safetyStatus": "PASSED"
+        },
+        "cellLoadProfileState": "READY",
+        "networkState": "READY",
+        "bosEndpointIds": [
+          "NET_FIRE_01",
+          "NET_POLICE_01",
+          "NET_AMBULANCE_01"
+        ]
+      },
+      "mission002BaselineReady": true,
+      "mission002CanStart": true,
+      "mission002StartResult": true,
+      "lastBlockers": [
+        "SHARED_NETWORK_NOT_READY",
+        "BOS_PRIORITY_NOT_RELEASED",
+        "CELL_LOADS_STILL_EASING_NON_BLOCKING"
+      ]
+    }
+  ],
+  "freshMission002": [
+    {
+      "run": 1,
+      "canStart": true,
+      "start": true
+    },
+    {
+      "run": 2,
+      "canStart": true,
+      "start": true
+    },
+    {
+      "run": 3,
+      "canStart": true,
+      "start": true
+    },
+    {
+      "run": 4,
+      "canStart": true,
+      "start": true
+    },
+    {
+      "run": 5,
+      "canStart": true,
+      "start": true
+    }
+  ],
+  "maxNaturalSettlementSeconds": 5.2,
+  "maxFallbackSettlementSeconds": 5.95
+}

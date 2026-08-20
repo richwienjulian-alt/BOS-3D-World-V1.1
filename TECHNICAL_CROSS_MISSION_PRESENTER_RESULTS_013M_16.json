@@ -1,0 +1,140 @@
+{
+  "title": "MISSION BOS BUILD 013M.16 TECHNICAL CROSS-MISSION PRESENTER RUNTIME",
+  "runs": 12,
+  "passed": 12,
+  "results": [
+    {
+      "missionId": "MISSION_001",
+      "run": 1,
+      "pass": true,
+      "starts": 1,
+      "finishes": 1,
+      "wheelReleased": true,
+      "cameraReleases": 1,
+      "bookmarkBefore": "CAM_CITY_OVERVIEW",
+      "bookmarkAfter": null
+    },
+    {
+      "missionId": "MISSION_001",
+      "run": 2,
+      "pass": true,
+      "starts": 1,
+      "finishes": 1,
+      "wheelReleased": true,
+      "cameraReleases": 1,
+      "bookmarkBefore": "CAM_CITY_OVERVIEW",
+      "bookmarkAfter": null
+    },
+    {
+      "missionId": "MISSION_001",
+      "run": 3,
+      "pass": true,
+      "starts": 1,
+      "finishes": 1,
+      "wheelReleased": true,
+      "cameraReleases": 1,
+      "bookmarkBefore": "CAM_CITY_OVERVIEW",
+      "bookmarkAfter": null
+    },
+    {
+      "missionId": "MISSION_002",
+      "run": 1,
+      "pass": true,
+      "starts": 1,
+      "finishes": 1,
+      "wheelReleased": true,
+      "cameraReleases": 1,
+      "bookmarkBefore": "CAM_CITY_OVERVIEW",
+      "bookmarkAfter": null
+    },
+    {
+      "missionId": "MISSION_002",
+      "run": 2,
+      "pass": true,
+      "starts": 1,
+      "finishes": 1,
+      "wheelReleased": true,
+      "cameraReleases": 1,
+      "bookmarkBefore": "CAM_CITY_OVERVIEW",
+      "bookmarkAfter": null
+    },
+    {
+      "missionId": "MISSION_002",
+      "run": 3,
+      "pass": true,
+      "starts": 1,
+      "finishes": 1,
+      "wheelReleased": true,
+      "cameraReleases": 1,
+      "bookmarkBefore": "CAM_CITY_OVERVIEW",
+      "bookmarkAfter": null
+    },
+    {
+      "missionId": "MISSION_003",
+      "run": 1,
+      "pass": true,
+      "starts": 1,
+      "finishes": 1,
+      "wheelReleased": true,
+      "cameraReleases": 1,
+      "bookmarkBefore": "CAM_CITY_OVERVIEW",
+      "bookmarkAfter": null
+    },
+    {
+      "missionId": "MISSION_003",
+      "run": 2,
+      "pass": true,
+      "starts": 1,
+      "finishes": 1,
+      "wheelReleased": true,
+      "cameraReleases": 1,
+      "bookmarkBefore": "CAM_CITY_OVERVIEW",
+      "bookmarkAfter": null
+    },
+    {
+      "missionId": "MISSION_003",
+      "run": 3,
+      "pass": true,
+      "starts": 1,
+      "finishes": 1,
+      "wheelReleased": true,
+      "cameraReleases": 1,
+      "bookmarkBefore": "CAM_CITY_OVERVIEW",
+      "bookmarkAfter": null
+    },
+    {
+      "missionId": "MISSION_004",
+      "run": 1,
+      "pass": true,
+      "starts": 1,
+      "finishes": 1,
+      "wheelReleased": true,
+      "cameraReleases": 1,
+      "bookmarkBefore": "CAM_CITY_OVERVIEW",
+      "bookmarkAfter": null
+    },
+    {
+      "missionId": "MISSION_004",
+      "run": 2,
+      "pass": true,
+      "starts": 1,
+      "finishes": 1,
+      "wheelReleased": true,
+      "cameraReleases": 1,
+      "bookmarkBefore": "CAM_CITY_OVERVIEW",
+      "bookmarkAfter": null
+    },
+    {
+      "missionId": "MISSION_004",
+      "run": 3,
+      "pass": true,
+      "starts": 1,
+      "finishes": 1,
+      "wheelReleased": true,
+      "cameraReleases": 1,
+      "bookmarkBefore": "CAM_CITY_OVERVIEW",
+      "bookmarkAfter": null
+    }
+  ],
+  "status": "PASSED"
+}

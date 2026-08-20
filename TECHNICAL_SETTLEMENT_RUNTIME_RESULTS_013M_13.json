@@ -1,0 +1,423 @@
+{
+  "status": "PASSED",
+  "runs": [
+    {
+      "run": 1,
+      "initialGlobal": 96,
+      "initialCell": 97,
+      "settlementSeconds": 4.850000000000069,
+      "endMissionCalls": 1,
+      "finalizeCalls": 1,
+      "sawSettlement": true,
+      "neutralContextOK": true,
+      "baselineReady": true,
+      "mission002CanStart": true,
+      "mission002StartResult": true,
+      "mission004State": "READY",
+      "handoffSnapshot": {
+        "networkLoad": 38,
+        "cellLoad": 50,
+        "priorityActive": false,
+        "networkReady": true,
+        "settlementStatus": {
+          "active": false,
+          "elapsedSeconds": 0,
+          "blockers": [],
+          "cellLoadProfileState": "READY",
+          "networkState": "READY",
+          "bosEndpointIds": [
+            "NET_FIRE_01",
+            "NET_POLICE_01",
+            "NET_AMBULANCE_01"
+          ]
+        }
+      },
+      "networkLoadAfterM2Start": 82,
+      "cellLoadAfterM2Start": 50,
+      "priorityActiveAfterM2Start": false,
+      "lastSettlementBlockers": [
+        "SHARED_NETWORK_NOT_READY",
+        "MISSION_002_BASELINE_NOT_READY"
+      ]
+    },
+    {
+      "run": 2,
+      "initialGlobal": 92,
+      "initialCell": 94,
+      "settlementSeconds": 4.500000000000064,
+      "endMissionCalls": 1,
+      "finalizeCalls": 1,
+      "sawSettlement": true,
+      "neutralContextOK": true,
+      "baselineReady": true,
+      "mission002CanStart": true,
+      "mission002StartResult": true,
+      "mission004State": "READY",
+      "handoffSnapshot": {
+        "networkLoad": 38.0000000000002,
+        "cellLoad": 50,
+        "priorityActive": false,
+        "networkReady": true,
+        "settlementStatus": {
+          "active": false,
+          "elapsedSeconds": 0,
+          "blockers": [],
+          "cellLoadProfileState": "READY",
+          "networkState": "READY",
+          "bosEndpointIds": [
+            "NET_FIRE_01",
+            "NET_POLICE_01",
+            "NET_AMBULANCE_01"
+          ]
+        }
+      },
+      "networkLoadAfterM2Start": 82,
+      "cellLoadAfterM2Start": 50,
+      "priorityActiveAfterM2Start": false,
+      "lastSettlementBlockers": [
+        "SHARED_NETWORK_NOT_READY",
+        "MISSION_002_BASELINE_NOT_READY"
+      ]
+    },
+    {
+      "run": 3,
+      "initialGlobal": 88,
+      "initialCell": 91,
+      "settlementSeconds": 4.20000000000006,
+      "endMissionCalls": 1,
+      "finalizeCalls": 1,
+      "sawSettlement": true,
+      "neutralContextOK": true,
+      "baselineReady": true,
+      "mission002CanStart": true,
+      "mission002StartResult": true,
+      "mission004State": "READY",
+      "handoffSnapshot": {
+        "networkLoad": 38,
+        "cellLoad": 50,
+        "priorityActive": false,
+        "networkReady": true,
+        "settlementStatus": {
+          "active": false,
+          "elapsedSeconds": 0,
+          "blockers": [],
+          "cellLoadProfileState": "READY",
+          "networkState": "READY",
+          "bosEndpointIds": [
+            "NET_FIRE_01",
+            "NET_POLICE_01",
+            "NET_AMBULANCE_01"
+          ]
+        }
+      },
+      "networkLoadAfterM2Start": 82,
+      "cellLoadAfterM2Start": 50,
+      "priorityActiveAfterM2Start": false,
+      "lastSettlementBlockers": [
+        "SHARED_NETWORK_NOT_READY",
+        "MISSION_002_BASELINE_NOT_READY"
+      ]
+    },
+    {
+      "run": 4,
+      "initialGlobal": 84,
+      "initialCell": 100,
+      "settlementSeconds": 3.8500000000000547,
+      "endMissionCalls": 1,
+      "finalizeCalls": 1,
+      "sawSettlement": true,
+      "neutralContextOK": true,
+      "baselineReady": true,
+      "mission002CanStart": true,
+      "mission002StartResult": true,
+      "mission004State": "READY",
+      "handoffSnapshot": {
+        "networkLoad": 38,
+        "cellLoad": 53.80000000000032,
+        "priorityActive": false,
+        "networkReady": true,
+        "settlementStatus": {
+          "active": false,
+          "elapsedSeconds": 0,
+          "blockers": [],
+          "cellLoadProfileState": "READY",
+          "networkState": "READY",
+          "bosEndpointIds": [
+            "NET_FIRE_01",
+            "NET_POLICE_01",
+            "NET_AMBULANCE_01"
+          ]
+        }
+      },
+      "networkLoadAfterM2Start": 82,
+      "cellLoadAfterM2Start": 53.80000000000032,
+      "priorityActiveAfterM2Start": false,
+      "lastSettlementBlockers": [
+        "SHARED_NETWORK_NOT_READY",
+        "MISSION_002_BASELINE_NOT_READY"
+      ]
+    },
+    {
+      "run": 5,
+      "initialGlobal": 100,
+      "initialCell": 97,
+      "settlementSeconds": 5.200000000000074,
+      "endMissionCalls": 1,
+      "finalizeCalls": 1,
+      "sawSettlement": true,
+      "neutralContextOK": true,
+      "baselineReady": true,
+      "mission002CanStart": true,
+      "mission002StartResult": true,
+      "mission004State": "READY",
+      "handoffSnapshot": {
+        "networkLoad": 38,
+        "cellLoad": 50,
+        "priorityActive": false,
+        "networkReady": true,
+        "settlementStatus": {
+          "active": false,
+          "elapsedSeconds": 0,
+          "blockers": [],
+          "cellLoadProfileState": "READY",
+          "networkState": "READY",
+          "bosEndpointIds": [
+            "NET_FIRE_01",
+            "NET_POLICE_01",
+            "NET_AMBULANCE_01"
+          ]
+        }
+      },
+      "networkLoadAfterM2Start": 82,
+      "cellLoadAfterM2Start": 50,
+      "priorityActiveAfterM2Start": false,
+      "lastSettlementBlockers": [
+        "SHARED_NETWORK_NOT_READY",
+        "MISSION_002_BASELINE_NOT_READY"
+      ]
+    },
+    {
+      "run": 6,
+      "initialGlobal": 96,
+      "initialCell": 94,
+      "settlementSeconds": 4.850000000000069,
+      "endMissionCalls": 1,
+      "finalizeCalls": 1,
+      "sawSettlement": true,
+      "neutralContextOK": true,
+      "baselineReady": true,
+      "mission002CanStart": true,
+      "mission002StartResult": true,
+      "mission004State": "READY",
+      "handoffSnapshot": {
+        "networkLoad": 38,
+        "cellLoad": 50,
+        "priorityActive": false,
+        "networkReady": true,
+        "settlementStatus": {
+          "active": false,
+          "elapsedSeconds": 0,
+          "blockers": [],
+          "cellLoadProfileState": "READY",
+          "networkState": "READY",
+          "bosEndpointIds": [
+            "NET_FIRE_01",
+            "NET_POLICE_01",
+            "NET_AMBULANCE_01"
+          ]
+        }
+      },
+      "networkLoadAfterM2Start": 82,
+      "cellLoadAfterM2Start": 50,
+      "priorityActiveAfterM2Start": false,
+      "lastSettlementBlockers": [
+        "SHARED_NETWORK_NOT_READY",
+        "MISSION_002_BASELINE_NOT_READY"
+      ]
+    },
+    {
+      "run": 7,
+      "initialGlobal": 92,
+      "initialCell": 91,
+      "settlementSeconds": 4.500000000000064,
+      "endMissionCalls": 1,
+      "finalizeCalls": 1,
+      "sawSettlement": true,
+      "neutralContextOK": true,
+      "baselineReady": true,
+      "mission002CanStart": true,
+      "mission002StartResult": true,
+      "mission004State": "READY",
+      "handoffSnapshot": {
+        "networkLoad": 38.0000000000002,
+        "cellLoad": 50,
+        "priorityActive": false,
+        "networkReady": true,
+        "settlementStatus": {
+          "active": false,
+          "elapsedSeconds": 0,
+          "blockers": [],
+          "cellLoadProfileState": "READY",
+          "networkState": "READY",
+          "bosEndpointIds": [
+            "NET_FIRE_01",
+            "NET_POLICE_01",
+            "NET_AMBULANCE_01"
+          ]
+        }
+      },
+      "networkLoadAfterM2Start": 82,
+      "cellLoadAfterM2Start": 50,
+      "priorityActiveAfterM2Start": false,
+      "lastSettlementBlockers": [
+        "SHARED_NETWORK_NOT_READY",
+        "MISSION_002_BASELINE_NOT_READY"
+      ]
+    },
+    {
+      "run": 8,
+      "initialGlobal": 88,
+      "initialCell": 100,
+      "settlementSeconds": 4.20000000000006,
+      "endMissionCalls": 1,
+      "finalizeCalls": 1,
+      "sawSettlement": true,
+      "neutralContextOK": true,
+      "baselineReady": true,
+      "mission002CanStart": true,
+      "mission002StartResult": true,
+      "mission004State": "READY",
+      "handoffSnapshot": {
+        "networkLoad": 38,
+        "cellLoad": 50,
+        "priorityActive": false,
+        "networkReady": true,
+        "settlementStatus": {
+          "active": false,
+          "elapsedSeconds": 0,
+          "blockers": [],
+          "cellLoadProfileState": "READY",
+          "networkState": "READY",
+          "bosEndpointIds": [
+            "NET_FIRE_01",
+            "NET_POLICE_01",
+            "NET_AMBULANCE_01"
+          ]
+        }
+      },
+      "networkLoadAfterM2Start": 82,
+      "cellLoadAfterM2Start": 50,
+      "priorityActiveAfterM2Start": false,
+      "lastSettlementBlockers": [
+        "SHARED_NETWORK_NOT_READY",
+        "MISSION_002_BASELINE_NOT_READY"
+      ]
+    },
+    {
+      "run": 9,
+      "initialGlobal": 84,
+      "initialCell": 97,
+      "settlementSeconds": 3.8500000000000547,
+      "endMissionCalls": 1,
+      "finalizeCalls": 1,
+      "sawSettlement": true,
+      "neutralContextOK": true,
+      "baselineReady": true,
+      "mission002CanStart": true,
+      "mission002StartResult": true,
+      "mission004State": "READY",
+      "handoffSnapshot": {
+        "networkLoad": 38,
+        "cellLoad": 50.80000000000028,
+        "priorityActive": false,
+        "networkReady": true,
+        "settlementStatus": {
+          "active": false,
+          "elapsedSeconds": 0,
+          "blockers": [],
+          "cellLoadProfileState": "READY",
+          "networkState": "READY",
+          "bosEndpointIds": [
+            "NET_FIRE_01",
+            "NET_POLICE_01",
+            "NET_AMBULANCE_01"
+          ]
+        }
+      },
+      "networkLoadAfterM2Start": 82,
+      "cellLoadAfterM2Start": 50.80000000000028,
+      "priorityActiveAfterM2Start": false,
+      "lastSettlementBlockers": [
+        "SHARED_NETWORK_NOT_READY",
+        "MISSION_002_BASELINE_NOT_READY"
+      ]
+    },
+    {
+      "run": 10,
+      "initialGlobal": 100,
+      "initialCell": 94,
+      "settlementSeconds": 5.200000000000074,
+      "endMissionCalls": 1,
+      "finalizeCalls": 1,
+      "sawSettlement": true,
+      "neutralContextOK": true,
+      "baselineReady": true,
+      "mission002CanStart": true,
+      "mission002StartResult": true,
+      "mission004State": "READY",
+      "handoffSnapshot": {
+        "networkLoad": 38,
+        "cellLoad": 50,
+        "priorityActive": false,
+        "networkReady": true,
+        "settlementStatus": {
+          "active": false,
+          "elapsedSeconds": 0,
+          "blockers": [],
+          "cellLoadProfileState": "READY",
+          "networkState": "READY",
+          "bosEndpointIds": [
+            "NET_FIRE_01",
+            "NET_POLICE_01",
+            "NET_AMBULANCE_01"
+          ]
+        }
+      },
+      "networkLoadAfterM2Start": 82,
+      "cellLoadAfterM2Start": 50,
+      "priorityActiveAfterM2Start": false,
+      "lastSettlementBlockers": [
+        "SHARED_NETWORK_NOT_READY",
+        "MISSION_002_BASELINE_NOT_READY"
+      ]
+    }
+  ],
+  "freshMission002": [
+    {
+      "run": 1,
+      "canStart": true,
+      "start": true
+    },
+    {
+      "run": 2,
+      "canStart": true,
+      "start": true
+    },
+    {
+      "run": 3,
+      "canStart": true,
+      "start": true
+    },
+    {
+      "run": 4,
+      "canStart": true,
+      "start": true
+    },
+    {
+      "run": 5,
+      "canStart": true,
+      "start": true
+    }
+  ],
+  "maxSettlementSeconds": 5.200000000000074
+}

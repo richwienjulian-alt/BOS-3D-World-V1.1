@@ -1,0 +1,446 @@
+{
+  "validator": "TECHNICAL_CAMERA_RUNTIME_013M20",
+  "status": "PASSED",
+  "resolvedViews": 12,
+  "releases": 4,
+  "checks": [
+    {
+      "name": "MISSION_001 profile dataset",
+      "passed": true,
+      "detail": "MISSION_001"
+    },
+    {
+      "name": "MISSION_001 city position",
+      "passed": true,
+      "detail": {
+        "x": -34,
+        "y": 16,
+        "z": 49
+      }
+    },
+    {
+      "name": "MISSION_001 city yaw/pitch",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "yaw": -0.9961715193850527,
+          "pitch": -0.43174281119300667
+        },
+        "expected": {
+          "yaw": -0.9961715193850527,
+          "pitch": -0.43174281119300667
+        }
+      }
+    },
+    {
+      "name": "MISSION_001 city fov",
+      "passed": true,
+      "detail": 60
+    },
+    {
+      "name": "MISSION_001 incident position",
+      "passed": true,
+      "detail": {
+        "x": -25,
+        "y": 10,
+        "z": 47
+      }
+    },
+    {
+      "name": "MISSION_001 incident yaw/pitch",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "yaw": -0.8298619089838717,
+          "pitch": -0.2617815384588835
+        },
+        "expected": {
+          "yaw": -0.8298619089838717,
+          "pitch": -0.2617815384588835
+        }
+      }
+    },
+    {
+      "name": "MISSION_001 incident fov",
+      "passed": true,
+      "detail": 54
+    },
+    {
+      "name": "MISSION_001 network position",
+      "passed": true,
+      "detail": {
+        "x": 22,
+        "y": 16,
+        "z": 46
+      }
+    },
+    {
+      "name": "MISSION_001 network yaw/pitch",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "yaw": 0.712357598094329,
+          "pitch": -0.30024928753547164
+        },
+        "expected": {
+          "yaw": 0.712357598094329,
+          "pitch": -0.30024928753547164
+        }
+      }
+    },
+    {
+      "name": "MISSION_001 network fov",
+      "passed": true,
+      "detail": 66
+    },
+    {
+      "name": "MISSION_001 mission change releases bookmark",
+      "passed": true,
+      "detail": {
+        "cameraState": "FREE",
+        "releases": 1
+      }
+    },
+    {
+      "name": "MISSION_001 mission change has no automatic pose",
+      "passed": true,
+      "detail": {
+        "before": 6,
+        "after": 6
+      }
+    },
+    {
+      "name": "MISSION_002 profile dataset",
+      "passed": true,
+      "detail": "MISSION_002"
+    },
+    {
+      "name": "MISSION_002 city position",
+      "passed": true,
+      "detail": {
+        "x": 53,
+        "y": 21,
+        "z": 8
+      }
+    },
+    {
+      "name": "MISSION_002 city yaw/pitch",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "yaw": 1.2847448850775784,
+          "pitch": -0.806928626090413
+        },
+        "expected": {
+          "yaw": 1.2847448850775784,
+          "pitch": -0.806928626090413
+        }
+      }
+    },
+    {
+      "name": "MISSION_002 city fov",
+      "passed": true,
+      "detail": 72
+    },
+    {
+      "name": "MISSION_002 incident position",
+      "passed": true,
+      "detail": {
+        "x": 50,
+        "y": 9,
+        "z": -41
+      }
+    },
+    {
+      "name": "MISSION_002 incident yaw/pitch",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "yaw": 2.588966231693231,
+          "pitch": -0.4136016312734095
+        },
+        "expected": {
+          "yaw": 2.588966231693231,
+          "pitch": -0.4136016312734095
+        }
+      }
+    },
+    {
+      "name": "MISSION_002 incident fov",
+      "passed": true,
+      "detail": 52
+    },
+    {
+      "name": "MISSION_002 network position",
+      "passed": true,
+      "detail": {
+        "x": 11,
+        "y": 15,
+        "z": -4
+      }
+    },
+    {
+      "name": "MISSION_002 network yaw/pitch",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "yaw": -0.960070362405688,
+          "pitch": -0.3531958002978703
+        },
+        "expected": {
+          "yaw": -0.960070362405688,
+          "pitch": -0.3531958002978703
+        }
+      }
+    },
+    {
+      "name": "MISSION_002 network fov",
+      "passed": true,
+      "detail": 62
+    },
+    {
+      "name": "MISSION_002 mission change releases bookmark",
+      "passed": true,
+      "detail": {
+        "cameraState": "FREE",
+        "releases": 2
+      }
+    },
+    {
+      "name": "MISSION_002 mission change has no automatic pose",
+      "passed": true,
+      "detail": {
+        "before": 12,
+        "after": 12
+      }
+    },
+    {
+      "name": "MISSION_003 profile dataset",
+      "passed": true,
+      "detail": "MISSION_003"
+    },
+    {
+      "name": "MISSION_003 city position",
+      "passed": true,
+      "detail": {
+        "x": -29,
+        "y": 16,
+        "z": 25
+      }
+    },
+    {
+      "name": "MISSION_003 city yaw/pitch",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "yaw": -0.8620185509944214,
+          "pitch": -0.45471064342964834
+        },
+        "expected": {
+          "yaw": -0.8620185509944214,
+          "pitch": -0.45471064342964834
+        }
+      }
+    },
+    {
+      "name": "MISSION_003 city fov",
+      "passed": true,
+      "detail": 60
+    },
+    {
+      "name": "MISSION_003 incident position",
+      "passed": true,
+      "detail": {
+        "x": -21,
+        "y": 9,
+        "z": 16
+      }
+    },
+    {
+      "name": "MISSION_003 incident yaw/pitch",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "yaw": -0.9589965635212512,
+          "pitch": -0.40522753909906983
+        },
+        "expected": {
+          "yaw": -0.9589965635212512,
+          "pitch": -0.40522753909906983
+        }
+      }
+    },
+    {
+      "name": "MISSION_003 incident fov",
+      "passed": true,
+      "detail": 52
+    },
+    {
+      "name": "MISSION_003 network position",
+      "passed": true,
+      "detail": {
+        "x": 27,
+        "y": 15,
+        "z": -3
+      }
+    },
+    {
+      "name": "MISSION_003 network yaw/pitch",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "yaw": 2.0852476398539244,
+          "pitch": -0.3618405095692411
+        },
+        "expected": {
+          "yaw": 2.0852476398539244,
+          "pitch": -0.3618405095692411
+        }
+      }
+    },
+    {
+      "name": "MISSION_003 network fov",
+      "passed": true,
+      "detail": 62
+    },
+    {
+      "name": "MISSION_003 mission change releases bookmark",
+      "passed": true,
+      "detail": {
+        "cameraState": "FREE",
+        "releases": 3
+      }
+    },
+    {
+      "name": "MISSION_003 mission change has no automatic pose",
+      "passed": true,
+      "detail": {
+        "before": 18,
+        "after": 18
+      }
+    },
+    {
+      "name": "MISSION_004 profile dataset",
+      "passed": true,
+      "detail": "MISSION_004"
+    },
+    {
+      "name": "MISSION_004 city position",
+      "passed": true,
+      "detail": {
+        "x": 7,
+        "y": 16,
+        "z": 53
+      }
+    },
+    {
+      "name": "MISSION_004 city yaw/pitch",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "yaw": -1.0942253662157408,
+          "pitch": -0.46819086908971896
+        },
+        "expected": {
+          "yaw": -1.0942253662157408,
+          "pitch": -0.46819086908971896
+        }
+      }
+    },
+    {
+      "name": "MISSION_004 city fov",
+      "passed": true,
+      "detail": 61
+    },
+    {
+      "name": "MISSION_004 incident position",
+      "passed": true,
+      "detail": {
+        "x": 18,
+        "y": 9,
+        "z": 52
+      }
+    },
+    {
+      "name": "MISSION_004 incident yaw/pitch",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "yaw": -0.8603562718920199,
+          "pitch": -0.3816556775866998
+        },
+        "expected": {
+          "yaw": -0.8603562718920199,
+          "pitch": -0.3816556775866998
+        }
+      }
+    },
+    {
+      "name": "MISSION_004 incident fov",
+      "passed": true,
+      "detail": 52
+    },
+    {
+      "name": "MISSION_004 network position",
+      "passed": true,
+      "detail": {
+        "x": 53,
+        "y": 16,
+        "z": 53
+      }
+    },
+    {
+      "name": "MISSION_004 network yaw/pitch",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "yaw": 0.5880026035475675,
+          "pitch": -0.46303156066151024
+        },
+        "expected": {
+          "yaw": 0.5880026035475675,
+          "pitch": -0.46303156066151024
+        }
+      }
+    },
+    {
+      "name": "MISSION_004 network fov",
+      "passed": true,
+      "detail": 62
+    },
+    {
+      "name": "MISSION_004 mission change releases bookmark",
+      "passed": true,
+      "detail": {
+        "cameraState": "FREE",
+        "releases": 4
+      }
+    },
+    {
+      "name": "MISSION_004 mission change has no automatic pose",
+      "passed": true,
+      "detail": {
+        "before": 24,
+        "after": 24
+      }
+    },
+    {
+      "name": "runtime safety",
+      "passed": true,
+      "detail": {
+        "status": "PASSED",
+        "planValidation": "PASSED",
+        "domElements": "PASSED",
+        "missionRuntime": "PASSED",
+        "cameraAdapter": "PASSED",
+        "automaticCameraTransitions": 0,
+        "automaticMissionActions": 0,
+        "unauthorizedActionAttempts": 0,
+        "cameraState": "FREE",
+        "guidedMode": false,
+        "activeMissionCameraProfile": "MISSION_001"
+      }
+    }
+  ],
+  "errors": []
+}

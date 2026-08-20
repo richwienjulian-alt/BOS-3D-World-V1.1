@@ -1,0 +1,218 @@
+{
+  "status": "PASSED",
+  "checks": [
+    {
+      "name": "tap selects once",
+      "passed": true,
+      "detail": {
+        "taps": [
+          {
+            "x": 104,
+            "y": 104,
+            "rect": {
+              "left": 0,
+              "top": 0,
+              "width": 800,
+              "height": 600
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "pan moves ground camera",
+      "passed": true,
+      "detail": {
+        "panCalls": [
+          [
+            0.08,
+            -0.8
+          ],
+          [
+            0.12,
+            -0.8
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            -2,
+            0
+          ],
+          [
+            0,
+            -2
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "name": "pan does not tap",
+      "passed": true,
+      "detail": {
+        "taps": [
+          {
+            "x": 104,
+            "y": 104,
+            "rect": {
+              "left": 0,
+              "top": 0,
+              "width": 800,
+              "height": 600
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "pan preserves height in adapter harness",
+      "passed": true,
+      "detail": {
+        "x": -1.6,
+        "y": 9,
+        "z": 45.800000000000004
+      }
+    },
+    {
+      "name": "pinch apart lowers FOV",
+      "passed": true,
+      "detail": {
+        "pinchFov": 56
+      }
+    },
+    {
+      "name": "pinch does not tap",
+      "passed": true,
+      "detail": {
+        "taps": [
+          {
+            "x": 104,
+            "y": 104,
+            "rect": {
+              "left": 0,
+              "top": 0,
+              "width": 800,
+              "height": 600
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "zoom-in clamps at 36",
+      "passed": true,
+      "detail": {
+        "fov": 36
+      }
+    },
+    {
+      "name": "zoom-out clamps at 78",
+      "passed": true,
+      "detail": {
+        "fov": 78
+      }
+    },
+    {
+      "name": "four dashboard pan commands",
+      "passed": true,
+      "detail": {
+        "panCalls": 6
+      }
+    },
+    {
+      "name": "home uses adapter",
+      "passed": true,
+      "detail": {
+        "homeCalls": 1,
+        "pose": {
+          "x": 0.78,
+          "y": 9,
+          "z": 46
+        },
+        "fov": 56
+      }
+    },
+    {
+      "name": "pointer cancel recorded",
+      "passed": true,
+      "detail": {
+        "status": "PASSED",
+        "pointerCancelCount": 1,
+        "tapCount": 1,
+        "panCount": 2,
+        "pinchCount": 1,
+        "dashboardCommandCount": 45,
+        "rejectedMousePointerCount": 1,
+        "errors": []
+      }
+    },
+    {
+      "name": "mouse ignored by touch controller",
+      "passed": true,
+      "detail": {
+        "status": "PASSED",
+        "pointerCancelCount": 1,
+        "tapCount": 1,
+        "panCount": 2,
+        "pinchCount": 1,
+        "dashboardCommandCount": 45,
+        "rejectedMousePointerCount": 1,
+        "errors": []
+      }
+    },
+    {
+      "name": "presenter release used",
+      "passed": true,
+      "detail": {
+        "releaseCount": 47
+      }
+    },
+    {
+      "name": "runtime remains passed",
+      "passed": true,
+      "detail": {
+        "status": "PASSED",
+        "pointerCancelCount": 1,
+        "tapCount": 1,
+        "panCount": 2,
+        "pinchCount": 1,
+        "dashboardCommandCount": 45,
+        "rejectedMousePointerCount": 1,
+        "errors": []
+      }
+    }
+  ],
+  "manifest": {
+    "status": "PASSED",
+    "build": "013M.18",
+    "pointerTypes": [
+      "touch",
+      "pen"
+    ],
+    "dashboardControls": 7,
+    "inspectionAvailable": true
+  },
+  "safety": {
+    "status": "PASSED",
+    "pointerCancelCount": 1,
+    "tapCount": 1,
+    "panCount": 2,
+    "pinchCount": 1,
+    "dashboardCommandCount": 45,
+    "rejectedMousePointerCount": 1,
+    "errors": []
+  },
+  "metrics": {
+    "tapSelections": 1,
+    "panCalls": 6,
+    "pinchFov": 56,
+    "projectionUpdates": 41,
+    "releaseCount": 47,
+    "homeCalls": 1
+  }
+}

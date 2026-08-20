@@ -1,0 +1,71 @@
+{
+  "status": "PASSED",
+  "checks": [
+    {
+      "name": "actual adapter left is +15deg",
+      "passed": true,
+      "detail": {
+        "targetYaw": 0.2617993877991494
+      }
+    },
+    {
+      "name": "actual adapter only changes target yaw",
+      "passed": true,
+      "detail": {
+        "currentYaw": 0,
+        "pitch": -0.17863100651394934,
+        "height": 9,
+        "fov": 56
+      }
+    },
+    {
+      "name": "actual adapter right returns target",
+      "passed": true,
+      "detail": {
+        "targetYaw": 0
+      }
+    },
+    {
+      "name": "actual adapter 24 left = 2pi",
+      "passed": true,
+      "detail": {
+        "targetYaw": 6.2831853071795845
+      }
+    },
+    {
+      "name": "actual adapter 24 right = -2pi",
+      "passed": true,
+      "detail": {
+        "targetYaw": -6.2831853071795845
+      }
+    },
+    {
+      "name": "manual presenter release path used",
+      "passed": true,
+      "detail": {
+        "calls": 50,
+        "values": [
+          "MOUSE_WHEEL"
+        ]
+      }
+    },
+    {
+      "name": "translation velocity remains stopped",
+      "passed": true,
+      "detail": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    }
+  ],
+  "metrics": {
+    "stepDegrees": 15,
+    "leftFullTurn": 6.283185307179586,
+    "rightFullTurn": -6.283185307179586,
+    "presenterReleaseCalls": 50,
+    "pitch": -0.17863100651394934,
+    "height": 9,
+    "fov": 56
+  }
+}

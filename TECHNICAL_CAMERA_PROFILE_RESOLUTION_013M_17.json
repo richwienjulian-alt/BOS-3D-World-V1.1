@@ -1,0 +1,347 @@
+{
+  "build": "013M.17",
+  "profiles": {
+    "MISSION_001": {
+      "networkTowerId": "MAST_B",
+      "bookmarks": {
+        "CAM_CUSTOMER_START": {
+          "shortLabel": "0 · Start",
+          "label": "Kundenstart – Mission 001",
+          "position": {
+            "x": 0.78,
+            "y": 9,
+            "z": 46
+          },
+          "target": {
+            "x": 0.78,
+            "y": 2.5,
+            "z": 10
+          },
+          "fov": 56,
+          "purpose": "Neutraler Einstieg vor der geführten Wohnungsbrand-Demo."
+        },
+        "CAM_CITY_OVERVIEW": {
+          "shortLabel": "1 · Stadt",
+          "label": "Stadt & Wohnungsbrand",
+          "position": {
+            "x": 0,
+            "y": 40,
+            "z": 50
+          },
+          "target": {
+            "x": 0,
+            "y": 1.5,
+            "z": 0
+          },
+          "fov": 54,
+          "purpose": "Stadtstruktur, Anfahrt und Einsatzumfeld von Mission 001 einordnen."
+        },
+        "CAM_INCIDENT_W14": {
+          "shortLabel": "2 · Einsatz",
+          "label": "Einsatzstelle Wohnungsbrand",
+          "position": {
+            "x": -27,
+            "y": 11,
+            "z": 46
+          },
+          "target": {
+            "x": -10.68,
+            "y": 4.8,
+            "z": 33.9
+          },
+          "fov": 58,
+          "purpose": "Wohnungsbrand, Einsatzkräfte, Absperrung und Zuschauer im direkten Einsatzbild zeigen."
+        },
+        "CAM_COMMUNICATION_MAST_B": {
+          "shortLabel": "3 · Netz",
+          "label": "Netzwirkung & MAST_B",
+          "position": {
+            "x": 29,
+            "y": 14,
+            "z": 30
+          },
+          "target": {
+            "x": 3,
+            "y": 5.2,
+            "z": 23
+          },
+          "fov": 61,
+          "purpose": "MAST_B, zivile Zelllast und BOS-Priorisierung im Zusammenhang mit Mission 001 zeigen."
+        }
+      },
+      "recommendations": {
+        "READY": "CAM_CITY_OVERVIEW",
+        "CALL_RECEIVED": "CAM_CITY_OVERVIEW",
+        "CLEARING_CORRIDOR": "CAM_CITY_OVERVIEW",
+        "DISPATCHING": "CAM_CITY_OVERVIEW",
+        "ENROUTE": "CAM_INCIDENT_W14",
+        "ON_SCENE": "CAM_INCIDENT_W14",
+        "OVERLOADED": "CAM_COMMUNICATION_MAST_B",
+        "BOS_ACTIVE": "CAM_COMMUNICATION_MAST_B",
+        "COMMS_STABLE": "CAM_COMMUNICATION_MAST_B",
+        "COMPLETED": "CAM_INCIDENT_W14",
+        "RETURNING": "CAM_CITY_OVERVIEW",
+        "FAILED": "CAM_CITY_OVERVIEW"
+      }
+    },
+    "MISSION_002": {
+      "networkTowerId": "MAST_E",
+      "bookmarks": {
+        "CAM_CUSTOMER_START": {
+          "shortLabel": "0 · Start",
+          "label": "Kundenstart – Mission 002",
+          "position": {
+            "x": 0.78,
+            "y": 9,
+            "z": 46
+          },
+          "target": {
+            "x": 0.78,
+            "y": 2.5,
+            "z": 10
+          },
+          "fov": 56,
+          "purpose": "Neutraler Einstieg vor der geführten Arena-Demo."
+        },
+        "CAM_CITY_OVERVIEW": {
+          "shortLabel": "1 · Stadt",
+          "label": "Arena & Stadtquartier",
+          "position": {
+            "x": 51,
+            "y": 18,
+            "z": -5
+          },
+          "target": {
+            "x": 38,
+            "y": 2.5,
+            "z": -23.5
+          },
+          "fov": 60,
+          "purpose": "Arena, Rettungsweg und umliegendes Stadtquartier für Mission 002 einordnen."
+        },
+        "CAM_INCIDENT_W14": {
+          "shortLabel": "2 · Einsatz",
+          "label": "Einsatzstelle Arena-Notfall",
+          "position": {
+            "x": 52,
+            "y": 10,
+            "z": -38
+          },
+          "target": {
+            "x": 41.15,
+            "y": 1.6,
+            "z": -26.65
+          },
+          "fov": 55,
+          "purpose": "Patient, Rettungsdienst und Arena-Vorplatz im direkten Einsatzbild zeigen."
+        },
+        "CAM_COMMUNICATION_MAST_B": {
+          "shortLabel": "3 · Netz",
+          "label": "Arena-Netz & MAST_E",
+          "position": {
+            "x": 47,
+            "y": 15,
+            "z": -7
+          },
+          "target": {
+            "x": 33.5,
+            "y": 6.5,
+            "z": -20.5
+          },
+          "fov": 66,
+          "purpose": "Arena-Einsatz und MAST_E gemeinsam zeigen, um Zelllast und Rettungsdienst-Priorisierung zu erklären."
+        }
+      },
+      "recommendations": {
+        "READY": "CAM_CITY_OVERVIEW",
+        "EVENT_ACTIVE": "CAM_CITY_OVERVIEW",
+        "CALL_RECEIVED": "CAM_INCIDENT_W14",
+        "CLEARING_CORRIDOR": "CAM_CITY_OVERVIEW",
+        "ENROUTE": "CAM_INCIDENT_W14",
+        "ON_SCENE": "CAM_INCIDENT_W14",
+        "OVERLOADED": "CAM_COMMUNICATION_MAST_B",
+        "BOS_ACTIVE": "CAM_COMMUNICATION_MAST_B",
+        "COMMS_STABLE": "CAM_COMMUNICATION_MAST_B",
+        "TREATMENT": "CAM_INCIDENT_W14",
+        "COMPLETED": "CAM_INCIDENT_W14",
+        "TRANSPORTING": "CAM_CITY_OVERVIEW",
+        "AT_HOSPITAL": "CAM_CITY_OVERVIEW",
+        "RETURNING": "CAM_CITY_OVERVIEW",
+        "FAILED": "CAM_CITY_OVERVIEW"
+      }
+    },
+    "MISSION_003": {
+      "networkTowerId": "MAST_B",
+      "bookmarks": {
+        "CAM_CUSTOMER_START": {
+          "shortLabel": "0 · Start",
+          "label": "Kundenstart – Mission 003",
+          "position": {
+            "x": 0.78,
+            "y": 9,
+            "z": 46
+          },
+          "target": {
+            "x": 0.78,
+            "y": 2.5,
+            "z": 10
+          },
+          "fov": 56,
+          "purpose": "Neutraler Einstieg vor der geführten Stadtwerke-Demo."
+        },
+        "CAM_CITY_OVERVIEW": {
+          "shortLabel": "1 · Stadt",
+          "label": "Innenstadt & Wasserleck",
+          "position": {
+            "x": -30,
+            "y": 18,
+            "z": 30
+          },
+          "target": {
+            "x": -7.26,
+            "y": 2,
+            "z": 6.36
+          },
+          "fov": 60,
+          "purpose": "Innenstadt, Anfahrtskorridor und Einsatzumfeld des Wasserlecks einordnen."
+        },
+        "CAM_INCIDENT_W14": {
+          "shortLabel": "2 · Einsatz",
+          "label": "Einsatzstelle Wasserleck",
+          "position": {
+            "x": -24,
+            "y": 10,
+            "z": 18
+          },
+          "target": {
+            "x": -7.26,
+            "y": 1.8,
+            "z": 6.36
+          },
+          "fov": 55,
+          "purpose": "Wasseraustritt, Stadtwerke, Feuerwehr und Polizei im direkten Einsatzbild zeigen."
+        },
+        "CAM_COMMUNICATION_MAST_B": {
+          "shortLabel": "3 · Netz",
+          "label": "Innenstadt-Netz & MAST_B",
+          "position": {
+            "x": 26,
+            "y": 14,
+            "z": 2
+          },
+          "target": {
+            "x": 4,
+            "y": 5,
+            "z": 10
+          },
+          "fov": 64,
+          "purpose": "Wasserleck und MAST_B gemeinsam zeigen, um die steigende Innenstadtlast und BOS-Priorisierung zu erklären."
+        }
+      },
+      "recommendations": {
+        "READY": "CAM_CITY_OVERVIEW",
+        "CALL_RECEIVED": "CAM_INCIDENT_W14",
+        "ALARMING": "CAM_CITY_OVERVIEW",
+        "CLEARING_CORRIDOR": "CAM_CITY_OVERVIEW",
+        "ENROUTE": "CAM_INCIDENT_W14",
+        "ON_SCENE": "CAM_INCIDENT_W14",
+        "LEAK_ESCALATING": "CAM_INCIDENT_W14",
+        "OVERLOADED": "CAM_COMMUNICATION_MAST_B",
+        "BOS_ACTIVE": "CAM_COMMUNICATION_MAST_B",
+        "COMMS_STABLE": "CAM_COMMUNICATION_MAST_B",
+        "WATER_ISOLATED": "CAM_INCIDENT_W14",
+        "REPAIRING": "CAM_INCIDENT_W14",
+        "COMPLETED": "CAM_INCIDENT_W14",
+        "RETURNING": "CAM_CITY_OVERVIEW",
+        "FAILED": "CAM_CITY_OVERVIEW"
+      }
+    },
+    "MISSION_004": {
+      "networkTowerId": "MAST_C",
+      "bookmarks": {
+        "CAM_CUSTOMER_START": {
+          "shortLabel": "0 · Start",
+          "label": "Kundenstart – Mission 004",
+          "position": {
+            "x": 0.78,
+            "y": 9,
+            "z": 46
+          },
+          "target": {
+            "x": 0.78,
+            "y": 2.5,
+            "z": 10
+          },
+          "fov": 56,
+          "purpose": "Neutraler Einstieg vor der geführten Verkehrsunfall-Demo."
+        },
+        "CAM_CITY_OVERVIEW": {
+          "shortLabel": "1 · Stadt",
+          "label": "Gesundheitsquartier & Ringstraße",
+          "position": {
+            "x": 16,
+            "y": 18,
+            "z": 52
+          },
+          "target": {
+            "x": 33,
+            "y": 2,
+            "z": 36
+          },
+          "fov": 60,
+          "purpose": "Ringstraße, Gesundheitsquartier und Anfahrtsraum von Mission 004 einordnen."
+        },
+        "CAM_INCIDENT_W14": {
+          "shortLabel": "2 · Einsatz",
+          "label": "Einsatzstelle Verkehrsunfall",
+          "position": {
+            "x": 18,
+            "y": 10,
+            "z": 51
+          },
+          "target": {
+            "x": 31.6,
+            "y": 1.8,
+            "z": 40.3
+          },
+          "fov": 55,
+          "purpose": "Unfallfahrzeuge, Patient, Zuschauer und eintreffende Einsatzkräfte im direkten Einsatzbild zeigen."
+        },
+        "CAM_COMMUNICATION_MAST_B": {
+          "shortLabel": "3 · Netz",
+          "label": "Unfallzelle & MAST_C",
+          "position": {
+            "x": 52,
+            "y": 14,
+            "z": 50
+          },
+          "target": {
+            "x": 40.8,
+            "y": 6.5,
+            "z": 37.6
+          },
+          "fov": 66,
+          "purpose": "Unfallstelle und MAST_C gemeinsam zeigen, wenn die Zelle bereits vor Feuerwehr und Polizei überlastet ist."
+        }
+      },
+      "recommendations": {
+        "READY": "CAM_CITY_OVERVIEW",
+        "CALL_RECEIVED": "CAM_INCIDENT_W14",
+        "ALARMING": "CAM_CITY_OVERVIEW",
+        "ROAD_CLOSURE": "CAM_INCIDENT_W14",
+        "ENROUTE": "CAM_INCIDENT_W14",
+        "ON_SCENE": "CAM_INCIDENT_W14",
+        "OVERLOADED": "CAM_COMMUNICATION_MAST_B",
+        "BOS_ACTIVE": "CAM_COMMUNICATION_MAST_B",
+        "COMMS_STABLE": "CAM_COMMUNICATION_MAST_B",
+        "EXTRICATION": "CAM_INCIDENT_W14",
+        "PATIENT_READY": "CAM_INCIDENT_W14",
+        "COMPLETED": "CAM_INCIDENT_W14",
+        "TRANSPORTING": "CAM_CITY_OVERVIEW",
+        "AT_HOSPITAL": "CAM_CITY_OVERVIEW",
+        "RETURNING": "CAM_CITY_OVERVIEW",
+        "FAILED": "CAM_CITY_OVERVIEW"
+      }
+    }
+  }
+}

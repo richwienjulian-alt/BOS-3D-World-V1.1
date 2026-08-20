@@ -1,0 +1,145 @@
+{
+  "status": "PASSED",
+  "checks": [
+    {
+      "name": "one left tap is +15 degrees / Q direction",
+      "passed": true,
+      "detail": {
+        "yawTarget": 0.2617993877991494,
+        "step": 0.2617993877991494
+      }
+    },
+    {
+      "name": "left rotation preserves pitch height and FOV",
+      "passed": true,
+      "detail": {
+        "pitch": -0.17863100651394934,
+        "height": 9,
+        "fov": 56
+      }
+    },
+    {
+      "name": "one right tap returns original heading",
+      "passed": true,
+      "detail": {
+        "yawTarget": 0
+      }
+    },
+    {
+      "name": "24 left taps equal +360 degrees",
+      "passed": true,
+      "detail": {
+        "yawTarget": 6.2831853071795845,
+        "expected": 6.283185307179586
+      }
+    },
+    {
+      "name": "24 right taps equal -360 degrees",
+      "passed": true,
+      "detail": {
+        "yawTarget": -6.2831853071795845,
+        "expected": -6.283185307179586
+      }
+    },
+    {
+      "name": "all rotation calls are exact 15 degree magnitude",
+      "passed": true,
+      "detail": {
+        "count": 24
+      }
+    },
+    {
+      "name": "tap still selects through inspection runtime",
+      "passed": true,
+      "detail": {
+        "taps": 1
+      }
+    },
+    {
+      "name": "one finger pan remains active",
+      "passed": true,
+      "detail": {
+        "panCalls": 1
+      }
+    },
+    {
+      "name": "pinch zoom remains active",
+      "passed": true,
+      "detail": {
+        "pinchFov": 56
+      }
+    },
+    {
+      "name": "direct touch rotation remains disabled",
+      "passed": true,
+      "detail": {
+        "oneFinger": "GROUND_PLANE_PAN",
+        "tapThresholdCssPx": 8,
+        "tapMaximumDurationMs": 350,
+        "panMetersPerCssPixel": 0.04,
+        "pinch": "FOV_ZOOM",
+        "pinchDegreesPerCssPixel": 0.08,
+        "rotationEnabled": false
+      }
+    },
+    {
+      "name": "dashboard pan zoom home remain active",
+      "passed": true,
+      "detail": {
+        "panCalls": 2,
+        "homeCalls": 1,
+        "fov": 56
+      }
+    },
+    {
+      "name": "runtime safety remains PASSED",
+      "passed": true,
+      "detail": {
+        "status": "PASSED",
+        "pointerCancelCount": 0,
+        "tapCount": 1,
+        "panCount": 1,
+        "pinchCount": 1,
+        "dashboardCommandCount": 53,
+        "rejectedMousePointerCount": 0,
+        "errors": []
+      }
+    },
+    {
+      "name": "presenter manual release path invoked",
+      "passed": true,
+      "detail": {
+        "releaseCount": 55
+      }
+    }
+  ],
+  "manifest": {
+    "status": "PASSED",
+    "build": "013M.19",
+    "pointerTypes": [
+      "touch",
+      "pen"
+    ],
+    "dashboardControls": 9,
+    "inspectionAvailable": true
+  },
+  "safety": {
+    "status": "PASSED",
+    "pointerCancelCount": 0,
+    "tapCount": 1,
+    "panCount": 1,
+    "pinchCount": 1,
+    "dashboardCommandCount": 53,
+    "rejectedMousePointerCount": 0,
+    "errors": []
+  },
+  "metrics": {
+    "rotateStepDegrees": 15,
+    "leftFullTurnRadians": 6.283185307179586,
+    "rightFullTurnRadians": -6.283185307179586,
+    "pinchFov": 56,
+    "tapSelections": 1,
+    "releaseCount": 55,
+    "homeCalls": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "title": "MISSION BOS BUILD 013M.16 TECHNICAL TRAFFIC YIELD RUNTIME",
+  "mission003": {
+    "routeLength": 68.11655062880573,
+    "runs": 120,
+    "passed": 120,
+    "failed": [],
+    "holds": [
+      4,
+      25,
+      43
+    ]
+  },
+  "mission004": {
+    "routeLength": 73.876551,
+    "runs": 120,
+    "passed": 120,
+    "failed": [],
+    "holds": [
+      4,
+      27,
+      50
+    ]
+  },
+  "status": "PASSED"
+}

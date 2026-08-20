@@ -1,0 +1,460 @@
+{
+  "postM004RunsPassed": 10,
+  "postM004RunsTotal": 10,
+  "freshM002RunsPassed": 5,
+  "freshM002RunsTotal": 5,
+  "postM004": [
+    {
+      "status": "PASSED",
+      "arenaSafety": {
+        "title": "MISSION BOS ARENA EVENT CONTROLLER RUNTIME SAFETY",
+        "dependencyErrors": 0,
+        "actorReferenceErrors": 0,
+        "phoneReferenceErrors": 0,
+        "invalidRadioErrors": 0,
+        "unknownTowerErrors": 0,
+        "visibleDemandErrors": 0,
+        "aggregateDemandErrors": 0,
+        "cellLoadRangeErrors": 0,
+        "eventStartConflictErrors": 0,
+        "missionStartDuringEventErrors": 0,
+        "remainingLoadErrors": 0,
+        "remainingLineErrors": 0,
+        "duplicateCrowdErrors": 0,
+        "sourceMutationErrors": 0,
+        "automaticActionErrors": 0,
+        "fixedServingTowerErrors": 0,
+        "recoverableWarnings": 1,
+        "status": "PASSED",
+        "failed": false,
+        "fatal": false,
+        "warnings": [
+          "Cell-load runtime reported a recoverable association warning."
+        ],
+        "errors": []
+      },
+      "baseline": {
+        "ready": true,
+        "blockers": [],
+        "ambulanceState": "AT_STATION",
+        "networkReady": true,
+        "safetyStatus": "PASSED"
+      },
+      "canStart": true,
+      "started": true,
+      "mission002State": "EVENT_ACTIVE",
+      "run": 1,
+      "exitCode": 0
+    },
+    {
+      "status": "PASSED",
+      "arenaSafety": {
+        "title": "MISSION BOS ARENA EVENT CONTROLLER RUNTIME SAFETY",
+        "dependencyErrors": 0,
+        "actorReferenceErrors": 0,
+        "phoneReferenceErrors": 0,
+        "invalidRadioErrors": 0,
+        "unknownTowerErrors": 0,
+        "visibleDemandErrors": 0,
+        "aggregateDemandErrors": 0,
+        "cellLoadRangeErrors": 0,
+        "eventStartConflictErrors": 0,
+        "missionStartDuringEventErrors": 0,
+        "remainingLoadErrors": 0,
+        "remainingLineErrors": 0,
+        "duplicateCrowdErrors": 0,
+        "sourceMutationErrors": 0,
+        "automaticActionErrors": 0,
+        "fixedServingTowerErrors": 0,
+        "recoverableWarnings": 1,
+        "status": "PASSED",
+        "failed": false,
+        "fatal": false,
+        "warnings": [
+          "Cell-load runtime reported a recoverable association warning."
+        ],
+        "errors": []
+      },
+      "baseline": {
+        "ready": true,
+        "blockers": [],
+        "ambulanceState": "AT_STATION",
+        "networkReady": true,
+        "safetyStatus": "PASSED"
+      },
+      "canStart": true,
+      "started": true,
+      "mission002State": "EVENT_ACTIVE",
+      "run": 2,
+      "exitCode": 0
+    },
+    {
+      "status": "PASSED",
+      "arenaSafety": {
+        "title": "MISSION BOS ARENA EVENT CONTROLLER RUNTIME SAFETY",
+        "dependencyErrors": 0,
+        "actorReferenceErrors": 0,
+        "phoneReferenceErrors": 0,
+        "invalidRadioErrors": 0,
+        "unknownTowerErrors": 0,
+        "visibleDemandErrors": 0,
+        "aggregateDemandErrors": 0,
+        "cellLoadRangeErrors": 0,
+        "eventStartConflictErrors": 0,
+        "missionStartDuringEventErrors": 0,
+        "remainingLoadErrors": 0,
+        "remainingLineErrors": 0,
+        "duplicateCrowdErrors": 0,
+        "sourceMutationErrors": 0,
+        "automaticActionErrors": 0,
+        "fixedServingTowerErrors": 0,
+        "recoverableWarnings": 1,
+        "status": "PASSED",
+        "failed": false,
+        "fatal": false,
+        "warnings": [
+          "Cell-load runtime reported a recoverable association warning."
+        ],
+        "errors": []
+      },
+      "baseline": {
+        "ready": true,
+        "blockers": [],
+        "ambulanceState": "AT_STATION",
+        "networkReady": true,
+        "safetyStatus": "PASSED"
+      },
+      "canStart": true,
+      "started": true,
+      "mission002State": "EVENT_ACTIVE",
+      "run": 3,
+      "exitCode": 0
+    },
+    {
+      "status": "PASSED",
+      "arenaSafety": {
+        "title": "MISSION BOS ARENA EVENT CONTROLLER RUNTIME SAFETY",
+        "dependencyErrors": 0,
+        "actorReferenceErrors": 0,
+        "phoneReferenceErrors": 0,
+        "invalidRadioErrors": 0,
+        "unknownTowerErrors": 0,
+        "visibleDemandErrors": 0,
+        "aggregateDemandErrors": 0,
+        "cellLoadRangeErrors": 0,
+        "eventStartConflictErrors": 0,
+        "missionStartDuringEventErrors": 0,
+        "remainingLoadErrors": 0,
+        "remainingLineErrors": 0,
+        "duplicateCrowdErrors": 0,
+        "sourceMutationErrors": 0,
+        "automaticActionErrors": 0,
+        "fixedServingTowerErrors": 0,
+        "recoverableWarnings": 1,
+        "status": "PASSED",
+        "failed": false,
+        "fatal": false,
+        "warnings": [
+          "Cell-load runtime reported a recoverable association warning."
+        ],
+        "errors": []
+      },
+      "baseline": {
+        "ready": true,
+        "blockers": [],
+        "ambulanceState": "AT_STATION",
+        "networkReady": true,
+        "safetyStatus": "PASSED"
+      },
+      "canStart": true,
+      "started": true,
+      "mission002State": "EVENT_ACTIVE",
+      "run": 4,
+      "exitCode": 0
+    },
+    {
+      "status": "PASSED",
+      "arenaSafety": {
+        "title": "MISSION BOS ARENA EVENT CONTROLLER RUNTIME SAFETY",
+        "dependencyErrors": 0,
+        "actorReferenceErrors": 0,
+        "phoneReferenceErrors": 0,
+        "invalidRadioErrors": 0,
+        "unknownTowerErrors": 0,
+        "visibleDemandErrors": 0,
+        "aggregateDemandErrors": 0,
+        "cellLoadRangeErrors": 0,
+        "eventStartConflictErrors": 0,
+        "missionStartDuringEventErrors": 0,
+        "remainingLoadErrors": 0,
+        "remainingLineErrors": 0,
+        "duplicateCrowdErrors": 0,
+        "sourceMutationErrors": 0,
+        "automaticActionErrors": 0,
+        "fixedServingTowerErrors": 0,
+        "recoverableWarnings": 1,
+        "status": "PASSED",
+        "failed": false,
+        "fatal": false,
+        "warnings": [
+          "Cell-load runtime reported a recoverable association warning."
+        ],
+        "errors": []
+      },
+      "baseline": {
+        "ready": true,
+        "blockers": [],
+        "ambulanceState": "AT_STATION",
+        "networkReady": true,
+        "safetyStatus": "PASSED"
+      },
+      "canStart": true,
+      "started": true,
+      "mission002State": "EVENT_ACTIVE",
+      "run": 5,
+      "exitCode": 0
+    },
+    {
+      "status": "PASSED",
+      "arenaSafety": {
+        "title": "MISSION BOS ARENA EVENT CONTROLLER RUNTIME SAFETY",
+        "dependencyErrors": 0,
+        "actorReferenceErrors": 0,
+        "phoneReferenceErrors": 0,
+        "invalidRadioErrors": 0,
+        "unknownTowerErrors": 0,
+        "visibleDemandErrors": 0,
+        "aggregateDemandErrors": 0,
+        "cellLoadRangeErrors": 0,
+        "eventStartConflictErrors": 0,
+        "missionStartDuringEventErrors": 0,
+        "remainingLoadErrors": 0,
+        "remainingLineErrors": 0,
+        "duplicateCrowdErrors": 0,
+        "sourceMutationErrors": 0,
+        "automaticActionErrors": 0,
+        "fixedServingTowerErrors": 0,
+        "recoverableWarnings": 1,
+        "status": "PASSED",
+        "failed": false,
+        "fatal": false,
+        "warnings": [
+          "Cell-load runtime reported a recoverable association warning."
+        ],
+        "errors": []
+      },
+      "baseline": {
+        "ready": true,
+        "blockers": [],
+        "ambulanceState": "AT_STATION",
+        "networkReady": true,
+        "safetyStatus": "PASSED"
+      },
+      "canStart": true,
+      "started": true,
+      "mission002State": "EVENT_ACTIVE",
+      "run": 6,
+      "exitCode": 0
+    },
+    {
+      "status": "PASSED",
+      "arenaSafety": {
+        "title": "MISSION BOS ARENA EVENT CONTROLLER RUNTIME SAFETY",
+        "dependencyErrors": 0,
+        "actorReferenceErrors": 0,
+        "phoneReferenceErrors": 0,
+        "invalidRadioErrors": 0,
+        "unknownTowerErrors": 0,
+        "visibleDemandErrors": 0,
+        "aggregateDemandErrors": 0,
+        "cellLoadRangeErrors": 0,
+        "eventStartConflictErrors": 0,
+        "missionStartDuringEventErrors": 0,
+        "remainingLoadErrors": 0,
+        "remainingLineErrors": 0,
+        "duplicateCrowdErrors": 0,
+        "sourceMutationErrors": 0,
+        "automaticActionErrors": 0,
+        "fixedServingTowerErrors": 0,
+        "recoverableWarnings": 1,
+        "status": "PASSED",
+        "failed": false,
+        "fatal": false,
+        "warnings": [
+          "Cell-load runtime reported a recoverable association warning."
+        ],
+        "errors": []
+      },
+      "baseline": {
+        "ready": true,
+        "blockers": [],
+        "ambulanceState": "AT_STATION",
+        "networkReady": true,
+        "safetyStatus": "PASSED"
+      },
+      "canStart": true,
+      "started": true,
+      "mission002State": "EVENT_ACTIVE",
+      "run": 7,
+      "exitCode": 0
+    },
+    {
+      "status": "PASSED",
+      "arenaSafety": {
+        "title": "MISSION BOS ARENA EVENT CONTROLLER RUNTIME SAFETY",
+        "dependencyErrors": 0,
+        "actorReferenceErrors": 0,
+        "phoneReferenceErrors": 0,
+        "invalidRadioErrors": 0,
+        "unknownTowerErrors": 0,
+        "visibleDemandErrors": 0,
+        "aggregateDemandErrors": 0,
+        "cellLoadRangeErrors": 0,
+        "eventStartConflictErrors": 0,
+        "missionStartDuringEventErrors": 0,
+        "remainingLoadErrors": 0,
+        "remainingLineErrors": 0,
+        "duplicateCrowdErrors": 0,
+        "sourceMutationErrors": 0,
+        "automaticActionErrors": 0,
+        "fixedServingTowerErrors": 0,
+        "recoverableWarnings": 1,
+        "status": "PASSED",
+        "failed": false,
+        "fatal": false,
+        "warnings": [
+          "Cell-load runtime reported a recoverable association warning."
+        ],
+        "errors": []
+      },
+      "baseline": {
+        "ready": true,
+        "blockers": [],
+        "ambulanceState": "AT_STATION",
+        "networkReady": true,
+        "safetyStatus": "PASSED"
+      },
+      "canStart": true,
+      "started": true,
+      "mission002State": "EVENT_ACTIVE",
+      "run": 8,
+      "exitCode": 0
+    },
+    {
+      "status": "PASSED",
+      "arenaSafety": {
+        "title": "MISSION BOS ARENA EVENT CONTROLLER RUNTIME SAFETY",
+        "dependencyErrors": 0,
+        "actorReferenceErrors": 0,
+        "phoneReferenceErrors": 0,
+        "invalidRadioErrors": 0,
+        "unknownTowerErrors": 0,
+        "visibleDemandErrors": 0,
+        "aggregateDemandErrors": 0,
+        "cellLoadRangeErrors": 0,
+        "eventStartConflictErrors": 0,
+        "missionStartDuringEventErrors": 0,
+        "remainingLoadErrors": 0,
+        "remainingLineErrors": 0,
+        "duplicateCrowdErrors": 0,
+        "sourceMutationErrors": 0,
+        "automaticActionErrors": 0,
+        "fixedServingTowerErrors": 0,
+        "recoverableWarnings": 1,
+        "status": "PASSED",
+        "failed": false,
+        "fatal": false,
+        "warnings": [
+          "Cell-load runtime reported a recoverable association warning."
+        ],
+        "errors": []
+      },
+      "baseline": {
+        "ready": true,
+        "blockers": [],
+        "ambulanceState": "AT_STATION",
+        "networkReady": true,
+        "safetyStatus": "PASSED"
+      },
+      "canStart": true,
+      "started": true,
+      "mission002State": "EVENT_ACTIVE",
+      "run": 9,
+      "exitCode": 0
+    },
+    {
+      "status": "PASSED",
+      "arenaSafety": {
+        "title": "MISSION BOS ARENA EVENT CONTROLLER RUNTIME SAFETY",
+        "dependencyErrors": 0,
+        "actorReferenceErrors": 0,
+        "phoneReferenceErrors": 0,
+        "invalidRadioErrors": 0,
+        "unknownTowerErrors": 0,
+        "visibleDemandErrors": 0,
+        "aggregateDemandErrors": 0,
+        "cellLoadRangeErrors": 0,
+        "eventStartConflictErrors": 0,
+        "missionStartDuringEventErrors": 0,
+        "remainingLoadErrors": 0,
+        "remainingLineErrors": 0,
+        "duplicateCrowdErrors": 0,
+        "sourceMutationErrors": 0,
+        "automaticActionErrors": 0,
+        "fixedServingTowerErrors": 0,
+        "recoverableWarnings": 1,
+        "status": "PASSED",
+        "failed": false,
+        "fatal": false,
+        "warnings": [
+          "Cell-load runtime reported a recoverable association warning."
+        ],
+        "errors": []
+      },
+      "baseline": {
+        "ready": true,
+        "blockers": [],
+        "ambulanceState": "AT_STATION",
+        "networkReady": true,
+        "safetyStatus": "PASSED"
+      },
+      "canStart": true,
+      "started": true,
+      "mission002State": "EVENT_ACTIVE",
+      "run": 10,
+      "exitCode": 0
+    }
+  ],
+  "freshM002": [
+    {
+      "run": 1,
+      "exitCode": 0,
+      "passed": true,
+      "stdout": "MISSION BOS 013M.11 MISSION 002 START RECOVERY VALIDATION\nrecoverableWarningDoesNotBlock: PASSED\nfatalWarningBlocks: PASSED\nsharedNetworkResetBlocksUntilSettled: PASSED\nSTATUS: PASSED"
+    },
+    {
+      "run": 2,
+      "exitCode": 0,
+      "passed": true,
+      "stdout": "MISSION BOS 013M.11 MISSION 002 START RECOVERY VALIDATION\nrecoverableWarningDoesNotBlock: PASSED\nfatalWarningBlocks: PASSED\nsharedNetworkResetBlocksUntilSettled: PASSED\nSTATUS: PASSED"
+    },
+    {
+      "run": 3,
+      "exitCode": 0,
+      "passed": true,
+      "stdout": "MISSION BOS 013M.11 MISSION 002 START RECOVERY VALIDATION\nrecoverableWarningDoesNotBlock: PASSED\nfatalWarningBlocks: PASSED\nsharedNetworkResetBlocksUntilSettled: PASSED\nSTATUS: PASSED"
+    },
+    {
+      "run": 4,
+      "exitCode": 0,
+      "passed": true,
+      "stdout": "MISSION BOS 013M.11 MISSION 002 START RECOVERY VALIDATION\nrecoverableWarningDoesNotBlock: PASSED\nfatalWarningBlocks: PASSED\nsharedNetworkResetBlocksUntilSettled: PASSED\nSTATUS: PASSED"
+    },
+    {
+      "run": 5,
+      "exitCode": 0,
+      "passed": true,
+      "stdout": "MISSION BOS 013M.11 MISSION 002 START RECOVERY VALIDATION\nrecoverableWarningDoesNotBlock: PASSED\nfatalWarningBlocks: PASSED\nsharedNetworkResetBlocksUntilSettled: PASSED\nSTATUS: PASSED"
+    }
+  ]
+}
