@@ -1,0 +1,21 @@
+#!/usr/bin/env node
+"use strict";
+const fs=require('fs'),path=require('path'),vm=require('vm'),G=require('./geometry-utils');const root=path.resolve(process.argv[2]||'.');const ctx={window:{},console};vm.createContext(ctx);function load(f){vm.runInContext(fs.readFileSync(path.join(root,f),'utf8'),ctx,{filename:f});}
+['response-vehicle-validator.js','city-response-vehicle-plan.js','city-mission-004-foundation-plan.js','city-mission-004-plan.js','city-traffic-plan.js'].forEach(load);
+const V=ctx.window.MissionBosResponseVehicleValidator,B=ctx.window.MISSION_BOS_RESPONSE_VEHICLE_PLAN,M=ctx.window.MISSION_BOS_MISSION_004_PLAN,T=ctx.window.MISSION_BOS_TRAFFIC_PLAN;const failures=[];
+const cfg=M.response.outboundCorridorReservation,green=T.vehicles.find(v=>v.id==='CAR_DOWNTOWN_01'),greenDefRoute=T.routes.find(r=>r.id==='DOWNTOWN_LOOP');
+if(!cfg||cfg.vehicleId!=='CAR_DOWNTOWN_01'||cfg.routeId!=='DOWNTOWN_LOOP')failures.push('Mission 004 outbound downtown reservation is missing.');
+if(!cfg||JSON.stringify(Array.from(cfg.safeHoldDistances||[]).map(Number))!==JSON.stringify([4,27,50]))failures.push('Mission 004 outbound safe holds differ from 4/27/50m.');
+if(!cfg||cfg.dispatchRequiresConfirmedYield!==true||cfg.releaseWhenFirePoliceAtScene!==true)failures.push('Mission 004 outbound dispatch/release gate is incomplete.');
+if(!M.response.returnCorridorReservation)failures.push('Existing Mission 004 return corridor reservation was removed.');
+const routes=Object.fromEntries(B.routes.map(r=>[r.id,r])),vehicles=Object.fromEntries(B.vehicles.map(v=>[v.id,v]));
+function prefix(route,end){const pts=route.points.map(p=>({x:+p.x,z:+p.z}));let bi=0,bd=Infinity;pts.forEach((p,i)=>{const d=(p.x-end.x)**2+(p.z-end.z)**2;if(d<bd){bd=d;bi=i;}});return pts.slice(0,bi+1);}
+function responseEntry(id){const vp=id==='RESPONSE_FIRE_01'?M.response.fireRoute:M.response.policeRoute;const route=V.prepareOpenRoute({points:prefix(routes[vp.baselinePrefixRouteId],vp.baselinePrefixEnd).concat(vp.extensionWaypoints)});return{id,route,def:vehicles[id],speed:+vp.outboundSpeed,delay:id==='RESPONSE_FIRE_01'?0:5};}
+const responders=[responseEntry('RESPONSE_FIRE_01'),responseEntry('RESPONSE_POLICE_01')],greenRoute=G.prepare(greenDefRoute.points,true);
+function greenPose(distance){const p=G.sample(greenRoute,distance);return{x:p.x,z:p.z,angle:Math.atan2(p.tx,p.tz)};}
+for(const h of (cfg&&cfg.safeHoldDistances||[])){const gc=V.rectangleCorners(greenPose(+h),green.footprintLength,green.footprintWidth,.10);for(const r of responders){for(let d=0;d<=r.route.length+1e-9;d+=.02){const rp=V.sampleOpenRoute(r.route,d,false);if(V.polygonsOverlapSAT(gc,V.rectangleCorners(rp,r.def.footprintLength,r.def.footprintWidth,.10))){failures.push('Hold '+h+'m overlaps '+r.id+' swept path.');d=r.route.length+1;break;}}}}
+let baselineHits=0,first=null;const period=greenRoute.length/+green.speed;for(let phase=0;phase<period-1e-9;phase+=.05){let phaseHit=false;const duration=Math.max(...responders.map(r=>r.delay+r.route.length/r.speed))+.5;for(let t=0;t<=duration;t+=.005){const gp=greenPose((phase+t)*+green.speed),gc=V.rectangleCorners(gp,green.footprintLength,green.footprintWidth,.10);for(const r of responders){const dist=Math.max(0,Math.min(r.route.length,(t-r.delay)*r.speed));if(t<r.delay)continue;const rp=V.sampleOpenRoute(r.route,dist,false);if(V.polygonsOverlapSAT(gc,V.rectangleCorners(rp,r.def.footprintLength,r.def.footprintWidth,.10))){phaseHit=true;if(!first)first={phase,t,responder:r.id};break;}}if(phaseHit)break;}if(phaseHit)baselineHits++;}
+if(baselineHits===0)failures.push('Known uncontrolled CAR_DOWNTOWN_01 outbound conflict was not reproduced.');
+const maxWait=+cfg.maximumForwardTravelToHoldMeters/+green.speed;if(maxWait>8.001)failures.push('Outbound downtown yield can exceed 8s wait.');
+console.log(JSON.stringify({validator:'MISSION_004_DOWNTOWN_OUTBOUND',baselineCollisionPhases:baselineHits,firstCollision:first,safeHolds:Array.from((cfg&&cfg.safeHoldDistances)||[]),maxWaitSeconds:+maxWait.toFixed(6),returnCorridorPreserved:!!M.response.returnCorridorReservation,status:failures.length?'FAILED':'PASSED'},null,2));
+if(failures.length){failures.forEach(x=>console.error('- '+x));process.exit(1);}

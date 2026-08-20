@@ -1,0 +1,21 @@
+# Acceptance Checklist – Build 013M.20
+
+- [ ] Basis ist ausschließlich `Mission-BOS-Build-013M.19(1).zip` mit dem dokumentierten SHA-256.
+- [ ] In der Präsentationssteuerung sind keine sichtbaren Aktions-/Reset-Kacheln mehr vorhanden.
+- [ ] `NETZ-DEMO`, `Netzlast simulieren` und `BOS-Spur aktiv` sind dort nicht mehr sichtbar.
+- [ ] `Freie Erkundung / Demo-Steuerung` bleibt funktionsfähig.
+- [ ] Alle vier Kamera-Buttons bleiben vorhanden.
+- [ ] Mission 001: Stadt/Einsatz/Netz visuell sinnvoll.
+- [ ] Mission 002: Stadt zeigt Arena + Rettungsweg + Gesundheitsquartier sinnvoll.
+- [ ] Mission 002: Einsatz zeigt Patient/Rettungswagen/Arena-Vorplatz sinnvoll.
+- [ ] Mission 002: Netz zeigt MAST_E + Arena sinnvoll.
+- [ ] Mission 003: Stadt/Einsatz/Netz visuell sinnvoll.
+- [ ] Mission 004: Stadt/Einsatz/Netz visuell sinnvoll.
+- [ ] Keine Presenter-Kamera liegt in einem Gebäude oder Mast.
+- [ ] Keine automatische Kamerafahrt wurde eingeführt.
+- [ ] Maus-, Touch-, Mausrad-, WASD-, Q/E- und Dashboard-Kamerasteuerung bleiben unverändert.
+- [ ] Missionslogik 001–004 unverändert.
+- [ ] Mission 004 läuft vollständig bis READY.
+- [ ] Mission 002 ist nach Mission 004 weiterhin startbar.
+- [ ] T-Mission-Branding und Telekom-Logo unverändert.
+- [ ] Browser-Sichtabnahme dokumentiert.

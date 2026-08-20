@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+"use strict";
+const fs=require('fs'),path=require('path'),crypto=require('crypto');const build=path.resolve(process.argv[2]||'.');const hashes=path.resolve(process.argv[3]||path.join(__dirname,'..','PROTECTED_SOURCE_HASHES.txt'));const errors=[],rows=[];
+for(const line of fs.readFileSync(hashes,'utf8').trim().split(/\r?\n/)){if(!line.trim())continue;const m=line.match(/^([0-9a-f]{64})\s+\*?(.+)$/i);if(!m){errors.push('Malformed hash line: '+line);continue;}const expected=m[1],name=m[2].replace(/^\.\//,'');const p=path.join(build,name);if(!fs.existsSync(p)){errors.push('Missing protected file '+name);continue;}const actual=crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');rows.push({file:name,match:actual===expected});if(actual!==expected)errors.push('Protected file changed: '+name);}
+console.log(JSON.stringify({validator:'BUILD_013M16_PROTECTED_SOURCE_REGRESSION',protectedFiles:rows.length,status:errors.length?'FAILED':'PASSED',errors},null,2));if(errors.length)process.exit(1);

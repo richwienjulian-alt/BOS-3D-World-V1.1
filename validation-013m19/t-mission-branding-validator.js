@@ -1,0 +1,23 @@
+#!/usr/bin/env node
+"use strict";
+const fs=require("fs"), path=require("path"), crypto=require("crypto");
+const root=path.resolve(process.argv[2]||".");
+const html=fs.readFileSync(path.join(root,"index.html"),"utf8");
+const css=fs.readFileSync(path.join(root,"style.css"),"utf8");
+const plan=fs.readFileSync(path.join(root,"city-customer-dashboard-plan.js"),"utf8");
+const asset=path.join(root,"assets/telekom-logo-current.png");
+const errors=[]; const need=(c,m)=>{if(!c) errors.push(m)};
+need(html.includes('<title>T Mission | Connected Response</title>'),"browser title mismatch");
+need(html.includes('<p class="eyebrow">T MISSION</p>'),"T MISSION eyebrow missing");
+need(html.includes('<h1>Connected Response</h1>'),"Connected Response changed/missing");
+need(html.includes('id="customer-brand-logo"') && html.includes('src="assets/telekom-logo-current.png"') && html.includes('alt="Telekom"'),"logo markup mismatch");
+need((html.match(/LIVE DEMO/g)||[]).length===1,"LIVE DEMO badge changed/duplicated");
+need(fs.existsSync(asset),"production logo missing");
+let sha=null; if(fs.existsSync(asset)) sha=crypto.createHash("sha256").update(fs.readFileSync(asset)).digest("hex");
+need(sha==="230eb275ac48962b6a555ef886bad448e75741fd34336e8ffe9a80c5b0e62d0d","production logo SHA mismatch");
+need(css.includes('.customer-brand-logo-frame') && css.includes('flex: 0 0 36px') && css.includes('background: #ffffff'),"desktop logo frame mismatch");
+need(css.includes('@media (max-width: 1260px)') && css.includes('flex-basis: 30px'),"tablet logo reduction rule missing");
+need(!/filter\s*:\s*[^;]+/.test((css.match(/\.customer-brand-logo\s*\{[\s\S]*?\}/)||[''])[0]),"logo must not be filtered/recolored");
+need(plan.includes('eyebrow: "T MISSION"') && plan.includes('browserTitle: "T Mission | Connected Response"'),"dashboard presentation plan branding mismatch");
+console.log(JSON.stringify({validator:"T_MISSION_BRANDING",status:errors.length?"FAILED":"PASSED",logoSha256:sha,errors},null,2));
+process.exit(errors.length?1:0);

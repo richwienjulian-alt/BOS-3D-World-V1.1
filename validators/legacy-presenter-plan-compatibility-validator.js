@@ -1,0 +1,3 @@
+#!/usr/bin/env node
+"use strict";
+const fs=require("fs"),path=require("path"),vm=require("vm");const root=path.resolve(process.argv[2]||".");const ctx={window:{},console};vm.createContext(ctx);for(const n of ["city-layout-recovery.js","city-mission-001-plan.js","city-presenter-plan.js","presenter-validator.js"])vm.runInContext(fs.readFileSync(path.join(root,n),"utf8"),ctx,{filename:n});const v=ctx.window.MissionBosPresenterValidator;const r=v.validate(ctx.window.MISSION_BOS_RECOVERY_LAYOUT,ctx.window.MISSION_BOS_MISSION_001_PLAN,ctx.window.MISSION_BOS_PRESENTER_PLAN);console.log(JSON.stringify({validator:"LEGACY_PRESENTER_PLAN_COMPATIBILITY",status:r&&r.status==="PASSED"?"PASSED":"FAILED",result:r},null,2));if(!r||r.status!=="PASSED")process.exit(1);

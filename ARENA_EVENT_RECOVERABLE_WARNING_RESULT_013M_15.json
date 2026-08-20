@@ -1,0 +1,64 @@
+{
+  "status": "PASSED",
+  "controller": "/mnt/data/build013m15_work/city-arena-event-controller.js",
+  "result": {
+    "stateAfterWarning": "INACTIVE",
+    "recoverableSafety": {
+      "title": "MISSION BOS ARENA EVENT CONTROLLER RUNTIME SAFETY",
+      "dependencyErrors": 0,
+      "actorReferenceErrors": 0,
+      "phoneReferenceErrors": 0,
+      "invalidRadioErrors": 0,
+      "unknownTowerErrors": 0,
+      "visibleDemandErrors": 0,
+      "aggregateDemandErrors": 0,
+      "cellLoadRangeErrors": 0,
+      "eventStartConflictErrors": 0,
+      "missionStartDuringEventErrors": 0,
+      "remainingLoadErrors": 0,
+      "remainingLineErrors": 0,
+      "duplicateCrowdErrors": 0,
+      "sourceMutationErrors": 0,
+      "automaticActionErrors": 0,
+      "fixedServingTowerErrors": 0,
+      "recoverableWarnings": 1,
+      "status": "PASSED",
+      "failed": false,
+      "fatal": false,
+      "warnings": [
+        "Cell-load runtime reported a recoverable association warning."
+      ],
+      "errors": []
+    },
+    "activateRecoverable": true,
+    "fatalState": "FAILED",
+    "fatalSafety": {
+      "title": "MISSION BOS ARENA EVENT CONTROLLER RUNTIME SAFETY",
+      "dependencyErrors": 1,
+      "actorReferenceErrors": 0,
+      "phoneReferenceErrors": 0,
+      "invalidRadioErrors": 0,
+      "unknownTowerErrors": 0,
+      "visibleDemandErrors": 0,
+      "aggregateDemandErrors": 0,
+      "cellLoadRangeErrors": 0,
+      "eventStartConflictErrors": 0,
+      "missionStartDuringEventErrors": 0,
+      "remainingLoadErrors": 0,
+      "remainingLineErrors": 0,
+      "duplicateCrowdErrors": 0,
+      "sourceMutationErrors": 0,
+      "automaticActionErrors": 0,
+      "fixedServingTowerErrors": 0,
+      "recoverableWarnings": 0,
+      "status": "FAILED",
+      "failed": true,
+      "fatal": true,
+      "warnings": [],
+      "errors": [
+        "Cell-load runtime reported a fatal error."
+      ]
+    },
+    "activateFatal": false
+  }
+}

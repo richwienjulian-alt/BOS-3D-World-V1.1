@@ -1,0 +1,27 @@
+{
+  "ResponseVehicle": "PASSED",
+  "ArenaEvent": "FAILED",
+  "responseErrors": [],
+  "arenaErrors": [
+    {
+      "category": "missionBoundaryErrors",
+      "id": "MISSION_002",
+      "detail": {
+        "id": "MISSION_002",
+        "number": "002",
+        "shortTitle": "Arena-Notfall",
+        "title": "Arena · Medizinischer Notfall",
+        "description": "Medizinischer Notfall während einer stark ausgelasteten Arena-Veranstaltung.",
+        "status": "AVAILABLE",
+        "statusLabel": "Bereit",
+        "selectable": true,
+        "startable": true,
+        "runtimeKey": "MISSION_002",
+        "planGlobal": "MISSION_BOS_MISSION_002_PLAN",
+        "controllerGlobal": "MissionBosMission002Controller",
+        "incidentReferenceId": "E01",
+        "regressionReference": false
+      }
+    }
+  ]
+}
